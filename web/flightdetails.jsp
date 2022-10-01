@@ -9,36 +9,57 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Flight Details</title>
+        <link rel="stylesheet" href="flightdetails.css"/> 
+        
+        <style>
+    tbody, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+            }
+    th, td {
+  padding: 8px;
+  text-align: left;
+  background-color: buttonshadow;
+  
+  
+}
+    h1{
+    color:olive;
+}
+          </style>
     </head>
-    <link rel="stylesheet" href="flightdetails.css"/> 
+    
     <body>
-       <center><h3>Your Flight Details</h3></center>
-        <form action="flightdetails.jsp" method="POST">
-            <center>
-            <table> 
+       <center><h1>Your Flight Details</h1></center>
+       
+            <form action="paymentdetails.jsp" method="POST">
+                <center>
+                    <table > 
                
-                <tbody>
-                    <tr>
-                        <td>Date</td>
-                        <td><input type="text" name="fname" value="" /></td>
-                    </tr>
-                    <tr>
-                        <td>Trip</td>
-                        <td><input type="text" name="sname" value="" /></td>
-                    </tr>
-                    <tr>
+                        <tbody width=50 height=50>
+                            <tr>
+                            <td>Date</td>
+                            <td></td>
+                            </tr>
+                            <tr>
+                            <td>Trip</td>
+                            <td></td>
+                            </tr>
+                            <tr>
                     
-                        <td>Class</td>
-                        <td><input type="text" name="avg" value="" /></td> 
-                    </tr>
-                    <tr>
-                        <td><input type="submit" value="Edit Details" /></td>
-                        <td><input type="submit" value="Confirm Details" /></td>
-                    </tr>
-                </tbody>
-            </table>
-            </center>
+                            <td>Class</td>
+                            <td></td> 
+                            </tr>
+                            <tr>
+                            <td><input type="submit" value="Edit Details" /></td>
+                            <td><input type="submit" value="Confirm Details" /></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </center>
             </form>
-            </body>
+        </div>   
+    </body>
 </html>
