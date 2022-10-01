@@ -11,55 +11,53 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Flight Details</title>
         <link rel="stylesheet" href="flightdetails.css"/> 
+       <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
         
-        <style>
-    tbody, th, td {
-  border: 1px solid white;
-  border-collapse: collapse;
-  font-family: Arial, Helvetica, sans-serif;
-            }
-    th, td {
-  padding: 8px;
-  text-align: left;
-  background-color: buttonshadow;
-  
-  
-}
-    h1{
-    color:olive;
-}
-          </style>
     </head>
     
     <body>
-       <center><h1>Your Flight Details</h1></center>
-       
-            <form action="paymentdetails.jsp" method="POST">
-                <center>
-                    <table > 
-               
-                        <tbody width=50 height=50>
-                            <tr>
-                            <td>Date</td>
-                            <td></td>
-                            </tr>
-                            <tr>
-                            <td>Trip</td>
-                            <td></td>
-                            </tr>
-                            <tr>
-                    
-                            <td>Class</td>
-                            <td></td> 
-                            </tr>
-                            <tr>
-                            <td><input type="submit" value="Edit Details" /></td>
-                            <td><input type="submit" value="Confirm Details" /></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </center>
-            </form>
-        </div>   
+      
+ <div id="wrapper">
+     
+  <h1>Your Flight Details</h1>
+  
+  <table id="keywords" cellspacing="0" cellpadding="0">
+    <thead>
+      <tr>
+               <th><span>Airplane ID</span></th>
+               <th><span>Date</span></th>
+               <th><span>Trip</span></th>
+               <th><span>Arrival</span></th>
+               <th><span>Class</span></th>
+               <th><span>Price</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="lalign">0001</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="lalign">0002</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+          <td><button type="button" class="btn btn-success">Confirm </button>
+</td>
+        <td><button type="button" class="btn btn-info">Edit </button>
+</td>
+       </tr>
+    </tbody>
+  </table>
+ </div> 
+</body>
     </body>
 </html>
