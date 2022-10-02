@@ -18,6 +18,29 @@
     </head>
     
     <body>
+        <header id="header">
+				<div class="header-top">
+					<div class="container">			  					
+					</div>
+				</div>
+				<div class="container main-menu">
+					<div class="row align-items-center justify-content-between d-flex">
+				      <div id="logo">
+				        <a href="index.html"><img src="img/logo1.png" alt="" title="" /></a>
+				      </div>
+				      <nav id="nav-menu-container">
+				        <ul class="nav-menu">
+				          <li><a href="index.html">Home</a></li>
+				          <li><a href="">About</a></li>		       		          
+				          <li><a href="">Contact</a></li>
+						  <li><a href="">My Account</a></li>	
+				        </ul>
+				      </nav>
+			<!-- #nav-menu-container -->					      		  
+					</div>
+				</div>
+			</header>
+			<!-- #header -->
       
  <div id="wrapper">
      
