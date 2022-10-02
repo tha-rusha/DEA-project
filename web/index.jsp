@@ -1,7 +1,7 @@
 <%-- 
-    Document   : StaffDashboard1
-    Created on : Oct 1, 2022, 7:43:39 PM
-    Author     : tharu
+    Document   : index
+    Created on : Oct 1, 2022, 11:14:43 PM
+    Author     : DELL
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -12,7 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        	<header id="header">
+        <header id="header">
 				<div class="header-top">
 					<div class="container">			  					
 					</div>
@@ -20,7 +20,7 @@
 				<div class="container main-menu">
 					<div class="row align-items-center justify-content-between d-flex">
 				      <div id="logo">
-				        <a href="index.html"><img src="img/logo1.png" alt="" title="" /></a>
+				        <a href="index.html"><!--<img src="img/logo.png" alt="" title="" />--></a>
 				      </div>
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
@@ -35,23 +35,28 @@
 				</div>
 			</header>
 			<!-- #header -->
-			<br>
-			<br>
+			
 			<!-- start banner Area -->
 			<section class="banner-area relative">
 				<div class="overlay overlay-bg"></div>				
 				<div class="container">
 					<div class="row fullscreen align-items-center justify-content-between">
-
-						<!-- <div class="col-lg-4 col-md-6 banner-right"> -->
-						<div class="col-lg-4 info-left">
-<!-- 							<ul class="nav nav-tabs" id="myTab" role="tablist">
+						<div class="col-lg-6 col-md-6 banner-left">
+							<h6 class="text-white">Away from monotonous life</h6>
+							<h1 class="text-white">Phoenix Airline</h1>
+							<p class="text-white">
+								Flight or flying is the process by which an object moves through a space without contacting any planetary surface, either within an atmosphere or through the vacuum of outer space
+							</p>
+							<a href="#" class="primary-btn text-uppercase">REGISTER</a>
+						</div>
+						<div class="col-lg-4 col-md-6 banner-right">
+							<ul class="nav nav-tabs" id="myTab" role="tablist">
 							  <li class="nav-item">
 							    <a class="nav-link active" id="flight-tab" data-toggle="tab" href="#flight" role="tab" aria-controls="flight" aria-selected="true">Flights</a>
 							  </li>
 							  
-							</ul> -->
-<!-- 							<div class="tab-content" id="myTabContent">
+							</ul>
+							<div class="tab-content" id="myTabContent">
 							  <div class="tab-pane fade show active" id="flight" role="tabpanel" aria-labelledby="flight-tab">
 								<form class="form-wrap">
 									<input type="text" class="form-control" name="name" placeholder="From " onfocus="this.placeholder = ''" onblur="this.placeholder = 'From '">									
@@ -62,107 +67,9 @@
 									<input type="number" min="1" max="20" class="form-control" name="child" placeholder="Child " onfocus="this.placeholder = ''" onblur="this.placeholder = 'Child '">							
 									<a href="#" class="primary-btn text-uppercase">Search flights</a>									
 								</form>
+							  						  	
 							  </div>
-							</div> -->
-							<div style="height: 500px; background-color: white;">
-								<table style="margin-left:auto;margin-right:auto;">
-									<tr>
-										<td style="padding-top: 25px"><img src="img/img_avatar.png" alt="Avatar" width="150px;" style="border-radius: 50%;"></td>
-									</tr>
-									<tr>
-										<td style="padding-top: 20px;">
-											<h4>Staff 01 Name</h4>
-										</td>
-									</tr>
-									<tr>
-										<td style="padding-top: 20px">
-											<button class="button" style="height:50px;width:180px;background-color: #4CAF50;">INFORMATION</button>
-										</td>
-									</tr>
-									<tr>
-										<td style="padding-top: 20px">
-											<button class="button" style="height:50px;width:180px;background-color: #4CAF50;">FLIGHTS</button>
-										</td>
-									</tr>
-									<tr>
-										<td style="padding-top: 20px">
-											<button class="button" style="height:50px;width:180px;background-color: #4CAF50;">TICKETING</button>
-										</td>
-									</tr>
-								</table>
-
-							</div>
-						</div>
-						<!-- <div class="col-lg-6 col-md-6 banner-left"> -->
-							<div class="col-lg-8 info-right">
-
-							<div style="height: 500px; background-color: white;">
-								<br>
-								<table style="margin-left:auto;margin-right:auto;">
-									<tr>
-										<td >
-											<button class="button" style="height:35px;width:100px;background-color: #4CAF50;border-radius: 5px;margin-left: auto;">Log Out</button>
-										</td>
-									</tr>
-									<tr>
-										<td style="padding-top: 20px">
-											<form>
-												<input type="text" name="Search" placeholder="Client ID" style="width: 250px;">
-											</form>
-										</td>
-										<td style="padding-top: 20px">
-											&#128269
-										</td>
-									</tr>
-									<tr>
-										<table style="margin-top: 30px; margin-left: 35px;">
-											<tr>
-												<td style="padding: 5px" rowspan="6"><img src="img/girl.png" alt="Avatar" width="110px"></td>
-											</tr>
-											<tr>
-												<form>
-												<td style="padding-left: 10px">
-													<label>Name : </label><br><input type="text" name="email">
-												</td>
-												<td style="padding-left: 10px">
-													<label>Email : </label><br><input type="text" name="email">
-												</td>
-											</tr>
-											<tr>
-												<form>
-												<td style="padding-left: 10px">
-													<label>Passport No. : </label><br><input type="text" name="email">
-												</td>
-												<td style="padding-left: 10px">
-													<label>Address : </label><br><input type="text" name="email">
-												</td>
-											</tr>
-											<tr>
-												<form>
-												<td style="padding-left: 10px">
-													<label>Mobile : </label><br><input type="text" name="email">
-												</td>
-												<td style="padding-left: 10px">
-													<label>Gender : </label><br><input type="text" name="email">
-												</td>
-											</tr>
-											</form>
-										</table>
-										<br>
-									</tr>
-									<tr >
-										<td >
-											<button class="button" style="height:50px;width:180px;background-color: #4CAF50;margin-left: 100px; border-radius: 5px">UPDATE</button>
-										</td> 
-										<td>
-											<button class="button" style="height:50px;width:180px;background-color: #fa801b; border-radius: 5px">BLOCK</button>
-										</td>
-										<td>
-											<button class="button" style="height:50px;width:180px;background-color: #fa482d; border-radius: 5px">DELETE</button>
-										</td>
-									</tr>
-
-								</table>
+							  
 							</div>
 						</div>
 					</div>
@@ -279,7 +186,6 @@
 			<script src="js/superfish.min.js"></script>	
 			<script src="js/jquery.magnific-popup.min.js"></script>						
 			<script src="js/owl.carousel.min.js"></script>							
-			<script src="js/main.js"></script>	
-		</body>
+			<script src="js/main.js"></script>
     </body>
 </html>
