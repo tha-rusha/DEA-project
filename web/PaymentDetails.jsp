@@ -60,13 +60,28 @@
                 </div>
 
             </div>
+            
+            <div class="col">
+                
+                <h3 class="title">Payment</h3>
+
+                <div class="inputBox">
+                    <span>Cards Accepted :</span>
+                    <img src="images/card_img.png" alt="accepted cards">
+                </div>
+                <div class="inputBox">
+                    <span>Name on Card :</span>
+                    <input type="text" placeholder="mr. Kasun Theekshana Wijenayake">
+                </div>
+                
+            </div>
                 
                 
                 
-                
+        </div>         
     </form>
 
-</div>    
+        </div>   
     
 </body>
 </html>
