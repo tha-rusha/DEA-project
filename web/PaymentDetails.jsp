@@ -43,6 +43,23 @@
                     <input type="text" placeholder="Galle Road, Colombo">
                 </div>
 
+                <div class="inputBox">
+                    <span>City :</span>
+                    <input type="text" placeholder="Galle">
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>State :</span>
+                        <input type="text" placeholder="Sri Lanka">
+                    </div>
+                    <div class="inputBox">
+                        <span>Zip Code :</span>
+                        <input type="text" placeholder="80100">
+                    </div>
+                </div>
+
+            </div>
                 
                 
                 
