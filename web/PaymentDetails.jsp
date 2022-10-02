@@ -27,3 +27,29 @@
             <div class="col">
 
                 <h3 class="title">billing address</h3>
+
+                
+
+                <div class="inputBox">
+                    <span>Full Name :</span>
+                    <input type="text" placeholder="Kasun Wijenayake">
+                </div>
+                <div class="inputBox">
+                    <span>Email :</span>
+                    <input type="email" placeholder="kasun.99@example.com">
+                </div>
+                <div class="inputBox">
+                    <span>Address :</span>
+                    <input type="text" placeholder="Galle Road, Colombo">
+                </div>
+
+                
+                
+                
+                
+    </form>
+
+</div>    
+    
+</body>
+</html>
