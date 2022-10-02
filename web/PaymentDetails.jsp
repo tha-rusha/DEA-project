@@ -74,6 +74,15 @@
                     <input type="text" placeholder="mr. Kasun Theekshana Wijenayake">
                 </div>
                 
+                <div class="inputBox">
+                    <span>Credit Card Number :</span>
+                    <input type="number" placeholder="XXXX-XXXX-XXXX-XXXX">
+                </div>
+                <div class="inputBox">
+                    <span>Exp Month :</span>
+                    <input type="text" placeholder="December">
+                </div>
+                
             </div>
                 
                 
