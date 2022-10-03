@@ -98,7 +98,10 @@
                 
                 
                 
-        </div>         
+        </div>
+        
+        <input type="submit" value="PAY" class="submit-btn">
+        
     </form>
 
         </div>   
