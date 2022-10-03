@@ -83,11 +83,25 @@
                     <input type="text" placeholder="December">
                 </div>
                 
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>Exp Year :</span>
+                        <input type="number" placeholder="2025">
+                    </div>
+                    <div class="inputBox">
+                        <span>CVV :</span>
+                        <input type="text" placeholder="XXX">
+                    </div>
+                </div>
+                
             </div>
                 
                 
                 
-        </div>         
+        </div>
+        
+        <input type="submit" value="PAY" class="submit-btn">
+        
     </form>
 
         </div>   
