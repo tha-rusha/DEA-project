@@ -22,6 +22,23 @@
 					</div>
 				</div>
             
+            <div class="contain main-menu">
+					<div class="row align-items- justify-content-between d-flex">
+				      <div id="logo">
+				        <a href="index.html"><img src="img/Untitled-1.png" alt="" title="" /></a>
+				      </div>
+				      <nav id="nav-menu-contain">
+				        <ul class="nav-menu">
+				          <li><a href="index.html">Home</a></li>
+				          <li><a href="">About</a></li>		       		          
+				          <li><a href="">Contact</a></li>
+						  <li><a href="">My Account</a></li>	
+				        </ul>
+				      </nav>
+								      		  
+					</div>
+				</div>
+            
             
         </header>
         
