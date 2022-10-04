@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="pstyle.css">
+    <link rel="stylesheet" href="css/pstyle.css">
     <link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/jquery-ui.css">
