@@ -17,6 +17,57 @@
 
 </head>
 <body>
+    
+    <header id="header">
+				<div class="header-top">
+					<div class="contain">			  					
+					</div>
+				</div>
+				<div class="contain main-menu">
+					<div class="row align-items-center justify-content-between d-flex">
+				      <div id="logo">
+				        <a href="index.html"><img src="img/logo-01.png" alt="" title="" /></a>
+				      </div>
+				      <nav id="nav-menu-contain">
+				        <ul class="nav-menu">
+				          <li><a href="index.html">Home</a></li>
+				          <li><a href="">About</a></li>		       		          
+				          <li><a href="">Contact</a></li>
+						  <li><a href="">My Account</a></li>	
+				        </ul>
+				      </nav>
+			<!-- #nav-menu-contain -->					      		  
+					</div>
+				</div>
+			</header>
+			<!-- #header -->
+				<!-- start banner Area -->
+			<section class="banner-area relative">
+				<div class="overlay overlay-bg"></div>				
+				<div class="contain">
+					<div class="row fullscreen align-items-center justify-content-between">
+						<div class="col-lg-6 col-md-6 banner-left">
+							
+						<div class="col-lg-4 col-md-6 banner-right">
+							<ul class="nav nav-tabs" id="myTab" role="tablist">
+							  <li class="nav-item">
+							    
+							  </li>
+							  
+							</ul>
+							<div class="tab-content" id="myTabContent">
+							  <div class="tab-pane fade show active" id="flight" role="tabpanel" aria-labelledby="flight-tab">
+								
+							  						  	
+							  </div>
+							  
+							</div>
+						</div>
+					</div>
+				</div>	
+				</div>
+			</section>
+    
 
 <div class="container">
 
