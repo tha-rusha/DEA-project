@@ -112,7 +112,7 @@
 											<tr>
 												<form>
 												<td style="padding-left: 10px">
-													<label>Passport No. : </label><br><input type="text" name="email">
+													<label>Nic. : </label><br><input type="text" name="email">
 												</td>
 												<td style="padding-left: 10px">
 													<label>Address : </label><br><input type="text" name="email">
