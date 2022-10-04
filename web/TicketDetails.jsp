@@ -130,9 +130,58 @@
 				</span>
 			</div>
                     
-                    
+                    <div id="tearoffdata">
+                        
+                        <div class="box">
+					<span class="header">
+						Passenger Name
+					</span>
+					<span class="body">
+						Mr. 
+					</span>
+				</div>
+                        
+                        <div class="box">
+					<span class="header">
+						Flight Number
+					</span>
+					<span class="body">
+						LUKW4L 3345
+					</span>
+				</div>
+                        
+                        <div class="box">
+					<span class="header">
+						Date
+					</span>
+					<span class="body">
+						11 OCT 2022
+					</span>
+				</div>
+                        
+                        <div class="box">
+					<span class="header">
+						Gate
+					</span>
+					<span class="body">
+						B-10
+					</span>
+				</div>
+                        
+                        <div class="box seat">
+					<span class="header">
+						Seat
+					</span>
+					<span class="body">
+						<b>23F</b>
+					</span>
+				</div>
+                        
+                    </div>
                     
                 </div>
+                
+                <br>
                 
                 
                 
