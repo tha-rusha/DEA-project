@@ -173,7 +173,7 @@
 						Seat
 					</span>
 					<span class="body">
-						<b>23F</b>
+						23F
 					</span>
 				</div>
                         
