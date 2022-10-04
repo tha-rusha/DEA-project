@@ -59,8 +59,43 @@
 			Phoenix Airlines
 		</span>
 	</div>
-            
-            
+            <div id="barcode">
+		XYZASDASDXYZ
+	</div>
+            <div id="data">
+                <div id="maindata">
+                    <div class="box">
+				<span class="header">
+					Passenger Name
+				</span>
+				<span class="body">
+					Mr. 
+				</span>
+			</div>
+                    
+                    <div class="box">
+				<span class="header">
+					Flight Number
+				</span>
+				<span class="body">
+					LUKW4L 3345
+				</span>
+			</div>
+                    
+                    <div class="box">
+				<span class="header">
+					From
+				</span>
+				<span class="body">
+					CMD (SRI LANKA)
+				</span>
+			</div>
+                    
+                </div>
+                
+                
+                
+            </div>
             
         </div>
         
