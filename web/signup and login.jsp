@@ -83,5 +83,34 @@
                   <input type="text" minlength="4" class="input-field"  autocomplete="off" required />
                   <label>NIC/StaffID</label>
                 </div>
+                  <div class="input-wrap">
+				<h4 class="type"> Type </h4>
+                 <input type="radio"  autocomplete="off" name="type" required  value="user"> User 
+				 <input type="radio"  autocomplete="off" name="type" required  value="staff1"> Staff 1 
+				 <input type="radio"   autocomplete="off" name="type" required  value="staff2"> Staff 2
+            </div>
+				  
+                <input type="submit" value="Sign Up" class="sign-btn" />
+
+                <p class="text">By signing up, I agree to the 
+					<a href="#">Terms of Services</a> and  
+					<a href="#">Privacy Policy</a>
+                </p>
+              </div>
+            </form>
+          </div>
+
+          <div class="carousel">
+            <div class="images-wrapper">
+              <img src="images/logo.jpeg"  class="image img-1 show" alt="" />
+            </div> 
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Javascript file -->
+
+    <script src="abs.js"></script>
     </body>
 </html>
