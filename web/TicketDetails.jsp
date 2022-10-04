@@ -91,6 +91,47 @@
 				</span>
 			</div>
                     
+                    <div class="box">
+				<span class="header">
+					Date
+				</span>
+				<span class="body">
+					11 OCT 2022
+				</span>
+			</div>
+                    
+                    <div class="box">
+				<span class="header">
+					To
+				</span>
+				<span class="body">
+					SYD (Australia)
+				</span>
+			</div>
+                    
+                    <div class="box">
+			</div>
+                    
+                    <div class="box">
+				<span class="header">
+					Gate
+				</span>
+				<span class="body">
+					B-10
+				</span>
+			</div>
+                    
+                    <div class="box boarding">
+				<span class="header">
+					Boarding Time
+				</span>
+				<span class="body">
+					12:00
+				</span>
+			</div>
+                    
+                    
+                    
                 </div>
                 
                 
