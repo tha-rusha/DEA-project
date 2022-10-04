@@ -183,6 +183,26 @@
                 
                 <br>
                 
+                <div class="buttn" align="right">
+		<input type="submit" value="Send To Email" class="submit-btn">
+		<span>&nbsp; &nbsp; &nbsp;</span>		<span><input type="submit" value="Download" class="submit-btn"></span>
+		
+		</div>
+                
+                <div id="holes">
+		<br>
+		<br>
+
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+		<div></div>
+</div>
+                
                 
                 
             </div>
