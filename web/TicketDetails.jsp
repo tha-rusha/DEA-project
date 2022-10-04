@@ -75,11 +75,11 @@
             <div id="banner">
 		<div id="topbanner"></div>
 	  <span id="mainbanner">
-			<img src="img/Phoenix -logos_black.png" alt="plane">
+			<img src="images/Phoenix -logos_black.png" alt="plane">
 			Phoenix Airlines
 		</span>
 		<span id="tearoffbanner">
-			<img src="img/Phoenix -logos_black.png" alt="plane">
+			<img src="images/Phoenix -logos_black.png" alt="plane">
 			Phoenix Airlines
 		</span>
 	</div>
