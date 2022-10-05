@@ -168,17 +168,7 @@
 										</table>
 										<br>
 									</tr>
-									<tr >
-										<td >
-											<button class="button" style="height:50px;width:180px;background-color: #4CAF50;margin-left: 100px; border-radius: 5px">UPDATE</button>
-										</td> 
-										<td>
-											<button class="button" style="height:50px;width:180px;background-color: #fa801b; border-radius: 5px">BLOCK</button>
-										</td>
-										<td>
-											<button class="button" style="height:50px;width:180px;background-color: #fa482d; border-radius: 5px">DELETE</button>
-										</td>
-									</tr>
+									
 
 									</table>
 								</div>
