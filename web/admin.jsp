@@ -15,6 +15,7 @@
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/jquery-ui.css">
+                <link rel="stylesheet" href="css/footer.css">
 
 		<!-- footer -->
 		    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
@@ -94,7 +95,7 @@
 									</tr>
 									<tr>
 										<td style="padding-top: 20px;">
-											<h4 style="text-align: center;">Admin</h4>
+											<h4 style="text-align: center;text-size:18px;">Admin</h4>
 										</td>
 									</tr>
 									<tr>
@@ -129,7 +130,7 @@
 									<br>
 									<!-- 1 -->
 								<div name="infoSec" id="infoSec">
-									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Staff 01 Details</h4>
+									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;font-family: arial;">Staff 01 Details</h4>
 									<table style="margin-left:auto;margin-right:auto;">
 									<tr>
 										<td style="padding-left: 115%;" >
@@ -271,7 +272,7 @@
 
 								<!-- 3 -->
 								<div name="ticketSec" id="ticketSec" style="display: none;">
-									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Ticketing</h4>
+									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Client Details</h4>
 									<table style="margin-left:auto;margin-right:auto;">
 									<tr>
 										<td style="padding-left: 115%;" >

@@ -17,8 +17,8 @@
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/jquery-ui.css">
-                
-                <!-- footer -->
+
+		<!-- footer -->
 		    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
 		    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 		    <link rel="stylesheet" href="css/footer.css">
@@ -50,10 +50,15 @@
 				}
 		</script>
 		<!-- Js End -->
-
 		</head>
+<<<<<<< Updated upstream
     <body>	
 			<header id="header">
+=======
+		
+		<body>	
+        <header id="header">
+>>>>>>> Stashed changes
 				<div class="header-top">
 					<div class="container">			  					
 					</div>
@@ -76,8 +81,9 @@
 				</div>
 			</header>
 			<!-- #header -->
+
 			<!-- start banner Area -->
-                        <section class="banner-area relative" style="padding-top: 100px;padding-bottom: 100px;">
+			 <section class="banner-area relative" style="padding-top:100px;padding-bottom: 100px;">
 				<br><br>
 				<div class="overlay overlay-bg"></div>				
 				<div class="container">
@@ -346,8 +352,7 @@
 		</form></tr></form></tr></table></tr></table></div></form></tr></form></tr></table></tr></table></div></form></tr></form></tr></table></tr></table></div></div></div></div></div></section>
 			<!-- End banner Area -->
 
-
-  <!-- Footer -->
+<!-- Footer -->
 		 <div class="footer-basic">
 		        <footer>
 		            <div class="social">
@@ -366,7 +371,11 @@
 		            <p class="copyright" style="font-size: 16px;color: #ffffff;">© 2020 Copyright: phoenixflights.com</p>
 		        </footer>
 		    </div>
-		    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>	
+		    <script src="js/vendor/jquery-2.2.4.min.js"></script>
+			<script src="js/superfish.min.js"></script>	
+			<script src="js/jquery.magnific-popup.min.js"></script>						
+			<script src="js/owl.carousel.min.js"></script>							
+			<script src="js/main.js"></script>
+	
 		</body>
 </html>
