@@ -257,31 +257,29 @@
 		</form></tr></form></tr></table></tr></table></div></form></tr></form></tr></table></tr></table></div></form></tr></form></tr></table></tr></table></div></div></div></div></div></section>
 			<!-- End banner Area -->
 
-  <footer class="bg-dark text-center text-white">
-  
-  <div class="container p-4 pb-0">
-    
-    <section class="mb-4">
-    
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
 
-    </section>
-  </div>
-
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);"> © 2020 Copyright:
-    <a class="text-white"> phoenixflights.com</a>
-  </div>
-</footer>
-
-<!-- End footer Area -->	
-
-			<script src="js/vendor/jquery-2.2.4.min.js"></script>
-			<script src="js/superfish.min.js"></script>	
-			<script src="js/jquery.magnific-popup.min.js"></script>						
-			<script src="js/owl.carousel.min.js"></script>							
-			<script src="js/main.js"></script>	
-
+                 <!-- Footer -->
+		 <div class="footer-basic">
+		        <footer>
+		            <div class="social">
+		            	<a href="#"><i class="icon ion-social-instagram"></i></a>
+		            	<a href="#"><i class="icon ion-social-snapchat"></i></a>
+		            	<a href="#"><i class="icon ion-social-twitter"></i></a>
+		            	<a href="#"><i class="icon ion-social-facebook"></i></a>
+		            </div>
+		            <ul class="list-inline">
+		                <li class="list-inline-item"><a href="#">Home</a></li>
+		                <li class="list-inline-item"><a href="#">About</a></li>
+		                <li class="list-inline-item"><a href="#">Contact</a></li>
+		                <li class="list-inline-item"><a href="#">Terms</a></li>
+		                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+		            </ul>
+		            <p class="copyright" style="font-size: 16px;color: #ffffff;">© 2020 Copyright: phoenixflights.com</p>
+		        </footer>
+		    </div>
+		    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+                    <!--end footer-->
+                    
 		</body>
 </html>
