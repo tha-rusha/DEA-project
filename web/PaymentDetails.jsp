@@ -17,6 +17,12 @@
     <link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/jquery-ui.css">
+                
+                <style>
+                    body{
+                        background-image: url("images/hero-bg.png");
+                    }
+                </style>
 
 </head>
 <body>
