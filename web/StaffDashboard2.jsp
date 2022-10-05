@@ -13,10 +13,16 @@
 		
 		<title>Staff Dashboard</title>
 
-			<!--CSS-->
+		<!--CSS-->
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/jquery-ui.css">
+                
+                <!-- footer -->
+		    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+		    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+		    <link rel="stylesheet" href="css/footer.css">
+		<!-- footer end -->
 
 		<!-- CSS End -->
 
@@ -258,7 +264,7 @@
 			<!-- End banner Area -->
 
 
-                 <!-- Footer -->
+  <!-- Footer -->
 		 <div class="footer-basic">
 		        <footer>
 		            <div class="social">
