@@ -47,17 +47,18 @@
 
 		</head>
     <body>	
-			<header id="header">
+        <header id="header">
 				<div class="header-top">
 					<div class="container">			  					
 					</div>
 				</div>
+                            
 				<div class="container main-menu">
 					<div class="row align-items-center justify-content-between d-flex">
 				      <div id="logo">
-				        <a href="index.html"><img src="img/logo1.png" alt="" title="" /></a>
+				        <a href="index.html"><img src="images/logo1.png" alt="" title="" /></a>
 				      </div>
-				      <nav id="nav-menu-container">
+                                            <nav id="nav-menu-container">
 				        <ul class="nav-menu">
 				          <li><a href="index.html">Home</a></li>
 				          <li><a href="">About</a></li>		       		          
@@ -65,14 +66,14 @@
 						  <li><a href="">My Account</a></li>	
 				        </ul>
 				      </nav>
+                                            
 			<!-- #nav-menu-container -->					      		  
 					</div>
 				</div>
 			</header>
 			<!-- #header -->
-			
 			<!-- start banner Area -->
-			<section class="banner-area relative">
+                        <section class="banner-area relative" style="padding-top: 100px;">
 				<br><br>
 				<div class="overlay overlay-bg"></div>				
 				<div class="container">
@@ -84,7 +85,7 @@
 							<div style="height: 500px; background-color: white; border-radius: 25px;">
 								<table style="margin-left:auto;margin-right:auto;">
 									<tr>
-										<td style="padding-top: 25px"><img src="img/img_avatar.png" alt="Avatar" width="150px;" style="border-radius: 50%;"></td>
+										<td style="padding-top: 25px"><img src="images/img_avatar.png" alt="Avatar" width="150px;" style="border-radius: 50%;"></td>
 									</tr>
 									<tr>
 										<td style="padding-top: 20px;">
@@ -93,17 +94,17 @@
 									</tr>
 									<tr>
 										<td style="padding-top: 20px">
-											<button class="button" style="height:50px;width:180px;background-color: #4CAF50;" onclick="switchSection(this.id)" id="btnInfo">INFORMATION</button>
+											<button class="button" style="height:50px;width:180px;background-color: #DE1111;" onclick="switchSection(this.id)" id="btnInfo">INFORMATION</button>
 										</td>
 									</tr>
 									<tr>
 										<td style="padding-top: 20px">
-											<button class="button" style="height:50px;width:180px;background-color: #4CAF50;" onclick="switchSection(this.id)" id="btnFlight">FLIGHTS</button>
+											<button class="button" style="height:50px;width:180px;background-color: #DE1111;" onclick="switchSection(this.id)" id="btnFlight">FLIGHTS</button>
 										</td>
 									</tr>
 									<tr>
 										<td style="padding-top: 20px">
-											<button class="button" style="height:50px;width:180px;background-color: #4CAF50;" id="btnTicket" onclick="switchSection(this.id)">TICKETING</button>
+											<button class="button" style="height:50px;width:180px;background-color: #DE1111;" id="btnTicket" onclick="switchSection(this.id)">TICKETING</button>
 										</td>
 									</tr>
 								</table>
@@ -138,7 +139,7 @@
 									<tr>
 										<table style="margin-top: 30px; margin-left: 35px;">
 											<tr >
-												<td style="padding: 5px" rowspan="6" ><img src="img/girl2.png" alt="Avatar" width="110px"></td>
+												<td style="padding: 5px" rowspan="6" ><img src="images/girl2.png" alt="Avatar" width="110px"></td>
 											</tr>
 											<tr>
 												<form>
@@ -260,7 +261,7 @@
 
 								<!-- 3 -->
 								<div name="ticketSec" id="ticketSec" style="display: none;">
-									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Tickets</h4>
+									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Ticketing</h4>
 									<table style="margin-left:auto;margin-right:auto;">
 									<tr>
 										<td style="padding-left: 115%;" >
