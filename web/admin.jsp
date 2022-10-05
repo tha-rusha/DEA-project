@@ -19,7 +19,7 @@
 		<!-- footer -->
 		    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
 		    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-		    <link rel="stylesheet" href="style.css">
+		    <link rel="stylesheet" href="css/style.css">
 		<!-- footer end -->
 
 		<!-- CSS End -->
@@ -129,7 +129,7 @@
 									<br>
 									<!-- 1 -->
 								<div name="infoSec" id="infoSec">
-									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Information</h4>
+									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Staff 01 Details</h4>
 									<table style="margin-left:auto;margin-right:auto;">
 									<tr>
 										<td style="padding-left: 115%;" >
@@ -200,7 +200,7 @@
 
 								<!-- 2 -->
 								<div name="flightSec" id="flightSec" style="display: none;">
-									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Flights</h4>
+									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Staff 02 Details</h4>
 									<table style="margin-left:auto;margin-right:auto;">
 									<tr>
 										<td style="padding-left: 115%;" >
