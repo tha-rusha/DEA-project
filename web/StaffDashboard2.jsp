@@ -73,7 +73,7 @@
 			<!-- #header -->
 			
 			<!-- start banner Area -->
-			<section class="banner-area relative" style="padding-top: 100px;">
+			<section class="banner-area relative" style="padding-top: 100px;padding-bottom: 100px;">
 				<br><br>
 				<div class="overlay overlay-bg"></div>				
 				<div class="container">
@@ -256,7 +256,6 @@
 
 		</form></tr></form></tr></table></tr></table></div></form></tr></form></tr></table></tr></table></div></form></tr></form></tr></table></tr></table></div></div></div></div></div></section>
 			<!-- End banner Area -->
-
 
   <footer class="bg-dark text-center text-white">
   
