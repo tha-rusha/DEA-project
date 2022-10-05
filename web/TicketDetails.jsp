@@ -12,6 +12,9 @@
         <title>Ticket Details</title>
         
         <link rel="stylesheet" href="css/ticketDetails.css">
+        <link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/jquery-ui.css">
         
     </head>
     <body>
