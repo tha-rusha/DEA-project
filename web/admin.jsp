@@ -108,22 +108,22 @@
 									</tr>
 									<tr>
 										<td style="padding-top: 20px">
-											<button class="button" style="height:50px;width:180px;background-color: #DE1111;" onclick="switchSection(this.id)" id="btnInfo">CLIENT DETAILS</button>
+											<button class="button" style="height:50px;width:180px;background-color: #0be03d;" onclick="switchSection(this.id)" id="btnInfo">CLIENT DETAILS</button>
 										</td>
 									</tr>
 									<tr>
 										<td style="padding-top: 20px">
-											<button class="button" style="height:50px;width:180px;background-color: #DE1111;" onclick="switchSection(this.id)" id="btnFlight">FLIGHT DETAILS</button>
+											<button class="button" style="height:50px;width:180px;background-color: #0be03d;" onclick="switchSection(this.id)" id="btnFlight">FLIGHT DETAILS</button>
 										</td>
 									</tr>
 									<tr>
 										<td style="padding-top: 20px">
-											<button class="button" style="height:50px;width:180px;background-color: #DE1111;" id="btnTicket" onclick="switchSection(this.id)">TICKET DETAILS</button>
+											<button class="button" style="height:50px;width:180px;background-color: #0be03d;" id="btnTicket" onclick="switchSection(this.id)">TICKET DETAILS</button>
 										</td>
 									</tr>
 									<tr>
 										<td style="padding-top: 20px">
-											<button class="button" style="height:50px;width:180px;background-color: #DE1111;" id="btnStaff" onclick="switchSection(this.id)">STAFF DETAILS</button>
+											<button class="button" style="height:50px;width:180px;background-color: #0be03d;" id="btnStaff" onclick="switchSection(this.id)">STAFF DETAILS</button>
 										</td>
 									</tr>
 								</table>
