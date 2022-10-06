@@ -1157,11 +1157,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 120px;
 }
 
-@media (max-width: 991px) {
+@media(max-width: 991px) {
   .contact-page-area .map-wrap {
     margin-bottom: 50px;
   }
-}
+
 
 .contact-page-area .contact-btns {
   font-size: 18px;
