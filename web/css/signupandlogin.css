@@ -232,6 +232,8 @@ main.sign-up-mode .carousel {
 
 .image {
   width: 100%;
+  grid-column: 1/2;
+  grid-row: 1/2;
   opacity: 0;
 	 height: auto;
   transition: opacity 0.3s, transform 0.5s;
