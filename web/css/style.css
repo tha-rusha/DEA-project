@@ -1157,7 +1157,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 120px;
 }
 
-@media(max-width: 991px) {
   .contact-page-area .map-wrap {
     margin-bottom: 50px;
 }
@@ -1212,11 +1211,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #DE1111 !important;
 }
 
-@media (max-width: 991px) {
   .contact-page-area .address-wrap {
     margin-bottom: 30px;
   }
-}
+
 
 .contact-page-area .address-wrap .single-contact-address {
   margin-bottom: 8px;
