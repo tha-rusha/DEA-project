@@ -254,7 +254,7 @@
 							 <!-- banner area 1 end -->
 
 
-							<!-- banner area 3 end -->
+							
 						</div>
 					</div>
 				</div>					
