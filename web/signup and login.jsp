@@ -22,7 +22,7 @@
           <div class="forms-wrap">
             <form action="index.html" autocomplete="off" class="sign-in-form">
               <div class="logo">
-                <img src="images/Untitled-1.png" alt="logo">
+                <img src="images/logo1black.png" alt="logo">
               </div>
 
               <div class="heading">
