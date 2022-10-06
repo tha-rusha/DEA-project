@@ -122,11 +122,11 @@
 									<br>
 									<!-- 1 -->
 								<div name="infoSec" id="infoSec">
-<<<<<<< Updated upstream
+
                                                                     <form>
-=======
+
                                                                     
->>>>>>> Stashed changes
+
 									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Information</h4>
 									<table style="margin-left:auto;margin-right:auto;">
 									<tr>
@@ -152,7 +152,7 @@
 											<tr>
 												
 												<td style="padding-left: 10px">
-													<label>Name : </label><br><input type="text" name="email">
+													<label>Name : </label><br><input type="text" name="name ">
 												</td>
 												<td style="padding-left: 10px">
 													<label>Email : </label><br><input type="text" name="email">
@@ -161,19 +161,19 @@
 											<tr>
 												
 												<td style="padding-left: 10px">
-													<label>Nic : </label><br><input type="text" name="email">
+													<label>Nic : </label><br><input type="text" name="nic">
 												</td>
 												<td style="padding-left: 10px">
-													<label>Address : </label><br><input type="text" name="email">
+													<label>Address : </label><br><input type="text" name="address">
 												</td>
 											</tr>
 											<tr>
 												
 												<td style="padding-left: 10px">
-													<label>Mobile : </label><br><input type="text" name="email">
+													<label>Mobile : </label><br><input type="text" name="mobile">
 												</td>
 												<td style="padding-left: 10px">
-													<label>Gender : </label><br><input type="text" name="email">
+													<label>Gender : </label><br><input type="text" name="gender">
 												</td>
 											</tr>
 											
@@ -217,28 +217,28 @@
 											<tr>
 												
 												<td style="padding-left: 10px">
-													<label>Flight ID : </label><br><input type="text" name="email">
+													<label>Flight ID : </label><br><input type="text" name="fligthid">
 												</td>
 												<td style="padding-left: 10px">
-													<label>Depature : </label><br><input type="text" name="email">
-												</td>
-											</tr>
-											<tr>
-												
-												<td style="padding-left: 10px">
-													<label>Modle : </label><br><input type="text" name="email">
-												</td>
-												<td style="padding-left: 10px">
-													<label>Arrival : </label><br><input type="text" name="email">
+													<label>Depature : </label><br><input type="text" name="depature">
 												</td>
 											</tr>
 											<tr>
 												
 												<td style="padding-left: 10px">
-													<label>Airline : </label><br><input type="text" name="email">
+													<label>Modle : </label><br><input type="text" name="modle">
 												</td>
 												<td style="padding-left: 10px">
-													<label>Terminal : </label><br><input type="text" name="email">
+													<label>Arrival : </label><br><input type="text" name="arrival">
+												</td>
+											</tr>
+											<tr>
+												
+												<td style="padding-left: 10px">
+													<label>Airline : </label><br><input type="text" name="airline">
+												</td>
+												<td style="padding-left: 10px">
+													<label>Terminal : </label><br><input type="text" name="terminal">
 												</td>
 											</tr>
 											
