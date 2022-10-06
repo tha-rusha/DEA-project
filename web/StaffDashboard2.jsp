@@ -122,11 +122,11 @@
 									<br>
 									<!-- 1 -->
 								<div name="infoSec" id="infoSec">
-<<<<<<< Updated upstream
+
                                                                     <form>
-=======
+
                                                                     
->>>>>>> Stashed changes
+
 									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Information</h4>
 									<table style="margin-left:auto;margin-right:auto;">
 									<tr>
