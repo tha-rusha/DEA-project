@@ -217,28 +217,28 @@
 											<tr>
 												
 												<td style="padding-left: 10px">
-													<label>Flight ID : </label><br><input type="text" name="email">
+													<label>Flight ID : </label><br><input type="text" name="fligthid">
 												</td>
 												<td style="padding-left: 10px">
-													<label>Depature : </label><br><input type="text" name="email">
-												</td>
-											</tr>
-											<tr>
-												
-												<td style="padding-left: 10px">
-													<label>Modle : </label><br><input type="text" name="email">
-												</td>
-												<td style="padding-left: 10px">
-													<label>Arrival : </label><br><input type="text" name="email">
+													<label>Depature : </label><br><input type="text" name="depature">
 												</td>
 											</tr>
 											<tr>
 												
 												<td style="padding-left: 10px">
-													<label>Airline : </label><br><input type="text" name="email">
+													<label>Modle : </label><br><input type="text" name="modle">
 												</td>
 												<td style="padding-left: 10px">
-													<label>Terminal : </label><br><input type="text" name="email">
+													<label>Arrival : </label><br><input type="text" name="arrival">
+												</td>
+											</tr>
+											<tr>
+												
+												<td style="padding-left: 10px">
+													<label>Airline : </label><br><input type="text" name="airline">
+												</td>
+												<td style="padding-left: 10px">
+													<label>Terminal : </label><br><input type="text" name="terminal">
 												</td>
 											</tr>
 											
