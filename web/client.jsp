@@ -21,6 +21,8 @@
 		    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 		    <link rel="stylesheet" href="css/footer.css">
 		<!-- footer end -->
+                
+               
 
 		<!-- CSS End -->
 
@@ -210,72 +212,8 @@
 								<!-- 2 -->
 								<div name="flightSec" id="flightSec" style="display: none;">
 									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Booking</h4>
-<!-- 									<table style="margin-left:auto;margin-right:auto;">
-									<tr>
-										<td style="padding-left: 115%;" >
-											<button class="button" style="height:35px;width:100px;background-color: #DE1111;border-radius: 5px;margin-right: auto;">Log Out</button>
-										</td>
-									</tr>
-									<tr>
-										<td style="padding-top: 20px">
-											<form>
-												<input type="text" name="Search" placeholder="Fligth ID" style="width: 250px;">
-											</form>
-										</td>
-										<td style="padding-top: 20px">
-											&#128269
-										</td>
-									</tr>
-									<tr>
-										<table style="margin-top: 30px; margin-left: 35px;">
-											<tr>
-												<td style="padding: 5px" rowspan="6" width="110px"></td>
-											</tr>
-											<tr>
-												<form>
-												<td style="padding-left: 10px">
-													<label>Flight ID : </label><br><input type="text" name="email">
-												</td>
-												<td style="padding-left: 10px">
-													<label>Depature : </label><br><input type="text" name="email">
-												</td>
-											</tr>
-											<tr>
-												<form>
-												<td style="padding-left: 10px">
-													<label>Modle : </label><br><input type="text" name="email">
-												</td>
-												<td style="padding-left: 10px">
-													<label>Arrival : </label><br><input type="text" name="email">
-												</td>
-											</tr>
-											<tr>
-												<form>
-												<td style="padding-left: 10px">
-													<label>Airline : </label><br><input type="text" name="email">
-												</td>
-												<td style="padding-left: 10px">
-													<label>Terminal : </label><br><input type="text" name="email">
-												</td>
-											</tr>
-											</form>
-										</table>
-										<br>
-									</tr>
-									<tr >
-										<td >
-											<button class="button" style="height:50px;width:180px;background-color: #4CAF50;margin-left: 100px; border-radius: 5px">UPDATE</button>
-										</td> 
-										<td>
-											<button class="button" style="height:50px;width:180px;background-color: #fa801b; border-radius: 5px">BLOCK</button>
-										</td>
-										<td>
-											<button class="button" style="height:50px;width:180px;background-color: #fa482d; border-radius: 5px">DELETE</button>
-										</td>
-									</tr>
 
-								</table> -->
-								</div>
+                                                                    <img src="images/ticket.png" alt="" title="" style="width: 680px;padding-left: 70px;padding-top:130px;"/><!--
 								<!-- 2 end -->
 
 								<!-- 3 -->
