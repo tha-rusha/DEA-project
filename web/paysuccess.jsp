@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Payment Successfull</title>
-        <link rel="stylesheet" href="paysuccess.css"/>
+        <link rel="stylesheet" href="css/paysuccess.css"/>
     </head>
     <body>
        <div class="container">
