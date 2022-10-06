@@ -161,19 +161,19 @@
 											<tr>
 												
 												<td style="padding-left: 10px">
-													<label>Nic : </label><br><input type="text" name="email">
+													<label>Nic : </label><br><input type="text" name="nic">
 												</td>
 												<td style="padding-left: 10px">
-													<label>Address : </label><br><input type="text" name="email">
+													<label>Address : </label><br><input type="text" name="address">
 												</td>
 											</tr>
 											<tr>
 												
 												<td style="padding-left: 10px">
-													<label>Mobile : </label><br><input type="text" name="email">
+													<label>Mobile : </label><br><input type="text" name="mobile">
 												</td>
 												<td style="padding-left: 10px">
-													<label>Gender : </label><br><input type="text" name="email">
+													<label>Gender : </label><br><input type="text" name="gender">
 												</td>
 											</tr>
 											
