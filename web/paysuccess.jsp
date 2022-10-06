@@ -9,7 +9,8 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Pay Successfull</title>
+        <title>Payment Successfull</title>
+        <link rel="stylesheet" href="paysuccess.css"/>
     </head>
     <body>
        <div class="container">
