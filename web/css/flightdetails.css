@@ -66,7 +66,7 @@ h1 {
 /** page structure **/
 #wrapper {
   display: block;
-  width: 850px;
+  width: 1000px;
   background: #fff;
   margin: 0 auto;
   padding: 10px 17px;
@@ -87,7 +87,7 @@ h1 {
 #keywords thead tr th { 
   font-weight: bold;
   padding: 12px 30px;
-  padding-left: 52px;
+  padding-left: 42px;
 }
 #keywords thead tr th span { 
   padding-right: 20px;
@@ -114,6 +114,7 @@ h1 {
   text-align: center;
   padding: 15px 10px;
 }
-#keywords tbody tr td.lalign {
+#keywords tbody tr td.lalign 
+{
   text-align: left;
 }
