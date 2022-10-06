@@ -246,3 +246,20 @@ main.sign-up-mode .carousel {
 	 height: auto;
   transition: opacity 0.3s, transform 0.5s;
 }
+.img-1 {
+  transform: translate(0, -50px);
+}
+
+
+.image.show {
+  opacity: 1;
+  transform: none;
+}
+
+
+.text-wrap {
+  max-height: 2.2rem;
+  overflow: hidden;
+  margin-bottom: 2.5rem;
+ 
+}
