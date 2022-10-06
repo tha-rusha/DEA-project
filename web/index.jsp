@@ -24,14 +24,15 @@
 				<div class="container main-menu">
 					<div class="row align-items-center justify-content-between d-flex">
 				      <div id="logo">
-				        <a href="index.html"><!--<img src="img/logo.png" alt="" title="" />--></a>
+				        <a href="index.html"><img src="images/logo1.png" alt="" title="" /></a>
 				      </div>
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
 				          <li><a href="index.html">Home</a></li>
 				          <li><a href="">About</a></li>		       		          
 				          <li><a href="">Contact</a></li>
-						  <li><a href="">My Account</a></li>	
+                                          <li><a href="">Admin</a></li>
+				          <li><a href="">My Account</a></li>	
 				        </ul>
 				      </nav>
 			<!-- #nav-menu-container -->					      		  
