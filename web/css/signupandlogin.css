@@ -29,7 +29,7 @@ main {
   min-height: 100vh;
   overflow: hidden;
   background-color:#BAF7FB;
-  background-image:linear-gradient(rgba(0, 125, 255, 0.32),rgba(0, 125, 255, 0.32)),url("images/cloud.jpg");
+  background-image:linear-gradient(rgba(0, 125, 255, 0.32),rgba(0, 125, 255, 0.32)),url("../images/cloud.jpg");
   padding: 1rem;
   display: flex;
   align-items: center;
@@ -60,6 +60,8 @@ main {
   top: 0;
   left: 0;
   display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
   transition: 0.8s ease-in-out;
 }
 form {
@@ -69,6 +71,9 @@ form {
   height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
   transition: opacity 0.02s 0.4s;
 }
 
@@ -222,18 +227,23 @@ main.sign-up-mode .carousel {
   background-color: #ffe0d2;
   border-radius: 2rem;
   display: grid;
+  grid-template-rows: auto 1fr;
   padding-bottom: 2rem;
   overflow: hidden;
   transition: 0.8s ease-in-out;
 }
 .images-wrapper {
   display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
 }
 
 .image {
   width: 100%;
+  grid-column: 1/2;
+  grid-row: 1/2;
   opacity: 0;
-  height: auto;
+	 height: auto;
   transition: opacity 0.3s, transform 0.5s;
 }
 .img-1 {
@@ -298,13 +308,17 @@ main.sign-up-mode .carousel {
   .inner-box {
     position: static;
     transform: none;
+    width: revert;
+    height: revert;
     padding: 2rem;
   }
 
   .forms-wrap {
+    position: revert;
     width: 100%;
     height: auto;
     form {
+    max-width: revert;
     padding: 1.5rem 2.5rem 2rem;
     transition: transform 0.8s ease-in-out, opacity 0.45s linear;
   }
@@ -366,6 +380,14 @@ main.sign-up-mode .carousel {
     font-size: 1.2rem;
   }
 
+<<<<<<< HEAD
   form {
     padding: 1rem 2rem 1.5rem;
   }
+=======
+  .form {
+    padding:1rem 2rem 1.5rem;
+  }
+}
+}
+>>>>>>> b4e6de583e28fd1b09c4ecaea2c9628f8a577644
