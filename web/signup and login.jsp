@@ -106,6 +106,6 @@
 
     <!-- Javascript file -->
 
-    <script src="abs.js"></script>
+    <script src="css/signup.js"></script>
     </body>
 </html>
