@@ -8,16 +8,46 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Staff Dashboard</title>
-        	<!--CSS-->
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<title>Staff Dashboard</title>
+
+			<!--CSS-->
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/jquery-ui.css">
-		
-    </head>
-    <body>
-        	<header id="header">
+
+		<!-- CSS End -->
+
+		<!-- Js -->
+		<script type="text/javascript">
+
+				function switchSection(btn){
+					var info = document.getElementById("infoSec");
+					var flight = document.getElementById("flightSec");
+					var ticket = document.getElementById("ticketSec");
+
+					if(btn == "btnInfo"){
+						info.style.display = "block";
+						flight.style.display = "none";
+						ticket.style.display = "none";
+					}else if(btn =="btnFlight"){
+						info.style.display = "none";
+						flight.style.display = "block";
+						ticket.style.display = "none";
+					}else if(btn == "btnTicket"){
+						info.style.display = "none";
+						flight.style.display = "none";
+						ticket.style.display = "block";
+					}
+				}
+		</script>
+		<!-- Js End -->
+
+		</head>
+    <body>	
+			<header id="header">
 				<div class="header-top">
 					<div class="container">			  					
 					</div>
@@ -40,36 +70,18 @@
 				</div>
 			</header>
 			<!-- #header -->
-			<br>
-			<br>
+			
 			<!-- start banner Area -->
 			<section class="banner-area relative">
+				<br><br>
 				<div class="overlay overlay-bg"></div>				
 				<div class="container">
 					<div class="row fullscreen align-items-center justify-content-between">
 
 						<!-- <div class="col-lg-4 col-md-6 banner-right"> -->
 						<div class="col-lg-4 info-left">
-<!-- 							<ul class="nav nav-tabs" id="myTab" role="tablist">
-							  <li class="nav-item">
-							    <a class="nav-link active" id="flight-tab" data-toggle="tab" href="#flight" role="tab" aria-controls="flight" aria-selected="true">Flights</a>
-							  </li>
-							  
-							</ul> -->
-<!-- 							<div class="tab-content" id="myTabContent">
-							  <div class="tab-pane fade show active" id="flight" role="tabpanel" aria-labelledby="flight-tab">
-								<form class="form-wrap">
-									<input type="text" class="form-control" name="name" placeholder="From " onfocus="this.placeholder = ''" onblur="this.placeholder = 'From '">									
-									<input type="text" class="form-control" name="to" placeholder="To " onfocus="this.placeholder = ''" onblur="this.placeholder = 'To '">
-									<input type="text" class="form-control date-picker" name="start" placeholder="Start " onfocus="this.placeholder = ''" onblur="this.placeholder = 'Start '">
-									<input type="text" class="form-control date-picker" name="return" placeholder="Return " onfocus="this.placeholder = ''" onblur="this.placeholder = 'Return '">
-									<input type="number" min="1" max="20" class="form-control" name="adults" placeholder="Adults " onfocus="this.placeholder = ''" onblur="this.placeholder = 'Adults '">
-									<input type="number" min="1" max="20" class="form-control" name="child" placeholder="Child " onfocus="this.placeholder = ''" onblur="this.placeholder = 'Child '">							
-									<a href="#" class="primary-btn text-uppercase">Search flights</a>									
-								</form>
-							  </div>
-							</div> -->
-							<div style="height: 500px; background-color: white;">
+
+							<div style="height: 500px; background-color: white; border-radius: 25px;">
 								<table style="margin-left:auto;margin-right:auto;">
 									<tr>
 										<td style="padding-top: 25px"><img src="img/img_avatar.png" alt="Avatar" width="150px;" style="border-radius: 50%;"></td>
@@ -81,17 +93,17 @@
 									</tr>
 									<tr>
 										<td style="padding-top: 20px">
-											<button class="button" style="height:50px;width:180px;background-color: #4CAF50;">INFORMATION</button>
+											<button class="button" style="height:50px;width:180px;background-color: #4CAF50;" onclick="switchSection(this.id)" id="btnInfo">INFORMATION</button>
 										</td>
 									</tr>
 									<tr>
 										<td style="padding-top: 20px">
-											<button class="button" style="height:50px;width:180px;background-color: #4CAF50;">FLIGHTS</button>
+											<button class="button" style="height:50px;width:180px;background-color: #4CAF50;" onclick="switchSection(this.id)" id="btnFlight">FLIGHTS</button>
 										</td>
 									</tr>
 									<tr>
 										<td style="padding-top: 20px">
-											<button class="button" style="height:50px;width:180px;background-color: #4CAF50;">TICKETING</button>
+											<button class="button" style="height:50px;width:180px;background-color: #4CAF50;" id="btnTicket" onclick="switchSection(this.id)">TICKETING</button>
 										</td>
 									</tr>
 								</table>
@@ -99,14 +111,18 @@
 							</div>
 						</div>
 						<!-- <div class="col-lg-6 col-md-6 banner-left"> -->
-							<div class="col-lg-8 info-right">
+							<!-- banner area 1 -->
+						 <div class="col-lg-8 info-right" id="myDIV">
 
-							<div style="height: 500px; background-color: white;">
-								<br>
-								<table style="margin-left:auto;margin-right:auto;">
+							 <div style="height: 500px; background-color: white; border-radius: 25px;">
+									<br>
+									<!-- 1 -->
+								<div name="infoSec" id="infoSec">
+									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Information</h4>
+									<table style="margin-left:auto;margin-right:auto;">
 									<tr>
-										<td >
-											<button class="button" style="height:35px;width:100px;background-color: #4CAF50;border-radius: 5px;margin-left: auto;">Log Out</button>
+										<td style="padding-left: 115%;" >
+											<button class="button" style="height:35px;width:100px;background-color: #DE1111;border-radius: 5px;margin-right: auto;">Log Out</button>
 										</td>
 									</tr>
 									<tr>
@@ -121,8 +137,8 @@
 									</tr>
 									<tr>
 										<table style="margin-top: 30px; margin-left: 35px;">
-											<tr>
-												<td style="padding: 5px" rowspan="6"><img src="img/girl.png" alt="Avatar" width="110px"></td>
+											<tr >
+												<td style="padding: 5px" rowspan="6" ><img src="img/girl2.png" alt="Avatar" width="110px"></td>
 											</tr>
 											<tr>
 												<form>
@@ -133,7 +149,7 @@
 													<label>Email : </label><br><input type="text" name="email">
 												</td>
 											</tr>
-											<tr>
+											<tr></form>
 												<form>
 												<td style="padding-left: 10px">
 													<label>Passport No. : </label><br><input type="text" name="email">
@@ -142,7 +158,7 @@
 													<label>Address : </label><br><input type="text" name="email">
 												</td>
 											</tr>
-											<tr>
+											<tr></form>
 												<form>
 												<td style="padding-left: 10px">
 													<label>Mobile : </label><br><input type="text" name="email">
@@ -167,15 +183,164 @@
 										</td>
 									</tr>
 
+									</table>
+								</div>
+								<!-- 1 end -->
+
+								<!-- 2 -->
+								<div name="flightSec" id="flightSec" style="display: none;">
+									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Flights</h4>
+									<table style="margin-left:auto;margin-right:auto;">
+									<tr>
+										<td style="padding-left: 115%;" >
+											<button class="button" style="height:35px;width:100px;background-color: #DE1111;border-radius: 5px;margin-right: auto;">Log Out</button>
+										</td>
+									</tr>
+									<tr>
+										<td style="padding-top: 20px">
+											<form>
+												<input type="text" name="Search" placeholder="Fligth ID" style="width: 250px;">
+											</form>
+										</td>
+										<td style="padding-top: 20px">
+											&#128269
+										</td>
+									</tr>
+									<tr>
+										<table style="margin-top: 30px; margin-left: 35px;">
+											<tr>
+												<td style="padding: 5px" rowspan="6" width="110px"></td>
+											</tr>
+											<tr>
+												<form>
+												<td style="padding-left: 10px">
+													<label>Flight ID : </label><br><input type="text" name="email">
+												</td>
+												<td style="padding-left: 10px">
+													<label>Depature : </label><br><input type="text" name="email">
+												</td>
+											</tr>
+											<tr>
+												<form>
+												<td style="padding-left: 10px">
+													<label>Modle : </label><br><input type="text" name="email">
+												</td>
+												<td style="padding-left: 10px">
+													<label>Arrival : </label><br><input type="text" name="email">
+												</td>
+											</tr>
+											<tr>
+												<form>
+												<td style="padding-left: 10px">
+													<label>Airline : </label><br><input type="text" name="email">
+												</td>
+												<td style="padding-left: 10px">
+													<label>Terminal : </label><br><input type="text" name="email">
+												</td>
+											</tr>
+											</form>
+										</table>
+										<br>
+									</tr>
+									<tr >
+										<td >
+											<button class="button" style="height:50px;width:180px;background-color: #4CAF50;margin-left: 100px; border-radius: 5px">UPDATE</button>
+										</td> 
+										<td>
+											<button class="button" style="height:50px;width:180px;background-color: #fa801b; border-radius: 5px">BLOCK</button>
+										</td>
+										<td>
+											<button class="button" style="height:50px;width:180px;background-color: #fa482d; border-radius: 5px">DELETE</button>
+										</td>
+									</tr>
+
 								</table>
-							</div>
+								</div>
+								<!-- 2 end -->
+
+								<!-- 3 -->
+								<div name="ticketSec" id="ticketSec" style="display: none;">
+									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Tickets</h4>
+									<table style="margin-left:auto;margin-right:auto;">
+									<tr>
+										<td style="padding-left: 115%;" >
+											<button class="button" style="height:35px;width:100px;background-color: #DE1111;border-radius: 5px;margin-right: auto;">Log Out</button>
+										</td>
+									</tr>
+									<tr>
+										<td style="padding-top: 20px">
+											<form>
+												<input type="text" name="Search" placeholder="Ticket ID" style="width: 250px;">
+											</form>
+										</td>
+										<td style="padding-top: 20px">
+											&#128269
+										</td>
+									</tr>
+									<tr>
+										<table style="margin-top: 30px; margin-left: 35px;">
+											<tr>
+												<td style="padding: 5px" rowspan="6" width="110px"></td>
+											</tr>
+											<tr>
+												<form>
+												<td style="padding-left: 10px">
+													<label>Ticket ID : </label><br><input type="text" name="email">
+												</td>
+												<td style="padding-left: 10px">
+													<label>To : </label><br><input type="text" name="email">
+												</td>
+											</tr>
+											<tr>
+												<form>
+												<td style="padding-left: 10px">
+													<label>Passenger Name : </label><br><input type="text" name="email">
+												</td>
+												<td style="padding-left: 10px">
+													<label>Gate : </label><br><input type="text" name="email">
+												</td>
+											</tr>
+											<tr>
+												<form>
+												<td style="padding-left: 10px">
+													<label>From : </label><br><input type="text" name="email">
+												</td>
+												<td style="padding-left: 10px">
+													<label>Seat : </label><br><input type="text" name="email">
+												</td>
+											</tr>
+											</form>
+										</table>
+										<br>
+									</tr>
+									<tr >
+										<td >
+											<button class="button" style="height:50px;width:180px;background-color: #4CAF50;margin-left: 100px; border-radius: 5px">UPDATE</button>
+										</td> 
+										<td>
+											<button class="button" style="height:50px;width:180px;background-color: #fa801b; border-radius: 5px">BLOCK</button>
+										</td>
+										<td>
+											<button class="button" style="height:50px;width:180px;background-color: #fa482d; border-radius: 5px">DELETE</button>
+										</td>
+									</tr>
+
+								</table>
+								</div>
+								<!-- 3 end -->
+							 </div>
+							 <!-- banner area 1 end -->
+
+
+							<!-- banner area 3 end -->
 						</div>
 					</div>
 				</div>					
 			</section>
+
+		</form></tr></form></tr></table></tr></table></div></form></tr></form></tr></table></tr></table></div></form></tr></form></tr></table></tr></table></div></div></div></div></div></section>
 			<!-- End banner Area -->
-		
-			<!-- start footer Area -->
+
 
   <footer class="bg-dark text-center text-white">
   
@@ -202,6 +367,6 @@
 			<script src="js/jquery.magnific-popup.min.js"></script>						
 			<script src="js/owl.carousel.min.js"></script>							
 			<script src="js/main.js"></script>	
+
 		</body>
-    </body>
 </html>

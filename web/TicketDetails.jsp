@@ -11,23 +11,22 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Ticket Details</title>
         
+        <link rel="stylesheet" href="css/ticketDetails.css">
         
     </head>
     <body>
         
         <header id="header">
-            
-            <div class="header-top">
-					<div class="contain">			  					
+				<div class="header-top">
+					<div class="container">			  					
 					</div>
 				</div>
-            
-            <div class="contain main-menu">
-					<div class="row align-items- justify-content-between d-flex">
+				<div class="container main-menu">
+					<div class="row align-items-center justify-content-between d-flex">
 				      <div id="logo">
-				        <a href="index.html"><img src="img/Untitled-1.png" alt="" title="" /></a>
+				        <a href="index.html"><img src="images/logo1.png" alt="" title="" /></a>
 				      </div>
-				      <nav id="nav-menu-contain">
+				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
 				          <li><a href="index.html">Home</a></li>
 				          <li><a href="">About</a></li>		       		          
@@ -35,12 +34,37 @@
 						  <li><a href="">My Account</a></li>	
 				        </ul>
 				      </nav>
-								      		  
+			<!-- #nav-menu-container -->					      		  
 					</div>
 				</div>
-  
-            
-        </header>
+			</header>
+			<!-- #header -->
+				<!-- start banner Area -->
+			<section class="banner-area relative">
+				<div class="overlay overlay-bg"></div>				
+				<div class="container">
+					<div class="row fullscreen align-items-center justify-content-between">
+						<div class="col-lg-6 col-md-6 banner-left">
+							
+						<div class="col-lg-4 col-md-6 banner-right">
+							<ul class="nav nav-tabs" id="myTab" role="tablist">
+							  <li class="nav-item">
+							    
+							  </li>
+							  
+							</ul>
+							<div class="tab-content" id="myTabContent">
+							  <div class="tab-pane fade show active" id="flight" role="tabpanel" aria-labelledby="flight-tab">
+								
+							  						  	
+							  </div>
+							  
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</section>
         
         <br>
 <br>
@@ -51,11 +75,11 @@
             <div id="banner">
 		<div id="topbanner"></div>
 	  <span id="mainbanner">
-			<img src="img/Phoenix -logos_black.png" alt="plane">
+			<img src="images/Phoenix -logos_black.png" alt="plane">
 			Phoenix Airlines
 		</span>
 		<span id="tearoffbanner">
-			<img src="img/Phoenix -logos_black.png" alt="plane">
+			<img src="images/Phoenix -logos_black.png" alt="plane">
 			Phoenix Airlines
 		</span>
 	</div>
