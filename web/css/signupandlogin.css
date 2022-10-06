@@ -334,3 +334,23 @@ main.sign-up-mode .carousel {
   main.sign-up-mode form.sign-in-form {
     transform: translateX(-100%);
   }
+  main.sign-up-mode form.sign-up-form {
+    transform: translateX(0%);
+  }
+
+  .carousel {
+    position: revert;
+    height: auto;
+    width: 100%;
+    padding: 3rem 2rem;
+    display: flex;
+  }
+
+  .images-wrapper {
+    display: none;
+  }
+
+  .text-slider {
+    width: 100%;
+  }
+}
