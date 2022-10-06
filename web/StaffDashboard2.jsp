@@ -147,7 +147,7 @@
 											<tr>
 												
 												<td style="padding-left: 10px">
-													<label>Name : </label><br><input type="text" name="email">
+													<label>Name : </label><br><input type="text" name="name ">
 												</td>
 												<td style="padding-left: 10px">
 													<label>Email : </label><br><input type="text" name="email">
