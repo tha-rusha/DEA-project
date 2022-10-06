@@ -11,12 +11,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Details</title>
     
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/pstyle.css">
     <link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/jquery-ui.css">
+                
+                <style>
+                    body{
+                        background-image: url("images/hero-bg.png");
+                    }
+                </style>
 
 </head>
 <body>
@@ -29,7 +36,7 @@
 				<div class="contain main-menu">
 					<div class="row align-items-center justify-content-between d-flex">
 				      <div id="logo">
-				        <a href="index.html"><img src="img/logo-01.png" alt="" title="" /></a>
+				        <a href="index.html"><img src="images/logo1.png" alt="" title="" /></a>
 				      </div>
 				      <nav id="nav-menu-contain">
 				        <ul class="nav-menu">

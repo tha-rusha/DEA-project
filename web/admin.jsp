@@ -1,27 +1,26 @@
- <%-- 
-    Document   : StaffDashboard2
-    Created on : Oct 2, 2022, 11:37:13 PM
-    Author     : ACER
+<%-- 
+    Document   : admin
+    Created on : Oct 5, 2022, 11:50:41 PM
+    Author     : tharu
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-<head>
-		<!-- Mobile Specific Meta -->
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		
-		<title>Staff Dashboard</title>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Admin</title>
 
-		<!--CSS-->
+			<!--CSS-->
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/jquery-ui.css">
-                
-                <!-- footer -->
+                <link rel="stylesheet" href="css/footer.css">
+
+		<!-- footer -->
 		    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
 		    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-		    <link rel="stylesheet" href="css/footer.css">
+		    <link rel="stylesheet" href="css/style.css">
 		<!-- footer end -->
 
 		<!-- CSS End -->
@@ -54,32 +53,34 @@
 		</head>
 		
 		<body>	
-			<header id="header">
+        <header id="header">
 				<div class="header-top">
 					<div class="container">			  					
 					</div>
 				</div>
+                            
 				<div class="container main-menu">
 					<div class="row align-items-center justify-content-between d-flex">
 				      <div id="logo">
 				        <a href="index.html"><img src="images/logo1.png" alt="" title="" /></a>
 				      </div>
-				      <nav id="nav-menu-container">
+                                            <nav id="nav-menu-container">
 				        <ul class="nav-menu">
 				          <li><a href="index.html">Home</a></li>
 				          <li><a href="">About</a></li>		       		          
 				          <li><a href="">Contact</a></li>
-						  <li><a href="">My Account</a></li>	
+                                          <li><a href="">Admin</a></li>
+				          <li><a href="">My Account</a></li>	
 				        </ul>
 				      </nav>
+                                            
 			<!-- #nav-menu-container -->					      		  
 					</div>
 				</div>
 			</header>
 			<!-- #header -->
-			
 			<!-- start banner Area -->
-			<section class="banner-area relative" style="padding-top: 100px;padding-bottom: 100px;">
+                        <section class="banner-area relative" style="padding-top: 100px;padding-bottom: 100px;">
 				<br><br>
 				<div class="overlay overlay-bg"></div>				
 				<div class="container">
@@ -88,27 +89,36 @@
 						<!-- <div class="col-lg-4 col-md-6 banner-right"> -->
 						<div class="col-lg-4 info-left">
 
-							<div style="height: 500px; background-color: white; border-radius: 25px;">
+							<div style="height: 550px; background-color: white; border-radius: 25px;">
 								<table style="margin-left:auto;margin-right:auto;">
 									<tr>
 										<td style="padding-top: 25px"><img src="images/img_avatar.png" alt="Avatar" width="150px;" style="border-radius: 50%;"></td>
 									</tr>
 									<tr>
 										<td style="padding-top: 20px;">
-											<h4>Staff 02 Name</h4>
+											<h4 style="text-align: center;text-size:18px;">Admin</h4>
 										</td>
 									</tr>
 									<tr>
 										<td style="padding-top: 20px">
-											<button class="button" style="height:50px;width:180px;background-color: #de1111;" onclick="switchSection(this.id)" id="btnInfo">INFORMATION</button>
+											<button class="button" style="height:50px;width:180px;background-color: #DE1111;" onclick="switchSection(this.id)" id="btnInfo">STAFF 01 DETAILS</button>
 										</td>
 									</tr>
 									<tr>
 										<td style="padding-top: 20px">
-											<button class="button" style="height:50px;width:180px;background-color: #de1111;" onclick="switchSection(this.id)" id="btnFlight">FLIGHTS</button>
+											<button class="button" style="height:50px;width:180px;background-color: #DE1111;" onclick="switchSection(this.id)" id="btnFlight">STAFF 02 DETAILS</button>
 										</td>
 									</tr>
-
+									<tr>
+										<td style="padding-top: 20px">
+											<button class="button" style="height:50px;width:180px;background-color: #DE1111;" id="btnTicket" onclick="switchSection(this.id)">CLIENT DETAILS</button>
+										</td>
+									</tr>
+									<tr>
+										<td style="padding-top: 20px">
+											<button class="button" style="height:50px;width:180px;background-color: #DE1111;" id="btnTicket" onclick="switchSection(this.id)">FLIGHT DETAILS</button>
+										</td>
+									</tr>
 								</table>
 
 							</div>
@@ -117,11 +127,11 @@
 							<!-- banner area 1 -->
 						 <div class="col-lg-8 info-right" id="myDIV">
 
-							 <div style="height: 500px; background-color: white; border-radius: 25px;">
+							 <div style="height: 550px; background-color: white; border-radius: 25px;">
 									<br>
 									<!-- 1 -->
 								<div name="infoSec" id="infoSec">
-									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Information</h4>
+									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;font-family: arial;">Staff 01 Details</h4>
 									<table style="margin-left:auto;margin-right:auto;">
 									<tr>
 										<td style="padding-left: 115%;" >
@@ -155,7 +165,7 @@
 											<tr></form>
 												<form>
 												<td style="padding-left: 10px">
-													<label>Nic : </label><br><input type="text" name="email">
+													<label>Passport No. : </label><br><input type="text" name="email">
 												</td>
 												<td style="padding-left: 10px">
 													<label>Address : </label><br><input type="text" name="email">
@@ -174,7 +184,17 @@
 										</table>
 										<br>
 									</tr>
-									
+									<tr >
+										<td >
+											<button class="button" style="height:50px;width:180px;background-color: #4CAF50;margin-left: 100px; border-radius: 5px">UPDATE</button>
+										</td> 
+										<td>
+											<button class="button" style="height:50px;width:180px;background-color: #fa801b; border-radius: 5px">BLOCK</button>
+										</td>
+										<td>
+											<button class="button" style="height:50px;width:180px;background-color: #fa482d; border-radius: 5px">DELETE</button>
+										</td>
+									</tr>
 
 									</table>
 								</div>
@@ -182,7 +202,7 @@
 
 								<!-- 2 -->
 								<div name="flightSec" id="flightSec" style="display: none;">
-									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Flights</h4>
+									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Staff 02 Details</h4>
 									<table style="margin-left:auto;margin-right:auto;">
 									<tr>
 										<td style="padding-left: 115%;" >
@@ -235,26 +255,97 @@
 										</table>
 										<br>
 									</tr>
-									<div style="padding-left:64% ;">
-										
 									<tr >
-										
-										<td  >
-											<button class="button" style="height:40px;width:180px;background-color: hsl(222, 69%, 51%); border-radius: 5px;margin-right: auto;">ADD</button>
+										<td >
+											<button class="button" style="height:50px;width:180px;background-color: #4CAF50;margin-left: 100px; border-radius: 5px">UPDATE</button>
+										</td> 
+										<td>
+											<button class="button" style="height:50px;width:180px;background-color: #fa801b; border-radius: 5px">BLOCK</button>
+										</td>
+										<td>
+											<button class="button" style="height:50px;width:180px;background-color: #fa482d; border-radius: 5px">DELETE</button>
 										</td>
 									</tr>
-								</div>
 
 								</table>
 								</div>
 								<!-- 2 end -->
 
+								<!-- 3 -->
+								<div name="ticketSec" id="ticketSec" style="display: none;">
+									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Client Details</h4>
+									<table style="margin-left:auto;margin-right:auto;">
+									<tr>
+										<td style="padding-left: 115%;" >
+											<button class="button" style="height:35px;width:100px;background-color: #DE1111;border-radius: 5px;margin-right: auto;">Log Out</button>
+										</td>
+									</tr>
+									<tr>
+										<td style="padding-top: 20px">
+											<form>
+												<input type="text" name="Search" placeholder="Ticket ID" style="width: 250px;">
+											</form>
+										</td>
+										<td style="padding-top: 20px">
+											&#128269
+										</td>
+									</tr>
+									<tr>
+										<table style="margin-top: 30px; margin-left: 35px;">
+											<tr>
+												<td style="padding: 5px" rowspan="6" width="110px"></td>
+											</tr>
+											<tr>
+												<form>
+												<td style="padding-left: 10px">
+													<label>Ticket ID : </label><br><input type="text" name="email">
+												</td>
+												<td style="padding-left: 10px">
+													<label>To : </label><br><input type="text" name="email">
+												</td>
+											</tr>
+											<tr>
+												<form>
+												<td style="padding-left: 10px">
+													<label>Passenger Name : </label><br><input type="text" name="email">
+												</td>
+												<td style="padding-left: 10px">
+													<label>Gate : </label><br><input type="text" name="email">
+												</td>
+											</tr>
+											<tr>
+												<form>
+												<td style="padding-left: 10px">
+													<label>From : </label><br><input type="text" name="email">
+												</td>
+												<td style="padding-left: 10px">
+													<label>Seat : </label><br><input type="text" name="email">
+												</td>
+											</tr>
+											</form>
+										</table>
+										<br>
+									</tr>
+									<tr >
+										<td >
+											<button class="button" style="height:50px;width:180px;background-color: #4CAF50;margin-left: 100px; border-radius: 5px">UPDATE</button>
+										</td> 
+										<td>
+											<button class="button" style="height:50px;width:180px;background-color: #fa801b; border-radius: 5px">BLOCK</button>
+										</td>
+										<td>
+											<button class="button" style="height:50px;width:180px;background-color: #fa482d; border-radius: 5px">DELETE</button>
+										</td>
+									</tr>
 
+								</table>
+								</div>
+								<!-- 3 end -->
 							 </div>
 							 <!-- banner area 1 end -->
 
 
-							
+							<!-- banner area 3 end -->
 						</div>
 					</div>
 				</div>					
@@ -264,7 +355,7 @@
 			<!-- End banner Area -->
 
 
-  <!-- Footer -->
+<!-- Footer -->
 		 <div class="footer-basic">
 		        <footer>
 		            <div class="social">
@@ -285,7 +376,7 @@
 		    </div>
 		    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-                    <!--end footer-->
-                    
+
+	
 		</body>
 </html>

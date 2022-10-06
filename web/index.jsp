@@ -11,9 +11,15 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">		
 		<title>Travel</title>
 
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/jquery-ui.css">
+                
+                <!-- footer -->
+		    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+		    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+		    <link rel="stylesheet" href="css/footer.css">
+		<!-- footer end -->
     </head>
     <body>
         <header id="header">
@@ -24,14 +30,15 @@
 				<div class="container main-menu">
 					<div class="row align-items-center justify-content-between d-flex">
 				      <div id="logo">
-				        <a href="index.html"><!--<img src="img/logo.png" alt="" title="" />--></a>
+				        <a href="index.html"><img src="images/logo1.png" alt="" title="" /></a>
 				      </div>
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
 				          <li><a href="index.html">Home</a></li>
 				          <li><a href="">About</a></li>		       		          
 				          <li><a href="">Contact</a></li>
-						  <li><a href="">My Account</a></li>	
+                                          <li><a href="">Admin</a></li>
+				          <li><a href="">My Account</a></li>	
 				        </ul>
 				      </nav>
 			<!-- #nav-menu-container -->					      		  
@@ -166,30 +173,30 @@
 
 			<!-- start footer Area -->
 
-  <footer class="bg-dark text-center text-white">
-  
-  <div class="container p-4 pb-0">
-    
-    <section class="mb-4">
-    
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
-
-    </section>
-  </div>
-
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);"> © 2020 Copyright:
-    <a class="text-white"> phoenixflights.com</a>
-  </div>
-</footer>
-
-<!-- End footer Area -->	
-
-			<script src="js/vendor/jquery-2.2.4.min.js"></script>
+<!-- Footer -->
+		 <div class="footer-basic">
+		        <footer>
+		            <div class="social">
+		            	<a href="#"><i class="icon ion-social-instagram"></i></a>
+		            	<a href="#"><i class="icon ion-social-snapchat"></i></a>
+		            	<a href="#"><i class="icon ion-social-twitter"></i></a>
+		            	<a href="#"><i class="icon ion-social-facebook"></i></a>
+		            </div>
+		            <ul class="list-inline">
+		                <li class="list-inline-item"><a href="#">Home</a></li>
+		                <li class="list-inline-item"><a href="#">About</a></li>
+		                <li class="list-inline-item"><a href="#">Contact</a></li>
+		                <li class="list-inline-item"><a href="#">Terms</a></li>
+		                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+		            </ul>
+		            <p class="copyright" style="font-size: 16px;color: #ffffff;">© 2020 Copyright: phoenixflights.com</p>
+		        </footer>
+		    </div>
+		    <script src="js/vendor/jquery-2.2.4.min.js"></script>
 			<script src="js/superfish.min.js"></script>	
 			<script src="js/jquery.magnific-popup.min.js"></script>						
 			<script src="js/owl.carousel.min.js"></script>							
 			<script src="js/main.js"></script>
-    </body>
+	
+		</body>
 </html>

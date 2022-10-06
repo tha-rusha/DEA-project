@@ -12,6 +12,15 @@
         <title>Ticket Details</title>
         
         <link rel="stylesheet" href="css/ticketDetails.css">
+        <link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/jquery-ui.css">
+                
+                <style>
+                    body{
+                        background-image: url("images/hero-bg.png");
+                    }
+                </style>
         
     </head>
     <body>
@@ -69,7 +78,7 @@
         <br>
 <br>
 <br>
-<br>
+<br><br><br><br><br>
         
         <div class="ticket">
             <div id="banner">

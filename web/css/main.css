@@ -1047,7 +1047,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*-------- Start Banner Area ------------*/
 .banner-area {
-  background: url("../img/hero-bg.png") center;
+  background: url("../images/hero-bg.png") center;
   background-size: cover;
 }
 
