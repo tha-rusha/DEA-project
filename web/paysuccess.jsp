@@ -21,9 +21,9 @@
                <div class="check"><i class="fa fa-check" aria-hidden="true"></i></div>
             </div>
             <div class="content">
-               <h1>Payment Success !</h1>
-               <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. </p>
-               <a href="#">Go to Home</a>
+               <h1>Your payment was Successfull !</h1>
+               <p>Thank you for your payment </p>
+               <a href="index.jsp">Go to Home</a>
             </div>
             
          </div>
