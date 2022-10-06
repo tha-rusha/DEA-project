@@ -19,7 +19,7 @@
 		<!-- footer -->
 		    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
 		    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-		    <link rel="stylesheet" href="style.css">
+		    <link rel="stylesheet" href="css/footer.css">
 		<!-- footer end -->
 
 		<!-- CSS End -->
@@ -70,7 +70,7 @@
 				<div class="container main-menu">
 					<div class="row align-items-center justify-content-between d-flex">
 				      <div id="logo">
-				        <a href="index.html"><img src="img/logo1.png" alt="" title="" /></a>
+				        <a href="index.html"><img src="images/logo1.png" alt="" title="" /></a>
 				      </div>
                                             <nav id="nav-menu-container">
 				        <ul class="nav-menu">
