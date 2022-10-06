@@ -1,4 +1,4 @@
-<%-- 
+ <%-- 
     Document   : StaffDashboard2
     Created on : Oct 2, 2022, 11:37:13 PM
     Author     : ACER
@@ -155,7 +155,7 @@
 											<tr></form>
 												<form>
 												<td style="padding-left: 10px">
-													<label>Passport No. : </label><br><input type="text" name="email">
+													<label>Nic : </label><br><input type="text" name="email">
 												</td>
 												<td style="padding-left: 10px">
 													<label>Address : </label><br><input type="text" name="email">
