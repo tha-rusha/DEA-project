@@ -7,7 +7,6 @@ and open the template in the editor.
     Created on : Oct 1, 2022, 11:15:18 PM
     Author     : DELL
 */
-
 body {
   color: #777777;
   font-family: "Poppins", sans-serif;
@@ -1010,7 +1009,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*-------- Start Banner Area ------------*/
 .banner-area {
-  background: url("../img/hero-bg.png") center;
+  background: url("images/hero-bg.png") center;
   background-size: cover;
 }
 
