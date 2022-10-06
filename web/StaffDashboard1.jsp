@@ -51,14 +51,9 @@
 		</script>
 		<!-- Js End -->
 		</head>
-<<<<<<< Updated upstream
-    <body>	
-			<header id="header">
-=======
 		
 		<body>	
         <header id="header">
->>>>>>> Stashed changes
 				<div class="header-top">
 					<div class="container">			  					
 					</div>
@@ -66,7 +61,7 @@
 				<div class="container main-menu">
 					<div class="row align-items-center justify-content-between d-flex">
 				      <div id="logo">
-				        <a href="index.html"><img src="img/logo1.png" alt="" title="" /></a>
+				        <a href="index.html"><img src="images/logo1.png" alt="" title="" /></a>
 				      </div>
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
@@ -129,78 +124,89 @@
 									<br>
 									<!-- 1 -->
 								<div name="infoSec" id="infoSec">
+                                                                    
+                                                                    <form>
+                                                                        
 									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Information</h4>
+                                                                        
 									<table style="margin-left:auto;margin-right:auto;">
-									<tr>
-										<td style="padding-left: 115%;" >
-											<button class="button" style="height:35px;width:100px;background-color: #DE1111;border-radius: 5px;margin-right: auto;">Log Out</button>
-										</td>
-									</tr>
-									<tr>
-										<td style="padding-top: 20px">
-											<form>
-												<input type="text" name="Search" placeholder="Client ID" style="width: 250px;">
-											</form>
-										</td>
-										<td style="padding-top: 20px">
-											&#128269
-										</td>
-									</tr>
-									<tr>
-										<table style="margin-top: 30px; margin-left: 35px;">
-											<tr >
-												<td style="padding: 5px" rowspan="6" ><img src="images/girl2.png" alt="Avatar" width="110px"></td>
-											</tr>
-											<tr>
-												<form>
-												<td style="padding-left: 10px">
-													<label>Name : </label><br><input type="text" name="email">
-												</td>
-												<td style="padding-left: 10px">
-													<label>Email : </label><br><input type="text" name="email">
-												</td>
-											</tr>
-											<tr></form>
-												<form>
-												<td style="padding-left: 10px">
-													<label>Passport No. : </label><br><input type="text" name="email">
-												</td>
-												<td style="padding-left: 10px">
-													<label>Address : </label><br><input type="text" name="email">
-												</td>
-											</tr>
-											<tr></form>
-												<form>
-												<td style="padding-left: 10px">
-													<label>Mobile : </label><br><input type="text" name="email">
-												</td>
-												<td style="padding-left: 10px">
-													<label>Gender : </label><br><input type="text" name="email">
-												</td>
-											</tr>
-											</form>
-										</table>
-										<br>
-									</tr>
-									<tr >
-										<td >
-											<button class="button" style="height:50px;width:180px;background-color: #4CAF50;margin-left: 100px; border-radius: 5px">UPDATE</button>
-										</td> 
-										<td>
-											<button class="button" style="height:50px;width:180px;background-color: #fa801b; border-radius: 5px">BLOCK</button>
-										</td>
-										<td>
-											<button class="button" style="height:50px;width:180px;background-color: #fa482d; border-radius: 5px">DELETE</button>
-										</td>
-									</tr>
+                                                                                    <tr>
+                                                                                            <td style="padding-left: 115%;" >
+                                                                                                    <button class="button" style="height:35px;width:100px;background-color: #DE1111;border-radius: 5px;margin-right: auto;">Log Out</button>
+                                                                                            </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                            <td style="padding-top: 20px">
+                                                                                                    
+                                                                                                            <input type="text" name="Search" placeholder="Client ID" style="width: 250px;">
+                                                                                                    
+                                                                                            </td>
+                                                                                            <td style="padding-top: 20px">
+                                                                                                    &#128269
+                                                                                            </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                            <table style="margin-top: 30px; margin-left: 35px;">
+                                                                                                    <tr >
+                                                                                                            <td style="padding: 5px" rowspan="6" ><img src="images/girl2.png" alt="Avatar" width="110px"></td>
+                                                                                                    </tr>
+                                                                                                    <tr>
+                                                                                                            
+                                                                                                            <td style="padding-left: 10px">
+                                                                                                                    <label>Name : </label><br><input type="text" name="email">
+                                                                                                            </td>
+                                                                                                            <td style="padding-left: 10px">
+                                                                                                                    <label>Email : </label><br><input type="text" name="email">
+                                                                                                            </td>
+                                                                                                    </tr>
+                                                                                                    <tr>
+                                                                                            
+                                                                                                            <td style="padding-left: 10px">
+                                                                                                                    <label>Passport No. : </label><br><input type="text" name="email">
+                                                                                                            </td>
+                                                                                                            <td style="padding-left: 10px">
+                                                                                                                    <label>Address : </label><br><input type="text" name="email">
+                                                                                                            </td>
+                                                                                                    </tr>
+                                                                                                    <tr>
+                                                                                                        
+                                                                                                            <td style="padding-left: 10px">
+                                                                                                                    <label>Mobile : </label><br><input type="text" name="email">
+                                                                                                            </td>
+                                                                                                            <td style="padding-left: 10px">
+                                                                                                                    <label>Gender : </label><br><input type="text" name="email">
+                                                                                                            </td>
+                                                                                                    </tr>
+                                                                                                    
+                                                                                            </table>
+                                                                                            <br>
+                                                                                <table>
+                                                                                    </tr>
+                                                                                    <tr >
+                                                                                            <td >
+                                                                                                    <button class="button" style="height:50px;width:180px;background-color: #4CAF50;margin-left: 100px; border-radius: 5px">UPDATE</button>
+                                                                                            </td> 
+                                                                                            <td>
+                                                                                                    <button class="button" style="height:50px;width:180px;background-color: #fa801b; border-radius: 5px">BLOCK</button>
+                                                                                            </td>
+                                                                                            <td>
+                                                                                                    <button class="button" style="height:50px;width:180px;background-color: #fa482d; border-radius: 5px">DELETE</button>
+                                                                                            </td>
+                                                                                    </tr>
+                                                                                </table>
+                                                                    </form>
 
-									</table>
+                                                                        
 								</div>
 								<!-- 1 end -->
 
 								<!-- 2 -->
 								<div name="flightSec" id="flightSec" style="display: none;">
+                                                                    
+                                                                    <form>
+                                                                        
 									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Flights</h4>
+                                                                        <!--table-->
 									<table style="margin-left:auto;margin-right:auto;">
 									<tr>
 										<td style="padding-left: 115%;" >
@@ -209,9 +215,9 @@
 									</tr>
 									<tr>
 										<td style="padding-top: 20px">
-											<form>
+											
 												<input type="text" name="Search" placeholder="Fligth ID" style="width: 250px;">
-											</form>
+											
 										</td>
 										<td style="padding-top: 20px">
 											&#128269
@@ -223,7 +229,7 @@
 												<td style="padding: 5px" rowspan="6" width="110px"></td>
 											</tr>
 											<tr>
-												<form>
+												
 												<td style="padding-left: 10px">
 													<label>Flight ID : </label><br><input type="text" name="email">
 												</td>
@@ -232,7 +238,7 @@
 												</td>
 											</tr>
 											<tr>
-												<form>
+												
 												<td style="padding-left: 10px">
 													<label>Modle : </label><br><input type="text" name="email">
 												</td>
@@ -241,7 +247,7 @@
 												</td>
 											</tr>
 											<tr>
-												<form>
+												
 												<td style="padding-left: 10px">
 													<label>Airline : </label><br><input type="text" name="email">
 												</td>
@@ -249,28 +255,33 @@
 													<label>Terminal : </label><br><input type="text" name="email">
 												</td>
 											</tr>
-											</form>
+											
 										</table>
 										<br>
-									</tr>
-									<tr >
-										<td >
-											<button class="button" style="height:50px;width:180px;background-color: #4CAF50;margin-left: 100px; border-radius: 5px">UPDATE</button>
-										</td> 
-										<td>
-											<button class="button" style="height:50px;width:180px;background-color: #fa801b; border-radius: 5px">BLOCK</button>
-										</td>
-										<td>
-											<button class="button" style="height:50px;width:180px;background-color: #fa482d; border-radius: 5px">DELETE</button>
-										</td>
-									</tr>
+                                                                        <table>
+                                                                            
+                                                                            <tr>
+                                                                                    <td>
+                                                                                            <button class="button" style="height:50px;width:180px;background-color: #4CAF50;margin-left: 100px; border-radius: 5px">UPDATE</button>
+                                                                                    </td> 
+                                                                                    <td>
+                                                                                            <button class="button" style="height:50px;width:180px;background-color: #fa801b; border-radius: 5px">BLOCK</button>
+                                                                                    </td>
+                                                                                    <td>
+                                                                                            <button class="button" style="height:50px;width:180px;background-color: #fa482d; border-radius: 5px">DELETE</button>
+                                                                                    </td>
+                                                                            </tr>
 
-								</table>
+                                                                        </table>
+                                                                    </form>
 								</div>
 								<!-- 2 end -->
 
 								<!-- 3 -->
 								<div name="ticketSec" id="ticketSec" style="display: none;">
+                                                                    
+                                                                    <form>
+                                                                        
 									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Ticketing</h4>
 									<table style="margin-left:auto;margin-right:auto;">
 									<tr>
@@ -280,9 +291,9 @@
 									</tr>
 									<tr>
 										<td style="padding-top: 20px">
-											<form>
+											
 												<input type="text" name="Search" placeholder="Ticket ID" style="width: 250px;">
-											</form>
+											
 										</td>
 										<td style="padding-top: 20px">
 											&#128269
@@ -294,7 +305,7 @@
 												<td style="padding: 5px" rowspan="6" width="110px"></td>
 											</tr>
 											<tr>
-												<form>
+												
 												<td style="padding-left: 10px">
 													<label>Ticket ID : </label><br><input type="text" name="email">
 												</td>
@@ -303,7 +314,7 @@
 												</td>
 											</tr>
 											<tr>
-												<form>
+												
 												<td style="padding-left: 10px">
 													<label>Passenger Name : </label><br><input type="text" name="email">
 												</td>
@@ -312,7 +323,7 @@
 												</td>
 											</tr>
 											<tr>
-												<form>
+												
 												<td style="padding-left: 10px">
 													<label>From : </label><br><input type="text" name="email">
 												</td>
@@ -320,7 +331,7 @@
 													<label>Seat : </label><br><input type="text" name="email">
 												</td>
 											</tr>
-											</form>
+											
 										</table>
 										<br>
 									</tr>
@@ -336,7 +347,9 @@
 										</td>
 									</tr>
 
-								</table>
+								    </table>
+                                                                </form>
+                                            
 								</div>
 								<!-- 3 end -->
 							 </div>
