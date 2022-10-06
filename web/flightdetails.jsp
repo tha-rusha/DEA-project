@@ -50,11 +50,12 @@
     <thead>
       <tr>
                <th><span>Airplane ID</span></th>
-               <th><span>Date</span></th>
-               <th><span>Trip</span></th>
-               <th><span>Arrival</span></th>
-               <th><span>Class</span></th>
-               <th><span>Price</span></th>
+               <th><span>From</span></th>
+               <th><span>To</span></th>
+               <th><span>Start</span></th>
+               <th><span>Return</span></th>
+               <th><span>Adults</span></th>
+                <th><span>Child</span></th>
       </tr>
     </thead>
     <tbody>

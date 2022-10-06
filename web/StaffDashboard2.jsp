@@ -121,6 +121,7 @@
 									<br>
 									<!-- 1 -->
 								<div name="infoSec" id="infoSec">
+                                                                    <form>
 									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Information</h4>
 									<table style="margin-left:auto;margin-right:auto;">
 									<tr>
@@ -130,9 +131,9 @@
 									</tr>
 									<tr>
 										<td style="padding-top: 20px">
-											<form>
+											
 												<input type="text" name="Search" placeholder="Client ID" style="width: 250px;">
-											</form>
+											
 										</td>
 										<td style="padding-top: 20px">
 											&#128269
@@ -144,7 +145,7 @@
 												<td style="padding: 5px" rowspan="6" ><img src="images/girl2.png" alt="Avatar" width="110px"></td>
 											</tr>
 											<tr>
-												<form>
+												
 												<td style="padding-left: 10px">
 													<label>Name : </label><br><input type="text" name="email">
 												</td>
@@ -152,8 +153,8 @@
 													<label>Email : </label><br><input type="text" name="email">
 												</td>
 											</tr>
-											<tr></form>
-												<form>
+											<tr>
+												
 												<td style="padding-left: 10px">
 													<label>Nic : </label><br><input type="text" name="email">
 												</td>
@@ -161,8 +162,8 @@
 													<label>Address : </label><br><input type="text" name="email">
 												</td>
 											</tr>
-											<tr></form>
-												<form>
+											<tr>
+												
 												<td style="padding-left: 10px">
 													<label>Mobile : </label><br><input type="text" name="email">
 												</td>
@@ -170,13 +171,14 @@
 													<label>Gender : </label><br><input type="text" name="email">
 												</td>
 											</tr>
-											</form>
+											
 										</table>
 										<br>
 									</tr>
 									
 
 									</table>
+                                                                    </form>
 								</div>
 								<!-- 1 end -->
 
@@ -184,6 +186,7 @@
 								<div name="flightSec" id="flightSec" style="display: none;">
 									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Flights</h4>
 									<table style="margin-left:auto;margin-right:auto;">
+                                                                            
 									<tr>
 										<td style="padding-left: 115%;" >
 											<button class="button" style="height:35px;width:100px;background-color: #DE1111;border-radius: 5px;margin-right: auto;">Log Out</button>
@@ -191,9 +194,9 @@
 									</tr>
 									<tr>
 										<td style="padding-top: 20px">
-											<form>
+											
 												<input type="text" name="Search" placeholder="Fligth ID" style="width: 250px;">
-											</form>
+											
 										</td>
 										<td style="padding-top: 20px">
 											&#128269
@@ -205,7 +208,7 @@
 												<td style="padding: 5px" rowspan="6" width="110px"></td>
 											</tr>
 											<tr>
-												<form>
+												
 												<td style="padding-left: 10px">
 													<label>Flight ID : </label><br><input type="text" name="email">
 												</td>
@@ -214,7 +217,7 @@
 												</td>
 											</tr>
 											<tr>
-												<form>
+												
 												<td style="padding-left: 10px">
 													<label>Modle : </label><br><input type="text" name="email">
 												</td>
@@ -223,7 +226,7 @@
 												</td>
 											</tr>
 											<tr>
-												<form>
+												
 												<td style="padding-left: 10px">
 													<label>Airline : </label><br><input type="text" name="email">
 												</td>
@@ -231,7 +234,7 @@
 													<label>Terminal : </label><br><input type="text" name="email">
 												</td>
 											</tr>
-											</form>
+											
 										</table>
 										<br>
 									</tr>
@@ -246,8 +249,9 @@
 								</div>
 
 								</table>
-								</div>
-								<!-- 2 end -->
+                                                             </form>
+								</div>	
+							<!-- 2 end -->
 
 
 							 </div>
