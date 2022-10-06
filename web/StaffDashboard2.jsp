@@ -89,6 +89,7 @@
 						<div class="col-lg-4 info-left">
 
 							<div style="height: 500px; background-color: white; border-radius: 25px;">
+                                                            
 								<table style="margin-left:auto;margin-right:auto;">
 									<tr>
 										<td style="padding-top: 25px"><img src="images/img_avatar.png" alt="Avatar" width="150px;" style="border-radius: 50%;"></td>
@@ -121,7 +122,11 @@
 									<br>
 									<!-- 1 -->
 								<div name="infoSec" id="infoSec">
+<<<<<<< Updated upstream
                                                                     <form>
+=======
+                                                                    
+>>>>>>> Stashed changes
 									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Information</h4>
 									<table style="margin-left:auto;margin-right:auto;">
 									<tr>
@@ -184,7 +189,9 @@
 
 								<!-- 2 -->
 								<div name="flightSec" id="flightSec" style="display: none;">
+                                                                    
 									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Flights</h4>
+                                                                        
 									<table style="margin-left:auto;margin-right:auto;">
                                                                             
 									<tr>
