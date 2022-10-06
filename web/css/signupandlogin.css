@@ -211,4 +211,11 @@ main.sign-up-mode form.sign-in-form {
 main.sign-up-mode form.sign-up-form {
   opacity: 1;
   pointer-events: all;
+}main.sign-up-mode .forms-wrap {
+  left: 55%;
 }
+
+main.sign-up-mode .carousel {
+  left: 0%;
+}
+
