@@ -293,3 +293,8 @@ main.sign-up-mode .carousel {
   cursor: pointer;
   transition: 0.3s;
 }
+.bullets span.active {
+  width: 1.1rem;
+  background-color: #151111;
+  border-radius: 1rem;
+}
