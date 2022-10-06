@@ -13,8 +13,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chat bot</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="response.js" defer></script>
-    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="response.js"/>
+    <link rel="stylesheet" href="app.js"/>
+    
   </head>
   <body>
     <div class="container">
