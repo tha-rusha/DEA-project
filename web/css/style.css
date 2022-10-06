@@ -602,5 +602,26 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 15px;
 }
 
+@media (max-width: 414px) {
+  .header-top ul li {
+    margin-right: 0px;
+  }
+}
 
+.header-top .header-top-left a {
+  margin-right: 8px;
+}
+
+.header-top .header-top-right {
+  text-align: right;
+}
+
+.header-top .header-top-right .header-social a {
+  color: #fff;
+  margin-left: 15px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
 
