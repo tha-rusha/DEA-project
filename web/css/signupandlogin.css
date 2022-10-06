@@ -222,21 +222,16 @@ main.sign-up-mode .carousel {
   background-color: #ffe0d2;
   border-radius: 2rem;
   display: grid;
-  grid-template-rows: auto 1fr;
   padding-bottom: 2rem;
   overflow: hidden;
   transition: 0.8s ease-in-out;
 }
 .images-wrapper {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
 }
 
 .image {
   width: 100%;
-  grid-column: 1/2;
-  grid-row: 1/2;
   opacity: 0;
 	 height: auto;
   transition: opacity 0.3s, transform 0.5s;
