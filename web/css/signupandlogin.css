@@ -29,7 +29,7 @@ main {
   min-height: 100vh;
   overflow: hidden;
   background-color:#BAF7FB;
-  background-image:linear-gradient(rgba(0, 125, 255, 0.32),rgba(0, 125, 255, 0.32)),url("images/cloud.jpg");
+  background-image:url("images/cloud.jpg");
   padding: 1rem;
   display: flex;
   align-items: center;
