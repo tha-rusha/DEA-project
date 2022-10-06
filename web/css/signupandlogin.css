@@ -354,3 +354,33 @@ main.sign-up-mode .carousel {
     width: 100%;
   }
 }
+@media (max-width: 530px) {
+  main {
+    padding: 1rem;
+  }
+
+  .box {
+    border-radius: 2rem;
+  }
+
+  .inner-box {
+    padding: 1rem;
+  }
+
+  .carousel {
+    padding: 1.5rem 1rem;
+    border-radius: 1.6rem;
+  }
+
+  .text-wrap {
+    margin-bottom: 1rem;
+  }
+
+  .text-group h2 {
+    font-size: 1.2rem;
+  }
+
+  form {
+    padding: 1rem 2rem 1.5rem;
+  }
+}
