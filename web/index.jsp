@@ -12,7 +12,7 @@
 		<title>Travel</title>
 
 		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/bootstrapforhome.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/jquery-ui.css">
     </head>
     <body>
