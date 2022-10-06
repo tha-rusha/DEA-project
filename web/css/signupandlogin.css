@@ -102,4 +102,27 @@ form.sign-up-form {
   font-size: 2.1rem;
   font-weight: 600;
   color: #151111;
+}.heading h6 {
+  color: #bababa;
+  font-weight: 900;
+  font-size: 0.75rem;
+  display: inline;
+}
+
+.toggle {
+  color: #151111;
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.toggle:hover {
+  color:#021070;
+}
+
+.input-wrap {
+  position: relative;
+  height: 20px;
+  margin-bottom: 1.5rem;
 }
