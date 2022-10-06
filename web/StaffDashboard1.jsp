@@ -52,7 +52,7 @@
 		<!-- Js End -->
 		</head>
 		
-		<body>	
+<body>	
         <header id="header">
 				<div class="header-top">
 					<div class="container">			  					
@@ -138,7 +138,7 @@
                                                                                     <tr>
                                                                                             <td style="padding-top: 20px">
                                                                                                     
-                                                                                                            <input type="text" name="Search" placeholder="Client ID" style="width: 250px;">
+                                                                                                            <input type="text" name="search" placeholder="Client ID" style="width: 250px;">
                                                                                                     
                                                                                             </td>
                                                                                             <td style="padding-top: 20px">
@@ -153,7 +153,7 @@
                                                                                                     <tr>
                                                                                                             
                                                                                                             <td style="padding-left: 10px">
-                                                                                                                    <label>Name : </label><br><input type="text" name="email">
+                                                                                                                    <label>Name : </label><br><input type="text" name="name">
                                                                                                             </td>
                                                                                                             <td style="padding-left: 10px">
                                                                                                                     <label>Email : </label><br><input type="text" name="email">
@@ -162,19 +162,19 @@
                                                                                                     <tr>
                                                                                             
                                                                                                             <td style="padding-left: 10px">
-                                                                                                                    <label>Passport No. : </label><br><input type="text" name="email">
+                                                                                                                    <label>Passport No. : </label><br><input type="text" name="passport">
                                                                                                             </td>
                                                                                                             <td style="padding-left: 10px">
-                                                                                                                    <label>Address : </label><br><input type="text" name="email">
+                                                                                                                    <label>Address : </label><br><input type="text" name="address">
                                                                                                             </td>
                                                                                                     </tr>
                                                                                                     <tr>
                                                                                                         
                                                                                                             <td style="padding-left: 10px">
-                                                                                                                    <label>Mobile : </label><br><input type="text" name="email">
+                                                                                                                    <label>Mobile : </label><br><input type="text" name="mobile">
                                                                                                             </td>
                                                                                                             <td style="padding-left: 10px">
-                                                                                                                    <label>Gender : </label><br><input type="text" name="email">
+                                                                                                                    <label>Gender : </label><br><input type="text" name="gender">
                                                                                                             </td>
                                                                                                     </tr>
                                                                                                     
@@ -231,28 +231,28 @@
 											<tr>
 												
 												<td style="padding-left: 10px">
-													<label>Flight ID : </label><br><input type="text" name="email">
+													<label>Flight ID : </label><br><input type="text" name="flight">
 												</td>
 												<td style="padding-left: 10px">
-													<label>Depature : </label><br><input type="text" name="email">
-												</td>
-											</tr>
-											<tr>
-												
-												<td style="padding-left: 10px">
-													<label>Modle : </label><br><input type="text" name="email">
-												</td>
-												<td style="padding-left: 10px">
-													<label>Arrival : </label><br><input type="text" name="email">
+													<label>Depature : </label><br><input type="text" name="dep">
 												</td>
 											</tr>
 											<tr>
 												
 												<td style="padding-left: 10px">
-													<label>Airline : </label><br><input type="text" name="email">
+													<label>Modle : </label><br><input type="text" name="model">
 												</td>
 												<td style="padding-left: 10px">
-													<label>Terminal : </label><br><input type="text" name="email">
+													<label>Arrival : </label><br><input type="text" name="arriaval">
+												</td>
+											</tr>
+											<tr>
+												
+												<td style="padding-left: 10px">
+													<label>Airline : </label><br><input type="text" name="airline">
+												</td>
+												<td style="padding-left: 10px">
+													<label>Terminal : </label><br><input type="text" name="terminal">
 												</td>
 											</tr>
 											
@@ -307,28 +307,28 @@
 											<tr>
 												
 												<td style="padding-left: 10px">
-													<label>Ticket ID : </label><br><input type="text" name="email">
+													<label>Ticket ID : </label><br><input type="text" name="ticket">
 												</td>
 												<td style="padding-left: 10px">
-													<label>To : </label><br><input type="text" name="email">
-												</td>
-											</tr>
-											<tr>
-												
-												<td style="padding-left: 10px">
-													<label>Passenger Name : </label><br><input type="text" name="email">
-												</td>
-												<td style="padding-left: 10px">
-													<label>Gate : </label><br><input type="text" name="email">
+													<label>To : </label><br><input type="text" name="to">
 												</td>
 											</tr>
 											<tr>
 												
 												<td style="padding-left: 10px">
-													<label>From : </label><br><input type="text" name="email">
+													<label>Passenger Name : </label><br><input type="text" name="passenger">
 												</td>
 												<td style="padding-left: 10px">
-													<label>Seat : </label><br><input type="text" name="email">
+													<label>Gate : </label><br><input type="text" name="gate">
+												</td>
+											</tr>
+											<tr>
+												
+												<td style="padding-left: 10px">
+													<label>From : </label><br><input type="text" name="from">
+												</td>
+												<td style="padding-left: 10px">
+													<label>Seat : </label><br><input type="text" name="seat">
 												</td>
 											</tr>
 											
