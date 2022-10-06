@@ -232,10 +232,8 @@ main.sign-up-mode .carousel {
 
 .image {
   width: 100%;
-  grid-column: 1/2;
-  grid-row: 1/2;
   opacity: 0;
-	 height: auto;
+  height: auto;
   transition: opacity 0.3s, transform 0.5s;
 }
 .img-1 {
@@ -300,17 +298,13 @@ main.sign-up-mode .carousel {
   .inner-box {
     position: static;
     transform: none;
-    width: revert;
-    height: revert;
     padding: 2rem;
   }
 
   .forms-wrap {
-    position: revert;
     width: 100%;
     height: auto;
     form {
-    max-width: revert;
     padding: 1.5rem 2.5rem 2rem;
     transition: transform 0.8s ease-in-out, opacity 0.45s linear;
   }
@@ -331,7 +325,6 @@ main.sign-up-mode .carousel {
   }
 
   .carousel {
-    position: revert;
     height: auto;
     width: 100%;
     padding: 3rem 2rem;
@@ -346,7 +339,7 @@ main.sign-up-mode .carousel {
     width: 100%;
   }
 }
-@media (max-width: 530px) {
+
   main {
     padding: 1rem;
   }
