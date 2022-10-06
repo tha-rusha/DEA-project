@@ -48,7 +48,7 @@
 
             <form action="index.html" autocomplete="off" class="sign-up-form">
               <div class="logo">
-                <img src="images/Untitled-1.png" alt="easyclass" />
+                <img src="images/logo1.png" alt="easyclass" />
               </div>
 
               <div class="heading">
