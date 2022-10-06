@@ -52,7 +52,7 @@
 		<!-- Js End -->
 		</head>
 		
-		<body>	
+<body>	
         <header id="header">
 				<div class="header-top">
 					<div class="container">			  					
