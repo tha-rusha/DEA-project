@@ -15,12 +15,11 @@
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/jquery-ui.css">
-                <link rel="stylesheet" href="css/footer.css">
 
 		<!-- footer -->
 		    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
 		    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-		    <link rel="stylesheet" href="css/style.css">
+		    <link rel="stylesheet" href="css/footer.css">
 		<!-- footer end -->
 
 		<!-- CSS End -->
@@ -32,19 +31,28 @@
 					var info = document.getElementById("infoSec");
 					var flight = document.getElementById("flightSec");
 					var ticket = document.getElementById("ticketSec");
+					var staff = document.getElementById("staffSec");
 
 					if(btn == "btnInfo"){
 						info.style.display = "block";
 						flight.style.display = "none";
 						ticket.style.display = "none";
+						staff.style.display = "none";
 					}else if(btn =="btnFlight"){
 						info.style.display = "none";
 						flight.style.display = "block";
 						ticket.style.display = "none";
+						staff.style.display = "none";
 					}else if(btn == "btnTicket"){
 						info.style.display = "none";
 						flight.style.display = "none";
 						ticket.style.display = "block";
+						staff.style.display = "none";
+					}else if(btn == "btnStaff"){
+						info.style.display = "none";
+						flight.style.display = "none";
+						ticket.style.display = "none";
+						staff.style.display = "block";
 					}
 				}
 		</script>
@@ -69,8 +77,7 @@
 				          <li><a href="index.html">Home</a></li>
 				          <li><a href="">About</a></li>		       		          
 				          <li><a href="">Contact</a></li>
-                                          <li><a href="">Admin</a></li>
-				          <li><a href="">My Account</a></li>	
+						  <li><a href="">My Account</a></li>	
 				        </ul>
 				      </nav>
                                             
@@ -96,27 +103,27 @@
 									</tr>
 									<tr>
 										<td style="padding-top: 20px;">
-											<h4 style="text-align: center;text-size:18px;">Admin</h4>
+											<h4 style="text-align: center;">Admin</h4>
 										</td>
 									</tr>
 									<tr>
 										<td style="padding-top: 20px">
-											<button class="button" style="height:50px;width:180px;background-color: #DE1111;" onclick="switchSection(this.id)" id="btnInfo">STAFF 01 DETAILS</button>
+											<button class="button" style="height:50px;width:180px;background-color: #DE1111;" onclick="switchSection(this.id)" id="btnInfo">CLIENT DETAILS</button>
 										</td>
 									</tr>
 									<tr>
 										<td style="padding-top: 20px">
-											<button class="button" style="height:50px;width:180px;background-color: #DE1111;" onclick="switchSection(this.id)" id="btnFlight">STAFF 02 DETAILS</button>
+											<button class="button" style="height:50px;width:180px;background-color: #DE1111;" onclick="switchSection(this.id)" id="btnFlight">FLIGHT DETAILS</button>
 										</td>
 									</tr>
 									<tr>
 										<td style="padding-top: 20px">
-											<button class="button" style="height:50px;width:180px;background-color: #DE1111;" id="btnTicket" onclick="switchSection(this.id)">CLIENT DETAILS</button>
+											<button class="button" style="height:50px;width:180px;background-color: #DE1111;" id="btnTicket" onclick="switchSection(this.id)">TICKET DETAILS</button>
 										</td>
 									</tr>
 									<tr>
 										<td style="padding-top: 20px">
-											<button class="button" style="height:50px;width:180px;background-color: #DE1111;" id="btnTicket" onclick="switchSection(this.id)">FLIGHT DETAILS</button>
+											<button class="button" style="height:50px;width:180px;background-color: #DE1111;" id="btnStaff" onclick="switchSection(this.id)">STAFF DETAILS</button>
 										</td>
 									</tr>
 								</table>
@@ -131,8 +138,8 @@
 									<br>
 									<!-- 1 -->
 								<div name="infoSec" id="infoSec">
-									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;font-family: arial;">Staff 01 Details</h4>
-									<table style="margin-left:auto;margin-right:auto;">
+									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Client Details</h4>
+									<!-- <table style="margin-left:auto;margin-right:auto;">
 									<tr>
 										<td style="padding-left: 115%;" >
 											<button class="button" style="height:35px;width:100px;background-color: #DE1111;border-radius: 5px;margin-right: auto;">Log Out</button>
@@ -151,7 +158,7 @@
 									<tr>
 										<table style="margin-top: 30px; margin-left: 35px;">
 											<tr >
-												<td style="padding: 5px" rowspan="6" ><img src="images/girl2.png" alt="Avatar" width="110px"></td>
+												<td style="padding: 5px" rowspan="6" ><img src="img/girl2.png" alt="Avatar" width="110px"></td>
 											</tr>
 											<tr>
 												<form>
@@ -196,14 +203,14 @@
 										</td>
 									</tr>
 
-									</table>
+									</table> -->
 								</div>
 								<!-- 1 end -->
 
 								<!-- 2 -->
 								<div name="flightSec" id="flightSec" style="display: none;">
-									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Staff 02 Details</h4>
-									<table style="margin-left:auto;margin-right:auto;">
+									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Flight Details</h4>
+<!-- 									<table style="margin-left:auto;margin-right:auto;">
 									<tr>
 										<td style="padding-left: 115%;" >
 											<button class="button" style="height:35px;width:100px;background-color: #DE1111;border-radius: 5px;margin-right: auto;">Log Out</button>
@@ -267,14 +274,14 @@
 										</td>
 									</tr>
 
-								</table>
+								</table> -->
 								</div>
 								<!-- 2 end -->
 
 								<!-- 3 -->
 								<div name="ticketSec" id="ticketSec" style="display: none;">
-									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Client Details</h4>
-									<table style="margin-left:auto;margin-right:auto;">
+									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Ticket Details</h4>
+									<!-- <table style="margin-left:auto;margin-right:auto;">
 									<tr>
 										<td style="padding-left: 115%;" >
 											<button class="button" style="height:35px;width:100px;background-color: #DE1111;border-radius: 5px;margin-right: auto;">Log Out</button>
@@ -338,9 +345,79 @@
 										</td>
 									</tr>
 
-								</table>
+								</table> -->
 								</div>
 								<!-- 3 end -->
+								<!-- 4 -->
+								<div name="staffSec" id="staffSec" style="display: none;">
+									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Staff Details</h4>
+									<!-- <table style="margin-left:auto;margin-right:auto;">
+									<tr>
+										<td style="padding-left: 115%;" >
+											<button class="button" style="height:35px;width:100px;background-color: #DE1111;border-radius: 5px;margin-right: auto;">Log Out</button>
+										</td>
+									</tr>
+									<tr>
+										<td style="padding-top: 20px">
+											<form>
+												<input type="text" name="Search" placeholder="Ticket ID" style="width: 250px;">
+											</form>
+										</td>
+										<td style="padding-top: 20px">
+											&#128269
+										</td>
+									</tr>
+									<tr>
+										<table style="margin-top: 30px; margin-left: 35px;">
+											<tr>
+												<td style="padding: 5px" rowspan="6" width="110px"></td>
+											</tr>
+											<tr>
+												<form>
+												<td style="padding-left: 10px">
+													<label>Ticket ID : </label><br><input type="text" name="email">
+												</td>
+												<td style="padding-left: 10px">
+													<label>To : </label><br><input type="text" name="email">
+												</td>
+											</tr>
+											<tr>
+												<form>
+												<td style="padding-left: 10px">
+													<label>Passenger Name : </label><br><input type="text" name="email">
+												</td>
+												<td style="padding-left: 10px">
+													<label>Gate : </label><br><input type="text" name="email">
+												</td>
+											</tr>
+											<tr>
+												<form>
+												<td style="padding-left: 10px">
+													<label>From : </label><br><input type="text" name="email">
+												</td>
+												<td style="padding-left: 10px">
+													<label>Seat : </label><br><input type="text" name="email">
+												</td>
+											</tr>
+											</form>
+										</table>
+										<br>
+									</tr>
+									<tr >
+										<td >
+											<button class="button" style="height:50px;width:180px;background-color: #4CAF50;margin-left: 100px; border-radius: 5px">UPDATE</button>
+										</td> 
+										<td>
+											<button class="button" style="height:50px;width:180px;background-color: #fa801b; border-radius: 5px">BLOCK</button>
+										</td>
+										<td>
+											<button class="button" style="height:50px;width:180px;background-color: #fa482d; border-radius: 5px">DELETE</button>
+										</td>
+									</tr>
+
+								</table> -->
+								</div>
+								<!-- 4 end -->
 							 </div>
 							 <!-- banner area 1 end -->
 
