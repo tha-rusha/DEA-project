@@ -53,12 +53,14 @@
 				<div class="container">
 					<div class="row fullscreen align-items-center justify-content-between">
 						<div class="col-lg-6 col-md-6 banner-left">
+                                                    <br> <br><br><br><br><br><br><br><br><br>
 							<h6 class="text-white">Away from monotonous life</h6>
 							<h1 class="text-white">Phoenix Airline</h1>
 							<p class="text-white">
 								Flight or flying is the process by which an object moves through a space without contacting any planetary surface, either within an atmosphere or through the vacuum of outer space
 							</p>
 							<a href="#" class="primary-btn text-uppercase">REGISTER</a>
+                                                        <br><br><br><br><br><br><br><br><br><br><br>
 						</div>
 						<div class="col-lg-4 col-md-6 banner-right">
 							<ul class="nav nav-tabs" id="myTab" role="tablist">
