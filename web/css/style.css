@@ -1267,7 +1267,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 5px;
 }
 
-.contact-page-area .address-wrap .single-contact-address .lnr {
+.contact-page-area .address-wrap .single-contact-address.lnr {
   font-size: 30px;
   font-weight: 500;
   color: #DE1111;
