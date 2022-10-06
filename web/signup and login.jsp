@@ -13,7 +13,7 @@
         <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Sign in & Sign up Form</title>
-    <link rel="stylesheet" href="abs.css"/>
+    <link rel="stylesheet" href="css/signupandlogin.css"/>
     </head>
     <body>
         <main>
