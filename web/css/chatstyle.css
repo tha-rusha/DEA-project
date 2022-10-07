@@ -93,7 +93,8 @@ body {
   color:#ffffff;
     padding-left: 10px;
 
-  align-self: flex-sta  color:var(--light-color);rt;
+  align-self: flex-sta;
+      color:var(--light-color);rt;
   border-radius: 10px 10px 3px 10px;
   
 }

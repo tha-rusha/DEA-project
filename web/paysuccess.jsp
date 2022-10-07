@@ -18,12 +18,13 @@
       <div class="col-md-6 mx-auto mt-5">
          <div class="payment">
             <div class="payment_header">
-               <div class="check"><i class="fa fa-check" aria-hidden="true"></i></div>
+               
             </div>
             <div class="content">
+                <img src="images/check.jpg"
                <h1>Your payment was Successfull !</h1>
                <p>Thank you for your payment </p>
-               <a href="index.jsp">Go to Home</a>
+               <a href="TicketDetails.jsp">SHOW ME THE TICKET</a>
             </div>
             
          </div>
