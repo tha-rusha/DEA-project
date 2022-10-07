@@ -92,7 +92,7 @@
             </div>
                  
 			  
-                <input type="submit" value="Sign Up" class="sign-btn" />
+                 <a href="client.jsp" input type="submit" value="Sign In" class="sign-btn" style="padding-top: 10px;" /><center>Sign Up</center></a>
 
                 <p class="text">By signing up, I agree to the 
 					<a href="#">Terms of Services</a> and  

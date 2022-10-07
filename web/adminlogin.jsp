@@ -27,7 +27,7 @@
               <div class="heading">
                 <h2>Welcome Back</h2>
                 <h6>Not registred yet?</h6>
-                <a href="#" class="toggle">Sign up</a>
+                 <a href="signup and login.jsp" class="toggle">Sign up</a>
               </div>
 
               <div class="actual-form">
@@ -41,7 +41,7 @@
                     <label>Password</label>
                 </div>
 
-                <input type="submit" value="Sign In" class="sign-btn" />
+                <a href="admin.jsp" input type="submit" value="Sign In" class="sign-btn" style="padding-top: 10px;" /><center>Sign in</center></a>
               </div>
             </form>
 
