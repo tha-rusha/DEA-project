@@ -42,7 +42,7 @@
                     <label>Password</label>
                 </div>
 
-                <input type="submit" value="Sign In" class="sign-btn" />
+                 <a href="client.jsp" input type="submit" value="Sign In" class="sign-btn" style="padding-top: 10px;" /><center>Sign in</center></a>
               </div>
             </form>
 
