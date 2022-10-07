@@ -1,6 +1,6 @@
 <%-- 
-    Document   : admin
-    Created on : Oct 5, 2022, 11:50:41 PM
+    Document   : client
+    Created on : Oct 7, 2022, 2:04:54 AM
     Author     : tharu
 --%>
 
@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Admin</title>
+        <title>Client</title>
 
 			<!--CSS-->
 		<link rel="stylesheet" href="css/main.css">
@@ -21,6 +21,8 @@
 		    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 		    <link rel="stylesheet" href="css/footer.css">
 		<!-- footer end -->
+                
+               
 
 		<!-- CSS End -->
 
@@ -103,27 +105,27 @@
 									</tr>
 									<tr>
 										<td style="padding-top: 20px;">
-											<h4 style="text-align: center;">Admin</h4>
+											<h4 style="text-align: center;">Client</h4>
 										</td>
 									</tr>
 									<tr>
 										<td style="padding-top: 20px">
-											<button class="button" style="height:50px;width:180px;background-color: #0be03d;" onclick="switchSection(this.id)" id="btnInfo">CLIENT DETAILS</button>
+											<button class="button" style="height:50px;width:180px;background-color: #DE1111;" onclick="switchSection(this.id)" id="btnInfo">My Profile</button>
 										</td>
 									</tr>
 									<tr>
 										<td style="padding-top: 20px">
-											<button class="button" style="height:50px;width:180px;background-color: #0be03d;" onclick="switchSection(this.id)" id="btnFlight">FLIGHT DETAILS</button>
+											<button class="button" style="height:50px;width:180px;background-color: #DE1111;" onclick="switchSection(this.id)" id="btnFlight">Booking</button>
 										</td>
 									</tr>
 									<tr>
 										<td style="padding-top: 20px">
-											<button class="button" style="height:50px;width:180px;background-color: #0be03d;" id="btnTicket" onclick="switchSection(this.id)">TICKET DETAILS</button>
+											<button class="button" style="height:50px;width:180px;background-color: #DE1111;"  onclick="switchSection(this.id)"id="btnTicket">Previous Bookings</button>
 										</td>
 									</tr>
 									<tr>
 										<td style="padding-top: 20px">
-											<button class="button" style="height:50px;width:180px;background-color: #0be03d;" id="btnStaff" onclick="switchSection(this.id)">STAFF DETAILS</button>
+											<button class="button" style="height:50px;width:180px;background-color: #DE1111;" id="btnStaff" onclick="switchSection(this.id)">Requests</button>
 										</td>
 									</tr>
 								</table>
@@ -138,57 +140,50 @@
 									<br>
 									<!-- 1 -->
 								<div name="infoSec" id="infoSec">
-									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Client Details</h4>
-									<!-- <table style="margin-left:auto;margin-right:auto;">
+									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">My Profile</h4>
+									 <table style="margin-left:auto;margin-right:auto;">
 									<tr>
-										<td style="padding-left: 115%;" >
+										<td style="padding-left: 200%;" >
 											<button class="button" style="height:35px;width:100px;background-color: #DE1111;border-radius: 5px;margin-right: auto;">Log Out</button>
 										</td>
-									</tr>
-									<tr>
-										<td style="padding-top: 20px">
-											<form>
-												<input type="text" name="Search" placeholder="Client ID" style="width: 250px;">
-											</form>
-										</td>
-										<td style="padding-top: 20px">
-											&#128269
-										</td>
-									</tr>
+									
 									<tr>
 										<table style="margin-top: 30px; margin-left: 35px;">
 											<tr >
-												<td style="padding: 5px" rowspan="6" ><img src="img/girl2.png" alt="Avatar" width="110px"></td>
+												<td style="padding: 5px" rowspan="6" ><img src="images/girl2.png" alt="Avatar" width="110px"></td>
 											</tr>
 											<tr>
 												<form>
 												<td style="padding-left: 10px">
-													<label>Name : </label><br><input type="text" name="email">
+                                                                                                    <label style="font-weight: bold">Name : </label><br><p>Thilina Kumara Silva</p>
 												</td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                                
 												<td style="padding-left: 10px">
-													<label>Email : </label><br><input type="text" name="email">
+                                                                                                    <label style="font-weight: bold">Email : </label><br><p>thilinakumara250@gmail.com</p>
 												</td>
 											</tr>
 											<tr></form>
 												<form>
 												<td style="padding-left: 10px">
-													<label>Passport No. : </label><br><input type="text" name="email">
+                                                                                                    <label style="font-weight: bold">Passport No. : </label><br><p>N1234567</p>
 												</td>
+                                                                                        </tr>
+                                                                                        <tr>
 												<td style="padding-left: 10px">
-													<label>Address : </label><br><input type="text" name="email">
+                                                                                                    <label style="font-weight: bold">Address : </label><br><p>20/1/B,Pitipana,Homagama,Colombo.</p>
 												</td>
 											</tr>
 											<tr></form>
 												<form>
 												<td style="padding-left: 10px">
-													<label>Mobile : </label><br><input type="text" name="email">
+                                                                                                    <label style="font-weight: bold">Mobile : </label><br><p>0761234567</p>
 												</td>
-												<td style="padding-left: 10px">
-													<label>Gender : </label><br><input type="text" name="email">
-												</td>
-											</tr>
-											</form>
-										</table>
+                                                                                        </tr>
+                                                                                        
+											
+										</table><!--
 										<br>
 									</tr>
 									<tr >
@@ -209,84 +204,21 @@
 
 								<!-- 2 -->
 								<div name="flightSec" id="flightSec" style="display: none;">
-									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Flight Details</h4>
-<!-- 									<table style="margin-left:auto;margin-right:auto;">
-									<tr>
-										<td style="padding-left: 115%;" >
-											<button class="button" style="height:35px;width:100px;background-color: #DE1111;border-radius: 5px;margin-right: auto;">Log Out</button>
-										</td>
-									</tr>
-									<tr>
-										<td style="padding-top: 20px">
-											<form>
-												<input type="text" name="Search" placeholder="Fligth ID" style="width: 250px;">
-											</form>
-										</td>
-										<td style="padding-top: 20px">
-											&#128269
-										</td>
-									</tr>
-									<tr>
-										<table style="margin-top: 30px; margin-left: 35px;">
-											<tr>
-												<td style="padding: 5px" rowspan="6" width="110px"></td>
-											</tr>
-											<tr>
-												<form>
-												<td style="padding-left: 10px">
-													<label>Flight ID : </label><br><input type="text" name="email">
-												</td>
-												<td style="padding-left: 10px">
-													<label>Depature : </label><br><input type="text" name="email">
-												</td>
-											</tr>
-											<tr>
-												<form>
-												<td style="padding-left: 10px">
-													<label>Modle : </label><br><input type="text" name="email">
-												</td>
-												<td style="padding-left: 10px">
-													<label>Arrival : </label><br><input type="text" name="email">
-												</td>
-											</tr>
-											<tr>
-												<form>
-												<td style="padding-left: 10px">
-													<label>Airline : </label><br><input type="text" name="email">
-												</td>
-												<td style="padding-left: 10px">
-													<label>Terminal : </label><br><input type="text" name="email">
-												</td>
-											</tr>
-											</form>
-										</table>
-										<br>
-									</tr>
-									<tr >
-										<td >
-											<button class="button" style="height:50px;width:180px;background-color: #4CAF50;margin-left: 100px; border-radius: 5px">UPDATE</button>
-										</td> 
-										<td>
-											<button class="button" style="height:50px;width:180px;background-color: #fa801b; border-radius: 5px">BLOCK</button>
-										</td>
-										<td>
-											<button class="button" style="height:50px;width:180px;background-color: #fa482d; border-radius: 5px">DELETE</button>
-										</td>
-									</tr>
+									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Booking</h4>
 
-								</table> -->
-								</div>
+                                                                    <img src="images/ticket.png" alt="" title="" style="width: 680px;padding-left: 70px;padding-top:130px;"/><!--
 								<!-- 2 end -->
 
 								<!-- 3 -->
 								<div name="ticketSec" id="ticketSec" style="display: none;">
-									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Ticket Details</h4>
-									<!-- <table style="margin-left:auto;margin-right:auto;">
+									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Previous Bookings</h4>
+									 <table style="margin-left:auto;margin-right:auto;">
 									<tr>
 										<td style="padding-left: 115%;" >
 											<button class="button" style="height:35px;width:100px;background-color: #DE1111;border-radius: 5px;margin-right: auto;">Log Out</button>
 										</td>
 									</tr>
+                                                                         </table><!--
 									<tr>
 										<td style="padding-top: 20px">
 											<form>
@@ -346,11 +278,11 @@
 									</tr>
 
 								</table> -->
-								</div>
+								
 								<!-- 3 end -->
 								<!-- 4 -->
 								<div name="staffSec" id="staffSec" style="display: none;">
-									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Staff Details</h4>
+									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Requests</h4>
 									<!-- <table style="margin-left:auto;margin-right:auto;">
 									<tr>
 										<td style="padding-left: 115%;" >

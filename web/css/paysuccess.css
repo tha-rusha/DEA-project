@@ -7,8 +7,8 @@ and open the template in the editor.
     Created on : Oct 7, 2022, 12:16:43 AM
     Author     : User
 */
-<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
-<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+/*<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />*/
+/*<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />*/
 <style type="text/css">
 
     body
@@ -19,15 +19,15 @@ and open the template in the editor.
     .payment
 	{
 		border:1px solid #f2f2f2;
-		height:280px;
+	height:280px;
         border-radius:20px;
         background:#fff;
 	}
    .payment_header
    {
-	   background:rgba(255,102,0,1);
+	   background:rgba(150, 40, 27);, 1;
 	   padding:20px;
-       border-radius:20px 20px 0px 0px;
+          border-radius:20px 20px 0px 0px;
 	   
    }
    
