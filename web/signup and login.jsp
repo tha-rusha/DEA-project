@@ -34,7 +34,7 @@
               <div class="actual-form">
                 <div class="input-wrap">
                    <input type="text" minlength="4" class="input-field" autocomplete="off" required />
-                   <label>Name</label>
+                   <label>Username</label>
                 </div>
 
                 <div class="input-wrap"> 
@@ -48,7 +48,7 @@
 
             <form action="index.html" autocomplete="off" class="sign-up-form">
               <div class="logo">
-                <img src="images/logo1.png" alt="easyclass" />
+                <img src="images/logo1black.png" alt="easyclass" />
               </div>
 
               <div class="heading">
@@ -104,7 +104,7 @@
 
           <div class="carousel">
             <div class="images-wrapper">
-              <img src="images/logo1.png"  class="image img-1 show" alt="" />
+              <img src="images/logo012.png"  class="image img-1 show" alt="" />
             </div> 
           </div>
         </div>

@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="css/chatstyle.css">
     
-    <script src="response.js" defer></script>
-    <script src="app.js" defer></script>
+    <script src="css/response.js" defer></script>
+    <script src="css/app.js" defer></script>
   </head>
   <body>
     <div class="container">

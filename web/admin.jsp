@@ -74,10 +74,11 @@
 				      </div>
                                             <nav id="nav-menu-container">
 				        <ul class="nav-menu">
-				          <li><a href="index.html">Home</a></li>
+				          <li><a href="index.jsp">Home</a></li>
 				          <li><a href="">About</a></li>		       		          
 				          <li><a href="">Contact</a></li>
-						  <li><a href="">My Account</a></li>	
+                                          <li><a href="admin.jsp">Admin</a></li>
+				          <li><a href="">My Account</a></li>	
 				        </ul>
 				      </nav>
                                             

@@ -18,10 +18,10 @@ body {
   background: midnightblue;
 }
 .container {
-  --light-color:pink;
+  light-color:pink;
   height: 420px;
   width: 350px;
-  background:#5ef796;
+  background:#ffffff;
   position: fixed;
   bottom: 50px;
   right: 10px;
@@ -90,9 +90,13 @@ body {
 }
 .chatbot-message {
   background: #1c293b;
-  color:#DE1111;
-  align-self: flex-sta  color:var(--light-color);rt;
+  color:#ffffff;
+    padding-left: 10px;
+
+  align-self: flex-sta;
+      color:var(--light-color);rt;
   border-radius: 10px 10px 3px 10px;
+  
 }
 
 
