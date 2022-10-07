@@ -179,8 +179,12 @@
 												<form>
 												<td style="padding-left: 10px">
                                                                                                     <label style="font-weight: bold">Mobile : </label><br><p>0761234567</p>
+                                                                                                    <a href="chat.jsp"><img src="images/chat.png" alt="HTML tutorial" style="width:42px;height:42px ;"></a>
+                                                                                              
 												</td>
+                                                                                               
                                                                                         </tr>
+                                                                                              
                                                                                         
 											
 										</table><!--
