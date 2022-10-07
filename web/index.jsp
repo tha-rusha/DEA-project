@@ -102,7 +102,7 @@
                                                         <h6>About Us</h6>
 							<h1>Who We Are?</h1>
 							<p>
-								An airline is a company that provides air transport services for traveling passengers and freight. Airlines use aircraft to supply these services and may form partnerships or alliances with other airlines for codeshare agreements, in which they both offer and operate the same flight.
+					                  Our company is a company that provides air transport services for traveling passengers and freight. We use aircraft to supply these services and may form partnerships or alliances with other airlines.
 							</p>
                                                     </div>    
 						</div>
@@ -187,9 +187,9 @@
 		            	<a href="#"><i class="icon ion-social-facebook"></i></a>
 		            </div>
 		            <ul class="list-inline">
-		                <li class="list-inline-item"><a href="#">Home</a></li>
-		                <li class="list-inline-item"><a href="#">About</a></li>
-		                <li class="list-inline-item"><a href="#">Contact</a></li>
+                                <li class="list-inline-item"><a href="index.jsp">Home</a></li>
+		                <li class="list-inline-item"><a href="#aboutus">About</a></li>
+		                <li class="list-inline-item"><a href="#contactus">Contact</a></li>
 		                <li class="list-inline-item"><a href="#">Terms</a></li>
 		                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
 		            </ul>

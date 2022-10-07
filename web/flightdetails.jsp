@@ -10,9 +10,9 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Flight Details</title>
-        <link rel="stylesheet" href="css/flightdetails.css"/> 
+        <link rel="stylesheet" href="css/main.css"> 
        <!-- CSS only -->
-            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<!--            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">-->
     
     <!-- footer -->
 		    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
@@ -48,7 +48,7 @@
 			</header>
 			<!-- #header -->
       
- <div id="wrapper">
+ <div id="wrapper" style="padding-top:150px;padding-bottom: 150px;">
      
   <h1>Your Flight Details</h1>
   

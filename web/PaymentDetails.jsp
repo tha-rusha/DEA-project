@@ -168,7 +168,7 @@
                 
         </div>
         
-        <input type="submit" value="PAY" class="submit-btn">
+        <a href="paysuccess.jsp" input type="submit" value="PAY" style="text-align:center" class="submit-btn">PAY</a>
         
     </form>
 

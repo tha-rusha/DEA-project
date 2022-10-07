@@ -144,7 +144,7 @@
 									 <table style="margin-left:auto;margin-right:auto;">
 									<tr>
 										<td style="padding-left: 200%;" >
-											<button class="button" style="height:35px;width:100px;background-color: #DE1111;border-radius: 5px;margin-right: auto;">Log Out</button>
+											  <a href="index.jsp" button class="button" style="height:35px;width:100px;background-color: #DE1111;border-radius: 5px;margin-right: auto;">Log Out</a>
 										</td>
 									
 									<tr>
