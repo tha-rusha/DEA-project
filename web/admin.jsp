@@ -32,27 +32,38 @@
 					var flight = document.getElementById("flightSec");
 					var ticket = document.getElementById("ticketSec");
 					var staff = document.getElementById("staffSec");
+                                        var account = document.getElementById("accountSec");
 
 					if(btn == "btnInfo"){
 						info.style.display = "block";
 						flight.style.display = "none";
 						ticket.style.display = "none";
 						staff.style.display = "none";
+                                                account.style.display = "none";
 					}else if(btn =="btnFlight"){
 						info.style.display = "none";
 						flight.style.display = "block";
 						ticket.style.display = "none";
 						staff.style.display = "none";
+                                                account.style.display = "none";
 					}else if(btn == "btnTicket"){
 						info.style.display = "none";
 						flight.style.display = "none";
 						ticket.style.display = "block";
 						staff.style.display = "none";
+                                                account.style.display = "none";
 					}else if(btn == "btnStaff"){
 						info.style.display = "none";
 						flight.style.display = "none";
 						ticket.style.display = "none";
 						staff.style.display = "block";
+                                                account.style.display = "none";
+					}else if(btn == "btnAccount"){
+						info.style.display = "none";
+						flight.style.display = "none";
+						ticket.style.display = "none";
+						staff.style.display = "none";
+                                                account.style.display = "block";
 					}
 				}
 		</script>
@@ -97,7 +108,7 @@
 						<!-- <div class="col-lg-4 col-md-6 banner-right"> -->
 						<div class="col-lg-4 info-left">
 
-							<div style="height: 550px; background-color: white; border-radius: 25px;">
+							<div style="height: 600px; background-color: white; border-radius: 25px;">
 								<table style="margin-left:auto;margin-right:auto;">
 									<tr>
 										<td style="padding-top: 25px"><img src="images/img_avatar.png" alt="Avatar" width="150px;" style="border-radius: 50%;"></td>
@@ -127,6 +138,11 @@
 											<button class="button" style="height:50px;width:180px;background-color: #0be03d;" id="btnStaff" onclick="switchSection(this.id)">STAFF DETAILS</button>
 										</td>
 									</tr>
+                                                                        <tr>
+										<td style="padding-top: 20px">
+											<button class="button" style="height:50px;width:180px;background-color: #345beb;" id="btnAccount" onclick="switchSection(this.id)">Create Staff Account</button>
+										</td>
+									</tr>
 								</table>
 
 							</div>
@@ -135,7 +151,7 @@
 							<!-- banner area 1 -->
 						 <div class="col-lg-8 info-right" id="myDIV">
 
-							 <div style="height: 550px; background-color: white; border-radius: 25px;">
+							 <div style="height: 600px; background-color: white; border-radius: 25px;">
 									<br>
 									<!-- 1 -->
 								<div name="infoSec" id="infoSec">
@@ -419,6 +435,78 @@
 								</table> -->
 								</div>
 								<!-- 4 end -->
+                                                                
+                                                                <!-- 5 -->
+								<div name="accountSec" id="accountSec" style="display: none;">
+									<h4 style="text-align: center;font-size: 32px;color: #ffffff; background-color:#345beb;">Create Staff Account</h4>
+									 <table style="margin-left:auto;margin-right:auto;">
+<!--									<tr>
+										<td style="padding-left: 115%;" >
+											<button class="button" style="height:35px;width:100px;background-color: #DE1111;border-radius: 5px;margin-right: auto;">Log Out</button>
+										</td>
+									</tr>-->
+<!--									<tr>
+										<td style="padding-top: 20px">
+											<form>
+												<input type="text" name="Search" placeholder="Ticket ID" style="width: 250px;">
+											</form>
+										</td>
+										<td style="padding-top: 20px">
+											&#128269
+										</td>
+									</tr>-->
+									<tr>
+										<table style="margin-top: 30px; margin-left: 35px;">
+											<tr>
+												<td style="padding: 5px" rowspan="6" width="110px"></td>
+											</tr>
+											<tr>
+												<form>
+												<td style="padding-left: 10px">
+													<label>Name : </label><br><input type="text" name="name">
+												</td>
+                                                                                        </tr>
+											<tr>
+                                                                                                
+												<td style="padding-left: 10px">
+													<label>Staff ID : </label><br><input type="text" name="staffid">
+												</td>
+											</tr>
+											<tr>
+												<form>
+												<td style="padding-left: 10px">
+													<label>Staff Type : </label><br>
+                                                                                                        <input type="radio" id="html" name="staff1" value="Staff 01">Staff 01
+                                                                                                        <input type="radio" id="html" name="staff1" value="Staff 02">Staff 02
+												</td>
+                                                                                        </tr>
+											<tr>       
+												<td style="padding-left: 10px">
+													<label>Email : </label><br><input type="text" name="email">
+												</td>
+											</tr>
+											<tr>
+												<form>
+												<td style="padding-left: 10px">
+													<label>Password : </label><br><input type="password" name="paws">
+												</td>
+                                                                                        </tr>
+											</form>
+										</table>
+										<br>
+                                                                
+									</tr>
+                                                                <table>
+                                                                        <tr>
+                                                                            <td style="padding-left: 450px">
+                                                                                <a href="StaffDashboard1.jsp" button class="button" style="height:50px;width:180px;background-color: #38e049; border-radius: 5px">Create Account</a>
+										</td>
+									</tr>
+
+								</table> 
+								</div>
+								<!-- 5 end -->
+
 							 </div>
 							 <!-- banner area 1 end -->
 
