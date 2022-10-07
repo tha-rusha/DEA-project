@@ -34,7 +34,7 @@
               <div class="actual-form">
                 <div class="input-wrap">
                    <input type="text" minlength="4" class="input-field" autocomplete="off" required />
-                   <label>Name</label>
+                   <label>Username</label>
                 </div>
 
                 <div class="input-wrap"> 
