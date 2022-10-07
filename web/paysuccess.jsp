@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Payment Successfull</title>
+        <title>Payment Success full</title>
         <link rel="stylesheet" href="css/paysuccess.css"/>
     </head>
     <body>
@@ -22,7 +22,7 @@
             </div>
             <div class="content">
                 <img alt="check" src="images/check.jpg"/>
-               <h1 style="font-size: 26px" >Your payment was Successfull !</h1>
+               <h1 style="font-size: 26px" >Your payment was Success full !</h1>
                <p>Thank you for your payment </p>
                <a href="TicketDetails.jsp">SHOW ME THE TICKET</a>
                
