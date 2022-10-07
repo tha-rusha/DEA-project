@@ -59,7 +59,7 @@
 							<p class="text-white">
 								Phoenix Airline is a premier domestic Sri Lankan air taxi service offering daily scheduled flights, as well as luxury private charter flights and scenic flights, between its hub at the Bandaranaike International Airport and the island’s most picturesque locations. The experience of flying with our luxurious air taxi in Sri Lanka affords passengers a bird’s-eye-view of the stunning scenery below, whilst significantly reducing surface travel time to destinations across the country.
 							</p>
-							<a href="#" class="primary-btn text-uppercase">REGISTER</a>
+							<a href="signup and login.jsp" class="primary-btn text-uppercase">REGISTER</a>
                                                         <br><br><br><br><br><br><br><br><br><br><br>
 						</div>
 						<div class="col-lg-4 col-md-6 banner-right">
