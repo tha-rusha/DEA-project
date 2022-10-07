@@ -18,7 +18,7 @@ body {
   background: midnightblue;
 }
 .container {
-  --light-color:pink;
+  light-color:pink;
   height: 420px;
   width: 350px;
   background:#5ef796;
