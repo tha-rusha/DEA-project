@@ -91,10 +91,7 @@ body {
 .chatbot-message {
   background: #1c293b;
   color:#ffffff;
-    padding-left: 10px;
-
-  align-self: flex-sta;
-     
+  align-self: flex-sta;   
   border-radius: 10px 10px 3px 10px;
   
 }
