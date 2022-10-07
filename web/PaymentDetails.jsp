@@ -4,6 +4,7 @@
     Author     : ASUS
 --%>
 
+<%@page import="lk.phoenixairline.model.FlightBooking"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -28,6 +29,8 @@
 </head>
 <body>
     
+   
+    
     <header id="header">
 				<div class="header-top">
 					<div class="contain">			  					
@@ -43,9 +46,11 @@
 				          <li><a href="index.html">Home</a></li>
 				          <li><a href="">About</a></li>		       		          
 				          <li><a href="">Contact</a></li>
-						  <li><a href="">My Account</a></li>	
+					  <li><a href="">My Account</a></li>
+                                          <li>User : <% out.println(session.getAttribute("userName")); %></li>
 				        </ul>
 				      </nav>
+                                        
 			<!-- #nav-menu-contain -->					      		  
 					</div>
 				</div>
@@ -80,8 +85,20 @@
     
 
 <div class="container">
+    
+            <% 
+         
+        request.setAttribute("form_s",session.getAttribute("form_s")); 
+        request.setAttribute("to_s",session.getAttribute("to_s")); 
+        request.setAttribute("start_s",session.getAttribute("start_s")); 
+        request.setAttribute("return_s",session.getAttribute("return_s")); 
+        request.setAttribute("adults",session.getAttribute("adults")); 
+        request.setAttribute("child",session.getAttribute("child")); 
+%> 
+    
+   
 
-    <form action="">
+<form action="PaymentServelet" method="POST">
 
         <div class="row">
 
@@ -89,38 +106,38 @@
 
                 <h3 class="title">billing address</h3>
 
-                
-
                 <div class="inputBox">
                     <span>Full Name :</span>
-                    <input type="text" placeholder="Kasun Wijenayake">
+                    <input name="fullName" type="text" placeholder="Kasun Wijenayake">
                 </div>
                 <div class="inputBox">
                     <span>Email :</span>
-                    <input type="email" placeholder="kasun.99@example.com">
+                    <input name="email" type="email" placeholder="kasun.99@example.com">
                 </div>
                 <div class="inputBox">
-                    <span>Address :</span>
-                    <input type="text" placeholder="Galle Road, Colombo">
+                    <span>Passport Number</span>
+                    <input name="passportNumber" type="text" placeholder="Galle Road, Colombo">
                 </div>
 
                 <div class="inputBox">
                     <span>City :</span>
-                    <input type="text" placeholder="Galle">
+                    <input name="city" type="text" placeholder="Galle">
                 </div>
 
                 <div class="flex">
                     <div class="inputBox">
                         <span>State :</span>
-                        <input type="text" placeholder="Sri Lanka">
+                        <input name="states" type="text" placeholder="Sri Lanka">
                     </div>
                     <div class="inputBox">
                         <span>Zip Code :</span>
-                        <input type="text" placeholder="80100">
+                        <input name="zipcode" type="text" placeholder="80100">
                     </div>
                 </div>
 
             </div>
+            
+      
             
             <div class="col">
                 
@@ -132,33 +149,31 @@
                 </div>
                 <div class="inputBox">
                     <span>Name on Card :</span>
-                    <input type="text" placeholder="mr. Kasun Theekshana Wijenayake">
+                    <input name="nameOnCard" type="text" placeholder="mr. Kasun Theekshana Wijenayake">
                 </div>
                 
                 <div class="inputBox">
                     <span>Credit Card Number :</span>
-                    <input type="number" placeholder="XXXX-XXXX-XXXX-XXXX">
+                    <input name="creditCardNumber" type="number" placeholder="XXXX-XXXX-XXXX-XXXX">
                 </div>
                 <div class="inputBox">
                     <span>Exp Month :</span>
-                    <input type="text" placeholder="December">
+                    <input name="expMonth" type="text" placeholder="December">
                 </div>
                 
                 <div class="flex">
                     <div class="inputBox">
                         <span>Exp Year :</span>
-                        <input type="number" placeholder="2025">
+                        <input name="expYear" type="number" placeholder="2025">
                     </div>
                     <div class="inputBox">
                         <span>CVV :</span>
-                        <input type="text" placeholder="XXX">
+                        <input name="cvv" type="text" placeholder="XXX">
                     </div>
                 </div>
                 
             </div>
-                
-                
-                
+                          
         </div>
         
         <input type="submit" value="PAY" class="submit-btn">

@@ -14,6 +14,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+ 
 }
 html { overflow-y: scroll; }
 body { 
@@ -65,7 +66,7 @@ h1 {
 /** page structure **/
 #wrapper {
   display: block;
-  width: 850px;
+  width: 1500px;
   background: #fff;
   margin: 0 auto;
   padding: 10px 17px;
@@ -75,7 +76,7 @@ h1 {
 #keywords {
   margin: 0 auto;
   font-size: 1.2em;
-  margin-bottom: 15px;
+  margin-bottom: 35px;
 }
 
 
@@ -113,6 +114,7 @@ h1 {
   text-align: center;
   padding: 15px 10px;
 }
-#keywords tbody tr td.lalign {
+#keywords tbody tr td.lalign 
+{
   text-align: left;
 }

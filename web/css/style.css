@@ -1,12 +1,38 @@
+
+/*------------------------------------------------------------------
+
+1.  Basic Styles
+	1.1	Variables
+	1.2	Mixins
+	1.3	Flexbox
+	1.4	Reset
+2.  Elements
+3.  Menu Style 
+4.  Home Page Style
+5.  Footer Style
+
+-------------------------------------------------------------------*/
+/* =================================== */
+/*  Font Family and Colors Styles
+/* =================================== */
 /*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
+
+$primary-font	: 'Poppins', sans-serif;
+---------------------------------------------
+
+$primary-color	: #f8b600;
+$title-color	: #222222;
+$text-color		: #777777;
+
+$white			: #fff;
+$offwhite		: #f9f9ff;
+$black			: #222;
+
 */
-/* 
-    Created on : Oct 1, 2022, 11:15:18 PM
-    Author     : DELL
-*/
+/* =================================== */
+/*  Basic Style 
+/* =================================== */
+
 
 body {
   color: #777777;
@@ -475,6 +501,7 @@ td, th {
 .p-40 {
   padding: 40px;
 }
+
 .float-left {
   float: left;
 }
@@ -516,7 +543,10 @@ td, th {
 .text-rigth {
   text-align: right;
 }
-display-table {
+
+
+
+.display-table {
   display: table;
 }
 
@@ -552,6 +582,7 @@ display-table {
   padding-left: 0;
   padding-right: 0;
 }
+
 
 /* =================================== */
 
@@ -624,6 +655,9 @@ h1, h2, h3, h4, h5, h6 {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+
+
+
 .main-menu {
   padding-bottom: 20px;
   padding-top: 20px;
@@ -708,6 +742,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
   font-weight: normal;
 }
+
 .sf-arrows ul .sf-with-ul:after {
   content: "\f105";
 }
@@ -767,6 +802,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 10px;
   margin-top: 0;
 }
+
 /* Mobile Nav Toggle */
 #mobile-nav-toggle {
   float: right;
@@ -943,6 +979,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .primary-btn:hover {
   color: #fff;
 }
+
 .primary-btn:hover span {
   color: #fff;
   right: 20px;
@@ -1010,7 +1047,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*-------- Start Banner Area ------------*/
 .banner-area {
-  background: url("../img/hero-bg.png") center;
+  background: url("../images/hero-bg.png") center;
   background-size: cover;
 }
 
@@ -1109,6 +1146,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 .banner-right .form-wrap {
   padding: 40px 30px;
   text-align: center;
+}
+
 .banner-right .form-wrap .form-control {
   padding: 0.675rem 0.75rem;
   font-size: 13px;
@@ -1157,11 +1196,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 120px;
 }
 
-@media(max-width: 991px) {
+@media (max-width: 991px) {
   .contact-page-area .map-wrap {
     margin-bottom: 50px;
+  }
 }
-
 
 .contact-page-area .contact-btns {
   font-size: 18px;
@@ -1228,9 +1267,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 5px;
 }
 
-.contact-page-area .address-wrap .single-contact-address .lnr {
+.contact-page-area .address-wrap .single-contact-address.lnr {
   font-size: 30px;
   font-weight: 500;
   color: #DE1111;
   margin-right: 30px;
+}
+#aboutus{
+    
 }

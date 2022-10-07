@@ -13,7 +13,7 @@
         <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Sign in & Sign up Form</title>
-    <link rel="stylesheet" href="abs.css"/>
+    <link rel="stylesheet" href="css/signupandlogin.css"/>
     </head>
     <body>
         <main>
@@ -22,7 +22,7 @@
           <div class="forms-wrap">
             <form action="index.html" autocomplete="off" class="sign-in-form">
               <div class="logo">
-                <img src="images/Untitled-1.png" alt="logo">
+                <img src="images/logo1black.png" alt="logo">
               </div>
 
               <div class="heading">
@@ -34,7 +34,7 @@
               <div class="actual-form">
                 <div class="input-wrap">
                    <input type="text" minlength="4" class="input-field" autocomplete="off" required />
-                   <label>Name</label>
+                   <label>Username</label>
                 </div>
 
                 <div class="input-wrap"> 
@@ -48,7 +48,7 @@
 
             <form action="index.html" autocomplete="off" class="sign-up-form">
               <div class="logo">
-                <img src="images/Untitled-1.png" alt="easyclass" />
+                <img src="images/logo1black.png" alt="easyclass" />
               </div>
 
               <div class="heading">
@@ -83,8 +83,15 @@
                   <input type="text" minlength="4" class="input-field"  autocomplete="off" required />
                   <label>NIC/StaffID</label>
                 </div>
+                  
+                  <div class="input-wrap">
+				<h4 class="type"> Type </h4>
+                 <input type="radio"  autocomplete="off" name="type" required  value="user"> User 
+				 <input type="radio"  autocomplete="off" name="type" required  value="staff1"> Staff 1 
+				 <input type="radio"   autocomplete="off" name="type" required  value="staff2"> Staff 2
+            </div>
                  
-				  
+			  
                 <input type="submit" value="Sign Up" class="sign-btn" />
 
                 <p class="text">By signing up, I agree to the 
@@ -97,7 +104,7 @@
 
           <div class="carousel">
             <div class="images-wrapper">
-              <img src="images/logo.jpeg"  class="image img-1 show" alt="" />
+              <img src="images/logo012.png"  class="image img-1 show" alt="" />
             </div> 
           </div>
         </div>
@@ -106,6 +113,6 @@
 
     <!-- Javascript file -->
 
-    <script src="abs.js"></script>
+    <script src="css/signup.js"></script>
     </body>
 </html>

@@ -11,9 +11,12 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">		
 		<title>Travel</title>
 
-		<link rel="stylesheet" href="style.css">
+                <link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/jquery-ui.css">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+		    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+		    <link rel="stylesheet" href="css/footer.css">
     </head>
     <body>
         <header id="header">
@@ -24,14 +27,15 @@
 				<div class="container main-menu">
 					<div class="row align-items-center justify-content-between d-flex">
 				      <div id="logo">
-				        <a href="index.html"><!--<img src="img/logo.png" alt="" title="" />--></a>
+				        <a href="index.jsp">
 				      </div>
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
 				          <li><a href="index.html">Home</a></li>
 				          <li><a href="">About</a></li>		       		          
 				          <li><a href="">Contact</a></li>
-						  <li><a href="">My Account</a></li>	
+                                          <li><a href="#">My Account</a></li>	
+                                          <li>User : <% out.println(request.getParameter("customerName")); %></li>
 				        </ul>
 				      </nav>
 			<!-- #nav-menu-container -->					      		  
@@ -39,6 +43,9 @@
 				</div>
 			</header>
 			<!-- #header -->
+                        <%
+                             session.setAttribute("userName",request.getParameter("customerName"));
+                        %>
 			
 			<!-- start banner Area -->
 			<section class="banner-area relative">
@@ -51,7 +58,7 @@
 							<p class="text-white">
 								Flight or flying is the process by which an object moves through a space without contacting any planetary surface, either within an atmosphere or through the vacuum of outer space
 							</p>
-							<a href="#" class="primary-btn text-uppercase">REGISTER</a>
+							<a href="signupandlogin.jsp" class="primary-btn text-uppercase">REGISTER</a>
 						</div>
 						<div class="col-lg-4 col-md-6 banner-right">
 							<ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -62,14 +69,16 @@
 							</ul>
 							<div class="tab-content" id="myTabContent">
 							  <div class="tab-pane fade show active" id="flight" role="tabpanel" aria-labelledby="flight-tab">
-								<form class="form-wrap">
-									<input type="text" class="form-control" name="name" placeholder="From " onfocus="this.placeholder = ''" onblur="this.placeholder = 'From '">									
-									<input type="text" class="form-control" name="to" placeholder="To " onfocus="this.placeholder = ''" onblur="this.placeholder = 'To '">
-									<input type="text" class="form-control date-picker" name="start" placeholder="Start " onfocus="this.placeholder = ''" onblur="this.placeholder = 'Start '">
-									<input type="text" class="form-control date-picker" name="return" placeholder="Return " onfocus="this.placeholder = ''" onblur="this.placeholder = 'Return '">
-									<input type="number" min="1" max="20" class="form-control" name="adults" placeholder="Adults " onfocus="this.placeholder = ''" onblur="this.placeholder = 'Adults '">
-									<input type="number" min="1" max="20" class="form-control" name="child" placeholder="Child " onfocus="this.placeholder = ''" onblur="this.placeholder = 'Child '">							
-									<a href="#" class="primary-btn text-uppercase">Search flights</a>									
+                                                              <form class="form-wrap" action="FlightBookingServelet" method="POST">
+                                                                    <input type="text" name="form_s" class="form-control" name="name" placeholder="From " onfocus="this.placeholder = ''" onblur="this.placeholder = 'From '">									
+									<input type="text" name="to_s" class="form-control" name="to" placeholder="To " onfocus="this.placeholder = ''" onblur="this.placeholder = 'To '">
+									<input type="text" name="start_s" class="form-control date-picker"  placeholder="Start " onfocus="this.placeholder = ''" onblur="this.placeholder = 'Start '">
+									<input type="text" name="return_s" class="form-control date-picker"  placeholder="Return " onfocus="this.placeholder = ''" onblur="this.placeholder = 'Return '">
+									<input type="number" name="adults" min="1" max="20" class="form-control"  placeholder="Adults " onfocus="this.placeholder = ''" onblur="this.placeholder = 'Adults '">
+									<input type="number" name="child" min="1" max="20" class="form-control"  placeholder="Child " onfocus="this.placeholder = ''" onblur="this.placeholder = 'Child '">							
+                                                                        <input type="number" name="passportNumber"   class="form-control"  placeholder="Passport Number " onfocus="this.placeholder = ''" onblur="this.placeholder = 'Passport Number '">							
+									
+                                                                          <input type="submit" value="Booking Flight" class="primary-btn text-uppercase" />
 								</form>
 							  						  	
 							  </div>
