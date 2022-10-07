@@ -112,6 +112,6 @@
 
     <!-- Javascript file -->
 
-    
+    <script src="css/adminlogin.js"></script>
     </body>
 </html>
