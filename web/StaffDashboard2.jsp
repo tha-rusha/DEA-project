@@ -69,6 +69,7 @@
 				          <li><a href="index.html">Home</a></li>
 				          <li><a href="">About</a></li>		       		          
 				          <li><a href="">Contact</a></li>
+                                          <li><a href="">Admin</a></li>
 						  <li><a href="">My Account</a></li>	
 				        </ul>
 				      </nav>
@@ -89,6 +90,7 @@
 						<div class="col-lg-4 info-left">
 
 							<div style="height: 500px; background-color: white; border-radius: 25px;">
+                                                            
 								<table style="margin-left:auto;margin-right:auto;">
 									<tr>
 										<td style="padding-top: 25px"><img src="images/img_avatar.png" alt="Avatar" width="150px;" style="border-radius: 50%;"></td>
@@ -121,18 +123,23 @@
 									<br>
 									<!-- 1 -->
 								<div name="infoSec" id="infoSec">
+
+                                                                    <form>
+
+                                                                    
+
 									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Information</h4>
 									<table style="margin-left:auto;margin-right:auto;">
 									<tr>
 										<td style="padding-left: 115%;" >
-											<button class="button" style="height:35px;width:100px;background-color: #DE1111;border-radius: 5px;margin-right: auto;">Log Out</button>
+                                                                                    <a href="index.jsp" button class="button" style="height:35px;width:100px;background-color: #DE1111;border-radius: 5px;margin-right: auto;">Log Out</a>
 										</td>
 									</tr>
 									<tr>
 										<td style="padding-top: 20px">
-											<form>
+											
 												<input type="text" name="Search" placeholder="Client ID" style="width: 250px;">
-											</form>
+											
 										</td>
 										<td style="padding-top: 20px">
 											&#128269
@@ -144,46 +151,50 @@
 												<td style="padding: 5px" rowspan="6" ><img src="images/girl2.png" alt="Avatar" width="110px"></td>
 											</tr>
 											<tr>
-												<form>
+												
 												<td style="padding-left: 10px">
-													<label>Name : </label><br><input type="text" name="email">
+													<label>Name : </label><br><input type="text" name="name ">
 												</td>
 												<td style="padding-left: 10px">
 													<label>Email : </label><br><input type="text" name="email">
 												</td>
 											</tr>
-											<tr></form>
-												<form>
+											<tr>
+												
 												<td style="padding-left: 10px">
-													<label>Nic : </label><br><input type="text" name="email">
+													<label>Nic : </label><br><input type="text" name="nic">
 												</td>
 												<td style="padding-left: 10px">
-													<label>Address : </label><br><input type="text" name="email">
-												</td>
-											</tr>
-											<tr></form>
-												<form>
-												<td style="padding-left: 10px">
-													<label>Mobile : </label><br><input type="text" name="email">
-												</td>
-												<td style="padding-left: 10px">
-													<label>Gender : </label><br><input type="text" name="email">
+													<label>Address : </label><br><input type="text" name="address">
 												</td>
 											</tr>
-											</form>
+											<tr>
+												
+												<td style="padding-left: 10px">
+													<label>Mobile : </label><br><input type="text" name="mobile">
+												</td>
+												<td style="padding-left: 10px">
+													<label>Gender : </label><br><input type="text" name="gender">
+												</td>
+											</tr>
+											
 										</table>
 										<br>
 									</tr>
 									
 
 									</table>
+                                                                    </form>
 								</div>
 								<!-- 1 end -->
 
 								<!-- 2 -->
 								<div name="flightSec" id="flightSec" style="display: none;">
+                                                                    
 									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Flights</h4>
+                                                                        
 									<table style="margin-left:auto;margin-right:auto;">
+                                                                            
 									<tr>
 										<td style="padding-left: 115%;" >
 											<button class="button" style="height:35px;width:100px;background-color: #DE1111;border-radius: 5px;margin-right: auto;">Log Out</button>
@@ -191,9 +202,9 @@
 									</tr>
 									<tr>
 										<td style="padding-top: 20px">
-											<form>
+											
 												<input type="text" name="Search" placeholder="Fligth ID" style="width: 250px;">
-											</form>
+											
 										</td>
 										<td style="padding-top: 20px">
 											&#128269
@@ -205,33 +216,33 @@
 												<td style="padding: 5px" rowspan="6" width="110px"></td>
 											</tr>
 											<tr>
-												<form>
+												
 												<td style="padding-left: 10px">
-													<label>Flight ID : </label><br><input type="text" name="email">
+													<label>Flight ID : </label><br><input type="text" name="fligthid">
 												</td>
 												<td style="padding-left: 10px">
-													<label>Depature : </label><br><input type="text" name="email">
-												</td>
-											</tr>
-											<tr>
-												<form>
-												<td style="padding-left: 10px">
-													<label>Modle : </label><br><input type="text" name="email">
-												</td>
-												<td style="padding-left: 10px">
-													<label>Arrival : </label><br><input type="text" name="email">
+													<label>Depature : </label><br><input type="text" name="depature">
 												</td>
 											</tr>
 											<tr>
-												<form>
+												
 												<td style="padding-left: 10px">
-													<label>Airline : </label><br><input type="text" name="email">
+													<label>Modle : </label><br><input type="text" name="modle">
 												</td>
 												<td style="padding-left: 10px">
-													<label>Terminal : </label><br><input type="text" name="email">
+													<label>Arrival : </label><br><input type="text" name="arrival">
 												</td>
 											</tr>
-											</form>
+											<tr>
+												
+												<td style="padding-left: 10px">
+													<label>Airline : </label><br><input type="text" name="airline">
+												</td>
+												<td style="padding-left: 10px">
+													<label>Terminal : </label><br><input type="text" name="terminal">
+												</td>
+											</tr>
+											
 										</table>
 										<br>
 									</tr>
@@ -246,8 +257,9 @@
 								</div>
 
 								</table>
-								</div>
-								<!-- 2 end -->
+                                                             </form>
+								</div>	
+							<!-- 2 end -->
 
 
 							 </div>
@@ -274,9 +286,9 @@
 		            	<a href="#"><i class="icon ion-social-facebook"></i></a>
 		            </div>
 		            <ul class="list-inline">
-		                <li class="list-inline-item"><a href="#">Home</a></li>
-		                <li class="list-inline-item"><a href="#">About</a></li>
-		                <li class="list-inline-item"><a href="#">Contact</a></li>
+		                <li class="list-inline-item"><a href="index.jsp">Home</a></li>
+                                <li class="list-inline-item"><a href="index.jsp">About</a></li>
+                                <li class="list-inline-item"><a href="index.jsp">Contact</a></li>
 		                <li class="list-inline-item"><a href="#">Terms</a></li>
 		                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
 		            </ul>
@@ -286,6 +298,5 @@
 		    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
                     <!--end footer-->
-                    
 		</body>
 </html>
