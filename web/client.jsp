@@ -167,7 +167,7 @@
 											<tr></form>
 												<form>
 												<td style="padding-left: 10px">
-                                                                                                    <label style="font-weight: bold">Passport No. : </label><br><p>N1234567</p>
+                                                                                                    <label style="font-weight: bold">Client ID : </label><br><p>00157</p>
 												</td>
                                                                                         </tr>
                                                                                         <tr>
