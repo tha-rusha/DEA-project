@@ -21,7 +21,7 @@
                <div class="check"><i class="fa fa-check" aria-hidden="true"></i></div>
             </div>
             <div class="content">
-               <h1>Your payment was Successfull !</h1>
+               <h1 style="font-size: 26px" >Your payment was Successfull !</h1>
                <p>Thank you for your payment </p>
                <a href="index.jsp">Go to Home</a>
             </div>

@@ -18,8 +18,8 @@ and open the template in the editor.
 
     .payment
 	{
-		border:1px solid #f2f2f2;
-	height:280px;
+	border:1px solid #f2f2f2;
+	height:380px;
         border-radius:20px;
         background:#fff;
 	}
@@ -27,7 +27,7 @@ and open the template in the editor.
    {
 	   background:rgba(150, 40, 27);, 1;
 	   padding:20px;
-          border-radius:20px 20px 0px 0px;
+           border-radius:20px 20px 0px 0px;
 	   
    }
    
@@ -39,6 +39,7 @@ and open the template in the editor.
 	   border-radius:100%;
 	   background:#fff;
 	   text-align:center;
+           
    }
    
    .check i
@@ -51,12 +52,14 @@ and open the template in the editor.
     .content 
     {
         text-align:center;
+        background-image: url(/images/right.png);
     }
 
     .content  h1
     {
         font-size:25px;
         padding-top:25px;
+        font-family: "Times New Roman", Times, serif;
     }
 
     .content a
