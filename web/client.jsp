@@ -120,7 +120,7 @@
 									</tr>
 									<tr>
 										<td style="padding-top: 20px">
-											<button class="button" style="height:50px;width:180px;background-color: #DE1111;" id="btnTicket" onclick="switchSection(this.id)">Previous Bookings</button>
+											<button class="button" style="height:50px;width:180px;background-color: #DE1111;"  onclick="switchSection(this.id)"id="btnTicket">Previous Bookings</button>
 										</td>
 									</tr>
 									<tr>
@@ -141,56 +141,49 @@
 									<!-- 1 -->
 								<div name="infoSec" id="infoSec">
 									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">My Profile</h4>
-									<!-- <table style="margin-left:auto;margin-right:auto;">
+									 <table style="margin-left:auto;margin-right:auto;">
 									<tr>
-										<td style="padding-left: 115%;" >
+										<td style="padding-left: 200%;" >
 											<button class="button" style="height:35px;width:100px;background-color: #DE1111;border-radius: 5px;margin-right: auto;">Log Out</button>
 										</td>
-									</tr>
-									<tr>
-										<td style="padding-top: 20px">
-											<form>
-												<input type="text" name="Search" placeholder="Client ID" style="width: 250px;">
-											</form>
-										</td>
-										<td style="padding-top: 20px">
-											&#128269
-										</td>
-									</tr>
+									
 									<tr>
 										<table style="margin-top: 30px; margin-left: 35px;">
 											<tr >
-												<td style="padding: 5px" rowspan="6" ><img src="img/girl2.png" alt="Avatar" width="110px"></td>
+												<td style="padding: 5px" rowspan="6" ><img src="images/girl2.png" alt="Avatar" width="110px"></td>
 											</tr>
 											<tr>
 												<form>
 												<td style="padding-left: 10px">
-													<label>Name : </label><br><input type="text" name="email">
+                                                                                                    <label style="font-weight: bold">Name : </label><br><p>Thilina Kumara Silva</p>
 												</td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                                
 												<td style="padding-left: 10px">
-													<label>Email : </label><br><input type="text" name="email">
+                                                                                                    <label style="font-weight: bold">Email : </label><br><p>thilinakumara250@gmail.com</p>
 												</td>
 											</tr>
 											<tr></form>
 												<form>
 												<td style="padding-left: 10px">
-													<label>Passport No. : </label><br><input type="text" name="email">
+                                                                                                    <label style="font-weight: bold">Passport No. : </label><br><p>N1234567</p>
 												</td>
+                                                                                        </tr>
+                                                                                        <tr>
 												<td style="padding-left: 10px">
-													<label>Address : </label><br><input type="text" name="email">
+                                                                                                    <label style="font-weight: bold">Address : </label><br><p>20/1/B,Pitipana,Homagama,Colombo.</p>
 												</td>
 											</tr>
 											<tr></form>
 												<form>
 												<td style="padding-left: 10px">
-													<label>Mobile : </label><br><input type="text" name="email">
+                                                                                                    <label style="font-weight: bold">Mobile : </label><br><p>0761234567</p>
 												</td>
-												<td style="padding-left: 10px">
-													<label>Gender : </label><br><input type="text" name="email">
-												</td>
-											</tr>
-											</form>
-										</table>
+                                                                                        </tr>
+                                                                                        
+											
+										</table><!--
 										<br>
 									</tr>
 									<tr >
@@ -219,12 +212,13 @@
 								<!-- 3 -->
 								<div name="ticketSec" id="ticketSec" style="display: none;">
 									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Previous Bookings</h4>
-									<!-- <table style="margin-left:auto;margin-right:auto;">
+									 <table style="margin-left:auto;margin-right:auto;">
 									<tr>
 										<td style="padding-left: 115%;" >
 											<button class="button" style="height:35px;width:100px;background-color: #DE1111;border-radius: 5px;margin-right: auto;">Log Out</button>
 										</td>
 									</tr>
+                                                                         </table><!--
 									<tr>
 										<td style="padding-top: 20px">
 											<form>
@@ -284,7 +278,7 @@
 									</tr>
 
 								</table> -->
-								</div>
+								
 								<!-- 3 end -->
 								<!-- 4 -->
 								<div name="staffSec" id="staffSec" style="display: none;">
