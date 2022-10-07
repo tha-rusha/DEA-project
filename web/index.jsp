@@ -95,7 +95,7 @@
 				<div class="container">
 					<div class="row align-items-center">
 						<div class="col-lg-6 info-left">
-							<img class="img-fluid" src="images/info-img.png" alt="">
+							<img class="img-fluid" src="images/info-img.png" alt="" id="about">
 						</div>
 						<div class="col-lg-6 info-right">
                                                     <div class="aboutus">	
