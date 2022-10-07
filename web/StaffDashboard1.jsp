@@ -377,8 +377,8 @@
 		            </div>
 		            <ul class="list-inline">
 		                <li class="list-inline-item"><a href="index.jsp">Home</a></li>
-		                <li class="list-inline-item"><a href="#aboutus">About</a></li>
-		                <li class="list-inline-item"><a href="#contactus">Contact</a></li>
+                                <li class="list-inline-item"><a href="index.jsp">About</a></li>
+                                <li class="list-inline-item"><a href="index.jsp">Contact</a></li>
 		                <li class="list-inline-item"><a href="#">Terms</a></li>
 		                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
 		            </ul>
