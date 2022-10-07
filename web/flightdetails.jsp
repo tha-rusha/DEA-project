@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">		
 		<title>flight details</title>
-
+                <link rel="stylesheet" href="flightdetails.css"/>
                 <link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/jquery-ui.css">
@@ -18,7 +18,7 @@
 		    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 		    <link rel="stylesheet" href="css/footer.css">
     </head>
-    <body>
+    
         <header id="header">
 				<div class="header-top">
 					<div class="container">			  					
@@ -59,7 +59,7 @@
 			</section>
 			<!-- End banner Area -->
                         
-                        <table id="keywords" cellspacing="0" cellpadding="0" style="position: absolute;padding-top: 100px">
+                  <table id="keywords" cellspacing="0" cellpadding="0" style="position: absolute;padding-top: 100px">
     <thead>
       <tr>
                <th><span>Airplane ID</span></th>
@@ -92,42 +92,15 @@
     </tbody>
     
   </table>
-			
-			
-			
 		
 			
-			
-			
-
-			<!-- start footer Area -->
-
-  <footer class="bg-dark text-center text-white">
-  
-  <div class="container p-4 pb-0">
-    
-    <section class="mb-4">
-    
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
-
-    </section>
-  </div>
-
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);"> © 2020 Copyright:
-    <a class="text-white"> phoenixflights.com</a>
-  </div>
-</footer>
-
-<!-- End footer Area -->	
 
 			<script src="js/vendor/jquery-2.2.4.min.js"></script>
 			<script src="js/superfish.min.js"></script>	
 			<script src="js/jquery.magnific-popup.min.js"></script>						
 			<script src="js/owl.carousel.min.js"></script>							
 			<script src="js/main.js"></script>
-    </body>
+    
 </html>
 
 
