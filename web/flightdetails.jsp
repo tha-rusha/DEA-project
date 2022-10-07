@@ -9,8 +9,13 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">		
+<<<<<<< HEAD
 		<title>Travel</title>
 
+=======
+		<title>flight details</title>
+                <link rel="stylesheet" href="flightdetails.css"/>
+>>>>>>> 89b9d6d7008f04b32633ac60cd2099926f8e72ec
                 <link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/jquery-ui.css">
@@ -18,7 +23,7 @@
 		    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 		    <link rel="stylesheet" href="css/footer.css">
     </head>
-    <body>
+    
         <header id="header">
 				<div class="header-top">
 					<div class="container">			  					
@@ -58,7 +63,11 @@
 			</section>
 			<!-- End banner Area -->
                         
+<<<<<<< HEAD
                         <table class="table" cellspacing="0" cellpadding="0" style="position: absolute;padding-top: 100px">
+=======
+                  <table id="keywords" cellspacing="0" cellpadding="0" style="position: absolute;padding-top: 100px">
+>>>>>>> 89b9d6d7008f04b32633ac60cd2099926f8e72ec
     <thead>
         <tr style="background: #002752;color: white">
                <th scope="col"><span>Airplane ID</span></th>
@@ -96,6 +105,7 @@
     </tbody>
     
   </table>
+<<<<<<< HEAD
 			
 			<!-- start about info -->
                         <section class="about-info-area section-gap" style="height: 180px">
@@ -200,11 +210,15 @@
 </footer>
 
 <!-- End footer Area -->	
+=======
+		
+			
+>>>>>>> 89b9d6d7008f04b32633ac60cd2099926f8e72ec
 
 			<script src="js/vendor/jquery-2.2.4.min.js"></script>
 			<script src="js/superfish.min.js"></script>	
 			<script src="js/jquery.magnific-popup.min.js"></script>						
 			<script src="js/owl.carousel.min.js"></script>							
 			<script src="js/main.js"></script>
-    </body>
+    
 </html>
