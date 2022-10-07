@@ -3,7 +3,10 @@
     Created on : Oct 5, 2022, 11:50:41 PM
     Author     : tharu
 --%>
-
+<%@page import="lk.phoenixairline.model.FlightBooking"%>
+<%@page import="java.util.List"%>
+<%@page import="lk.phoenixairline.model.Customer"%>
+<%@page import="java.util.ArrayList"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -28,6 +31,7 @@
 		<script type="text/javascript">
 
 				function switchSection(btn){
+                                    console.log(btn);
 					var info = document.getElementById("infoSec");
 					var flight = document.getElementById("flightSec");
 					var ticket = document.getElementById("ticketSec");
@@ -53,7 +57,12 @@
 						flight.style.display = "none";
 						ticket.style.display = "none";
 						staff.style.display = "block";
-					}
+					}else{
+                                            info.style.display = "none";
+						flight.style.display = "none";
+						ticket.style.display = "none";
+						staff.style.display = "none";
+                                        }
 				}
 		</script>
 		<!-- Js End -->
@@ -74,11 +83,10 @@
 				      </div>
                                             <nav id="nav-menu-container">
 				        <ul class="nav-menu">
-				          <li><a href="index.jsp">Home</a></li>
+				          <li><a href="index.html">Home</a></li>
 				          <li><a href="">About</a></li>		       		          
 				          <li><a href="">Contact</a></li>
-                                          <li><a href="admin.jsp">Admin</a></li>
-				          <li><a href="">My Account</a></li>	
+						  <li><a href="">My Account</a></li>	
 				        </ul>
 				      </nav>
                                             
@@ -109,22 +117,31 @@
 									</tr>
 									<tr>
 										<td style="padding-top: 20px">
-											<button class="button" style="height:50px;width:180px;background-color: #0be03d;" onclick="switchSection(this.id)" id="btnInfo">CLIENT DETAILS</button>
+                                                                                    <form action="ClientDetailsServelet" method="post">
+                                                                                        <button class="button" style="height:50px;width:180px;background-color: #0be03d;" onclick="switchSection(this.id)" id="btnInfo">CLIENT DETAILS</button>
+                                                                                    </form>
+                                                                                    
 										</td>
 									</tr>
 									<tr>
 										<td style="padding-top: 20px">
+                                                                                    <form action="FlightDetailsServelet" method="post">
 											<button class="button" style="height:50px;width:180px;background-color: #0be03d;" onclick="switchSection(this.id)" id="btnFlight">FLIGHT DETAILS</button>
+                                                                                        </form>
 										</td>
 									</tr>
 									<tr>
 										<td style="padding-top: 20px">
+                                                                                    <form action="TicketDetailsServelet">
 											<button class="button" style="height:50px;width:180px;background-color: #0be03d;" id="btnTicket" onclick="switchSection(this.id)">TICKET DETAILS</button>
+                                                                                        </form>
 										</td>
 									</tr>
 									<tr>
 										<td style="padding-top: 20px">
+                                                                                    <form action="StaffDetailsServelet" method="post">
 											<button class="button" style="height:50px;width:180px;background-color: #0be03d;" id="btnStaff" onclick="switchSection(this.id)">STAFF DETAILS</button>
+                                                                                        </form>
 										</td>
 									</tr>
 								</table>
@@ -140,142 +157,98 @@
 									<!-- 1 -->
 								<div name="infoSec" id="infoSec">
 									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Client Details</h4>
-									<!-- <table style="margin-left:auto;margin-right:auto;">
-									<tr>
-										<td style="padding-left: 115%;" >
-											<button class="button" style="height:35px;width:100px;background-color: #DE1111;border-radius: 5px;margin-right: auto;">Log Out</button>
-										</td>
-									</tr>
-									<tr>
-										<td style="padding-top: 20px">
-											<form>
-												<input type="text" name="Search" placeholder="Client ID" style="width: 250px;">
-											</form>
-										</td>
-										<td style="padding-top: 20px">
-											&#128269
-										</td>
-									</tr>
-									<tr>
-										<table style="margin-top: 30px; margin-left: 35px;">
-											<tr >
-												<td style="padding: 5px" rowspan="6" ><img src="img/girl2.png" alt="Avatar" width="110px"></td>
-											</tr>
-											<tr>
-												<form>
-												<td style="padding-left: 10px">
-													<label>Name : </label><br><input type="text" name="email">
-												</td>
-												<td style="padding-left: 10px">
-													<label>Email : </label><br><input type="text" name="email">
-												</td>
-											</tr>
-											<tr></form>
-												<form>
-												<td style="padding-left: 10px">
-													<label>Passport No. : </label><br><input type="text" name="email">
-												</td>
-												<td style="padding-left: 10px">
-													<label>Address : </label><br><input type="text" name="email">
-												</td>
-											</tr>
-											<tr></form>
-												<form>
-												<td style="padding-left: 10px">
-													<label>Mobile : </label><br><input type="text" name="email">
-												</td>
-												<td style="padding-left: 10px">
-													<label>Gender : </label><br><input type="text" name="email">
-												</td>
-											</tr>
-											</form>
-										</table>
-										<br>
-									</tr>
-									<tr >
-										<td >
-											<button class="button" style="height:50px;width:180px;background-color: #4CAF50;margin-left: 100px; border-radius: 5px">UPDATE</button>
-										</td> 
-										<td>
-											<button class="button" style="height:50px;width:180px;background-color: #fa801b; border-radius: 5px">BLOCK</button>
-										</td>
-										<td>
-											<button class="button" style="height:50px;width:180px;background-color: #fa482d; border-radius: 5px">DELETE</button>
-										</td>
-									</tr>
-
-									</table> -->
+			<%
+                             List<FlightBooking>flight_list=(List<FlightBooking>) session.getAttribute("listUser");
+                           List<Customer>list=(List<Customer>) session.getAttribute("listUser");
+                           
+                         %>
+                         <table border="1">
+                             <tr>
+                                 <th>Customer Name</th>
+                                 <th>Email</th>
+                                 <th>Passport No</th>
+                                 <th>Address</th>
+                                 <th>Mobile</th>
+                                 <th>Gender</th>
+                             </tr>
+                             
+                            <%
+                       try{
+                    for (int i = 0; i < list.size(); i++) {
+                         %>
+                         <tr>
+                             <td><% out.print(list.get(i).getCustomerName()); %></td>
+                             <td><% out.print(list.get(i).getEmail()); %></td>
+                             <td><% out.print(list.get(i).getPassportNumber()); %></td>
+                             <td><% out.print(list.get(i).getAddress()); %></td>
+                             <td><% out.print(list.get(i).getMobile()); %></td>
+                             <td><% out.print(list.get(i).getGender()); %></td>
+                         </tr>
+                      
+                         
+                         <%
+                            }
+                            }catch(Exception  e){
+                            
+                            }
+                        %>
+                            </table>                                                                
 								</div>
+                                                                            
 								<!-- 1 end -->
 
 								<!-- 2 -->
 								<div name="flightSec" id="flightSec" style="display: none;">
 									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Flight Details</h4>
-<!-- 									<table style="margin-left:auto;margin-right:auto;">
-									<tr>
-										<td style="padding-left: 115%;" >
-											<button class="button" style="height:35px;width:100px;background-color: #DE1111;border-radius: 5px;margin-right: auto;">Log Out</button>
-										</td>
-									</tr>
-									<tr>
-										<td style="padding-top: 20px">
-											<form>
-												<input type="text" name="Search" placeholder="Fligth ID" style="width: 250px;">
-											</form>
-										</td>
-										<td style="padding-top: 20px">
-											&#128269
-										</td>
-									</tr>
-									<tr>
-										<table style="margin-top: 30px; margin-left: 35px;">
-											<tr>
-												<td style="padding: 5px" rowspan="6" width="110px"></td>
-											</tr>
-											<tr>
-												<form>
-												<td style="padding-left: 10px">
-													<label>Flight ID : </label><br><input type="text" name="email">
-												</td>
-												<td style="padding-left: 10px">
-													<label>Depature : </label><br><input type="text" name="email">
-												</td>
-											</tr>
-											<tr>
-												<form>
-												<td style="padding-left: 10px">
-													<label>Modle : </label><br><input type="text" name="email">
-												</td>
-												<td style="padding-left: 10px">
-													<label>Arrival : </label><br><input type="text" name="email">
-												</td>
-											</tr>
-											<tr>
-												<form>
-												<td style="padding-left: 10px">
-													<label>Airline : </label><br><input type="text" name="email">
-												</td>
-												<td style="padding-left: 10px">
-													<label>Terminal : </label><br><input type="text" name="email">
-												</td>
-											</tr>
-											</form>
-										</table>
-										<br>
-									</tr>
-									<tr >
-										<td >
-											<button class="button" style="height:50px;width:180px;background-color: #4CAF50;margin-left: 100px; border-radius: 5px">UPDATE</button>
-										</td> 
-										<td>
-											<button class="button" style="height:50px;width:180px;background-color: #fa801b; border-radius: 5px">BLOCK</button>
-										</td>
-										<td>
-											<button class="button" style="height:50px;width:180px;background-color: #fa482d; border-radius: 5px">DELETE</button>
-										</td>
-									</tr>
+			
+                         <table border="1">
+                             <tr>
+                                 <th>Book ID</th>
+                                 <th>From</th>
+                                 <th>To</th>
+                                 <th>Start</th>
+                                 <th>Return</th>
+                                 <th>Adult</th>
+                                 <th>Child</th>
+                                 <th>Passport NO</th>
+                             </tr>
+                             
+                            <%
+                       try{
+                    for (int i = 0; i < flight_list.size(); i++) {
+                         %>
+                         <tr>
+                             <td><% out.print(flight_list.get(i).getBookingId()); %></td>
+                             <td><% out.print(flight_list.get(i).getFrom_s()); %></td>
+                             <td><% out.print(flight_list.get(i).getTo_s()); %></td>
+                             <td><% out.print(flight_list.get(i).getStart_s()); %></td>
+                             <td><% out.print(flight_list.get(i).getReturn_s()); %></td>
+                             <td><% out.print(flight_list.get(i).getAdults()); %></td>
+                             <td><% out.print(flight_list.get(i).getChild()); %></td>
+                             <td><% out.print(flight_list.get(i).getPassportNumber()); %></td>
+                         </tr>
+                      
+                         
+                         <%
+                            }
+                            }catch(Exception  e){
+                            
+                            }
+                        %>
+                            </table>
 
-								</table> -->
+
+
+
+
+
+
+
+
+
+
+
+
 								</div>
 								<!-- 2 end -->
 
@@ -352,71 +325,49 @@
 								<!-- 4 -->
 								<div name="staffSec" id="staffSec" style="display: none;">
 									<h4 style="padding-left: 50px;font-size: 32px;color: #0c0773;">Staff Details</h4>
-									<!-- <table style="margin-left:auto;margin-right:auto;">
-									<tr>
-										<td style="padding-left: 115%;" >
-											<button class="button" style="height:35px;width:100px;background-color: #DE1111;border-radius: 5px;margin-right: auto;">Log Out</button>
-										</td>
-									</tr>
-									<tr>
-										<td style="padding-top: 20px">
-											<form>
-												<input type="text" name="Search" placeholder="Ticket ID" style="width: 250px;">
-											</form>
-										</td>
-										<td style="padding-top: 20px">
-											&#128269
-										</td>
-									</tr>
-									<tr>
-										<table style="margin-top: 30px; margin-left: 35px;">
-											<tr>
-												<td style="padding: 5px" rowspan="6" width="110px"></td>
-											</tr>
-											<tr>
-												<form>
-												<td style="padding-left: 10px">
-													<label>Ticket ID : </label><br><input type="text" name="email">
-												</td>
-												<td style="padding-left: 10px">
-													<label>To : </label><br><input type="text" name="email">
-												</td>
-											</tr>
-											<tr>
-												<form>
-												<td style="padding-left: 10px">
-													<label>Passenger Name : </label><br><input type="text" name="email">
-												</td>
-												<td style="padding-left: 10px">
-													<label>Gate : </label><br><input type="text" name="email">
-												</td>
-											</tr>
-											<tr>
-												<form>
-												<td style="padding-left: 10px">
-													<label>From : </label><br><input type="text" name="email">
-												</td>
-												<td style="padding-left: 10px">
-													<label>Seat : </label><br><input type="text" name="email">
-												</td>
-											</tr>
-											</form>
-										</table>
-										<br>
-									</tr>
-									<tr >
-										<td >
-											<button class="button" style="height:50px;width:180px;background-color: #4CAF50;margin-left: 100px; border-radius: 5px">UPDATE</button>
-										</td> 
-										<td>
-											<button class="button" style="height:50px;width:180px;background-color: #fa801b; border-radius: 5px">BLOCK</button>
-										</td>
-										<td>
-											<button class="button" style="height:50px;width:180px;background-color: #fa482d; border-radius: 5px">DELETE</button>
-										</td>
-									</tr>
-
-								</table> -->
+									
+                                                                        
+                                                                        <%
+                           List<Customer>lists=(List<Customer>) session.getAttribute("listUser");
+                           
+                         %>
+                         <table border="1">
+                             <tr>
+                                 <th>Customer Name</th>
+                                 <th>Email</th>
+                                 <th>Passport No</th>
+                                 <th>Address</th>
+                                 <th>Mobile</th>
+                                 <th>Gender</th>
+                             </tr>
+                             
+                            <%
+                       try{
+                    for (int i = 0; i < lists.size(); i++) {
+                         %>
+                         <tr>
+                             <td><% out.print(lists.get(i).getCustomerName()); %></td>
+                             <td><% out.print(lists.get(i).getEmail()); %></td>
+                             <td><% out.print(lists.get(i).getPassportNumber()); %></td>
+                             <td><% out.print(lists.get(i).getAddress()); %></td>
+                             <td><% out.print(lists.get(i).getMobile()); %></td>
+                             <td><% out.print(lists.get(i).getGender()); %></td>
+                         </tr>
+                      
+                         
+                         <%
+                            }
+                            }catch(Exception  e){
+                            
+                            }
+                        %>
+                            </table>  
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
 								</div>
 								<!-- 4 end -->
 							 </div>

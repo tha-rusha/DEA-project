@@ -132,7 +132,7 @@
 									<table style="margin-left:auto;margin-right:auto;">
 									<tr>
 										<td style="padding-left: 115%;" >
-											<button class="button" style="height:35px;width:100px;background-color: #DE1111;border-radius: 5px;margin-right: auto;">Log Out</button>
+                                                                                    <a href="index.jsp" button class="button" style="height:35px;width:100px;background-color: #DE1111;border-radius: 5px;margin-right: auto;">Log Out</a>
 										</td>
 									</tr>
 									<tr>
@@ -286,9 +286,9 @@
 		            	<a href="#"><i class="icon ion-social-facebook"></i></a>
 		            </div>
 		            <ul class="list-inline">
-		                <li class="list-inline-item"><a href="#">Home</a></li>
-		                <li class="list-inline-item"><a href="#">About</a></li>
-		                <li class="list-inline-item"><a href="#">Contact</a></li>
+		                <li class="list-inline-item"><a href="index.jsp">Home</a></li>
+                                <li class="list-inline-item"><a href="index.jsp">About</a></li>
+                                <li class="list-inline-item"><a href="index.jsp">Contact</a></li>
 		                <li class="list-inline-item"><a href="#">Terms</a></li>
 		                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
 		            </ul>
