@@ -35,7 +35,7 @@
 				          <li><a href="">About</a></li>		       		          
 				          <li><a href="">Contact</a></li>
                                           <li><a href="#">My Account</a></li>	
-                                          <li>User : <% out.println(request.getParameter("customerName")); %></li>
+                                       
 				        </ul>
 				      </nav>
 			<!-- #nav-menu-container -->					      		  
@@ -59,14 +59,21 @@
 								Flight or flying is the process by which an object moves through a space without contacting any planetary surface, either within an atmosphere or through the vacuum of outer space
 							</p>
 							<a href="signupandlogin.jsp" class="primary-btn text-uppercase">REGISTER</a>
+
 						</div>
 						<div class="col-lg-4 col-md-6 banner-right">
+                                                    <br>
+                                                    <br>
+                                                    <br>
+                                                    <br>
 							<ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                    
 							  <li class="nav-item">
 							    <a class="nav-link active" id="flight-tab" data-toggle="tab" href="#flight" role="tab" aria-controls="flight" aria-selected="true">Flights</a>
 							  </li>
 							  
 							</ul>
+                                     
 							<div class="tab-content" id="myTabContent">
 							  <div class="tab-pane fade show active" id="flight" role="tabpanel" aria-labelledby="flight-tab">
                                                               <form class="form-wrap" action="FlightBookingServelet" method="POST">
