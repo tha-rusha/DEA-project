@@ -36,7 +36,7 @@
 				        <ul class="nav-menu">
 				          <li><a href="index.jsp">Home</a></li>
 				          <li><a href="#aboutus">About</a></li>		       		          
-				          <li><a href="">Contact</a></li>
+				          <li><a href="#contactus">Contact</a></li>
                                           <li><a href="adminlogin.jsp">Admin</a></li>
 				          <li><a href="">My Account</a></li>	
 				        </ul>
@@ -95,7 +95,7 @@
 				<div class="container">
 					<div class="row align-items-center">
 						<div class="col-lg-6 info-left">
-							<img class="img-fluid" src="images/info-img.png" alt="" id="about">
+							<img class="img-fluid" src="images/info-img.png" alt="" id="aboutus">
 						</div>
 						<div class="col-lg-6 info-right">
                                                     <div class="aboutus">	
@@ -118,7 +118,7 @@
 				<div class="container">
 					<div class="container">
 					<div class="row align-items-center">
-						<div class="col-lg-6 info-right">
+						<div class="col-lg-6 info-right" id="contactus">
 							<h1><center>Contact Us</center></h1>
 							<br>
 						</div>
