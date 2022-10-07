@@ -1,7 +1,7 @@
 const responseObj = {
-  hii: "How can I help you today?",
+  hi: "How can I help you today?",
   flight :"please send your flight number?",
-  nimsara : "hi nimsara ! ",
+  nimsara : "hello nimsara ! ",
   
   today: new Date().toDateString(),
   time: new Date().toLocaleTimeString(),

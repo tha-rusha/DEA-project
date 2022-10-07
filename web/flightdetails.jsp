@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">		
-		<title>flight details</title>
+		<title>Travel</title>
 
                 <link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
@@ -32,10 +32,9 @@
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
 				          <li><a href="index.jsp">Home</a></li>
-				          <li><a href="#aboutus">About</a></li>		       		          
-				          <li><a href="#contactus">Contact</a></li>
-                                          <li><a href="adminlogin.jsp">Admin</a></li>
-				          <li><a href="index.jsp">My Account</a></li>	
+				          <li><a href="">About</a></li>		       		          
+				          <li><a href="">Contact</a></li>
+                                          <li><a href="#">My Account</a></li>	
                                           <li>User : <% out.println(request.getParameter("customerName")); %></li>
 				        </ul>
 				      </nav>
@@ -59,46 +58,126 @@
 			</section>
 			<!-- End banner Area -->
                         
-                        <table id="keywords" cellspacing="0" cellpadding="0" style="position: absolute;padding-top: 100px">
+                        <table class="table" cellspacing="0" cellpadding="0" style="position: absolute;padding-top: 100px">
     <thead>
-      <tr>
-               <th><span>Airplane ID</span></th>
-               <th><span>From</span></th>
-               <th><span>TO</span></th>
-               <th><span>Start</span></th>
-               <th><span>Return</span></th>
-               <th><span>Adults</span></th>
-               <th><span>Child</span></th>
+        <tr style="background: #002752;color: white">
+               <th scope="col"><span>Airplane ID</span></th>
+               <th scope="col"><span>From</span></th>
+               <th scope="col"><span>TO</span></th>
+               <th scope="col"><span>Start</span></th>
+               <th scope="col"><span>Return</span></th>
+               <th scope="col"><span>Adults</span></th>
+               <th scope="col"><span>Child</span></th>
       </tr>
     </thead>
     
     <tbody>
       <tr>
         <td class="lalign">#</td>
-        <td name="form_s"><% out.println(request.getParameter("form_s")); %></td>
-        <td><% out.println(request.getParameter("to_s")); %></td>
-        <td><% out.println(request.getParameter("start_s")); %></td>
-        <td><% out.println(request.getParameter("return_s")); %></td>
-        <td><% out.println(request.getParameter("adults")); %></td>
-        <td><% out.println(request.getParameter("child")); %></td>
+        <td class="lalign"><% out.println(request.getParameter("form_s")); %></td>
+        <td class="lalign"><% out.println(request.getParameter("to_s")); %></td>
+        <td class="lalign"><% out.println(request.getParameter("start_s")); %></td>
+        <td class="lalign"><% out.println(request.getParameter("return_s")); %></td>
+        <td class="lalign"><% out.println(request.getParameter("adults")); %></td>
+        <td class="lalign"><% out.println(request.getParameter("child")); %></td>
         
       </tr>
       <tr>
-          <td><button type="submit" class="btn btn-success"><a href="PaymentDetails.jsp" style="color: white">Confirm</a></button>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td><button type="submit" class="btn btn-danger"><a href="PaymentDetails.jsp" style="color: white">Confirm</a></button>
 </td>
-        <td><button type="submit" class="btn btn-info">Edit </button>
-</td>
+<td></td>
+<td></td>
+<td></td>
+
        </tr>
     </tbody>
     
   </table>
 			
-			
+			<!-- start about info -->
+                        <section class="about-info-area section-gap" style="height: 180px">
+                            <div>
+                                
+                            </div>
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-6 info-left">
+							<img class="img-fluid" src="img/info-img.jpg" alt="">
+						</div>
+						<div class="col-lg-6 info-right">
+							
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!-- end about info -->
 			
 		
 			
-			
-			
+			<!-- Start contact-page Area -->
+			<section class="contact-page-area section-gap">
+				<div class="container">
+					<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-6 info-right">
+							<h1><center>Contact Us</center></h1>
+							<br>
+						</div>
+					</div>
+				</div>	
+					<div class="row">
+						<div class="col-lg-4 d-flex flex-column address-wrap">
+							<div class="single-contact-address d-flex flex-row">
+								<div class="contact-details">
+									<h5>Colombo, Sri Lanka</h5>
+								</div>
+							</div>
+							<div class="single-contact-address d-flex flex-row">
+								<div class="icon">
+									<span class="lnr lnr-phone-handset"></span>
+								</div>
+								<div class="contact-details">
+									<h5>011 123 5678</h5>
+									<p>Monday to Friday 8am to 5 pm</p>
+								</div>
+							</div>
+							<div class="single-contact-address d-flex flex-row">
+								<div class="icon">
+									<span class="lnr lnr-envelope"></span>
+								</div>
+								<div class="contact-details">
+									<h5>pheonixairline.com</h5>
+									<p>Send us your messages anytime!</p>
+								</div>
+							</div>														
+						</div>
+						<div class="col-lg-8">
+							<form class="form-area contact-form text-right" id="myForm" action="mail.php" method="post">
+								<div class="row">	
+									<div class="col-lg-6 form-group">
+										<input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
+									
+										<input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
+
+										<input name="subject" placeholder="Enter subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter subject'" class="common-input mb-20 form-control" required="" type="text">
+									</div>
+									<div class="col-lg-6 form-group">
+										<textarea class="common-textarea form-control" name="message" placeholder="Enter Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Messege'" required=""></textarea>				
+									</div>
+									<div class="col-lg-12">
+										<div class="alert-msg" style="text-align: left;"></div>
+										<button class="genric-btn primary" style="float: right;">Send Message</button>											
+									</div>
+								</div>
+							</form>	
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!-- End contact-page Area -->
 
 			<!-- start footer Area -->
 
@@ -129,16 +208,3 @@
 			<script src="js/main.js"></script>
     </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
