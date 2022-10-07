@@ -37,7 +37,7 @@
 				          <li><a href="index.jsp">Home</a></li>
 				          <li><a href="#aboutus">About</a></li>		       		          
 				          <li><a href="">Contact</a></li>
-                                          <li><a href="admin.jsp">Admin</a></li>
+                                          <li><a href="adminlogin.jsp">Admin</a></li>
 				          <li><a href="">My Account</a></li>	
 				        </ul>
 				      </nav>
