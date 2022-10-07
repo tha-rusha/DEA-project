@@ -34,10 +34,10 @@
 				      </div>
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
-				          <li><a href="index.html">Home</a></li>
+				          <li><a href="index.jsp">Home</a></li>
 				          <li><a href="">About</a></li>		       		          
 				          <li><a href="">Contact</a></li>
-                                          <li><a href="">Admin</a></li>
+                                          <li><a href="admin.jsp">Admin</a></li>
 				          <li><a href="">My Account</a></li>	
 				        </ul>
 				      </nav>
@@ -95,7 +95,7 @@
 				<div class="container">
 					<div class="row align-items-center">
 						<div class="col-lg-6 info-left">
-							<img class="img-fluid" src="img/info-img.jpg" alt="">
+							<img class="img-fluid" src="images/info-img.png" alt="">
 						</div>
 						<div class="col-lg-6 info-right">
 							<h6>About Us</h6>

@@ -18,6 +18,12 @@
     <link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/jquery-ui.css">
+                <!-- footer -->
+		    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+		    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+		    <link rel="stylesheet" href="css/footer.css">
+		<!-- footer end -->
+                
                 
                 <style>
                     body{
@@ -43,7 +49,8 @@
 				          <li><a href="index.html">Home</a></li>
 				          <li><a href="">About</a></li>		       		          
 				          <li><a href="">Contact</a></li>
-						  <li><a href="">My Account</a></li>	
+                                          <li><a href="">Admin</a></li>
+				          <li><a href="">My Account</a></li>	
 				        </ul>
 				      </nav>
 			<!-- #nav-menu-contain -->					      		  
@@ -165,7 +172,30 @@
         
     </form>
 
-        </div>   
+        </div>
+                                
+    <!-- Footer -->
+		 <div class="footer-basic">
+		        <footer>
+		            <div class="social">
+		            	<a href="#"><i class="icon ion-social-instagram"></i></a>
+		            	<a href="#"><i class="icon ion-social-snapchat"></i></a>
+		            	<a href="#"><i class="icon ion-social-twitter"></i></a>
+		            	<a href="#"><i class="icon ion-social-facebook"></i></a>
+		            </div>
+		            <ul class="list-inline">
+		                <li class="list-inline-item"><a href="#">Home</a></li>
+		                <li class="list-inline-item"><a href="#">About</a></li>
+		                <li class="list-inline-item"><a href="#">Contact</a></li>
+		                <li class="list-inline-item"><a href="#">Terms</a></li>
+		                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+		            </ul>
+		            <p class="copyright" style="font-size: 16px;color: #ffffff;">© 2020 Copyright: phoenixflights.com</p>
+		        </footer>
+		    </div>
+		    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+      <!-- Footer end -->  
     
 </body>
 </html>

@@ -13,6 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chat bot</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/chatstyle.css">
     
     <script src="response.js" defer></script>
     <script src="app.js" defer></script>
@@ -21,7 +22,8 @@
     <div class="container">
       <div class="chat-header">
         <div class="logo">
-          <img src="logo1.png" alt="cwt" />
+          <img src="images/df.png" alt="cwt" style="margin: auto"/>
+          
         </div>
         <div class="title">Phoenix Airline</div>
       </div>

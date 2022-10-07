@@ -48,7 +48,7 @@
 
             <form action="index.html" autocomplete="off" class="sign-up-form">
               <div class="logo">
-                <img src="images/logo1.png" alt="easyclass" />
+                <img src="images/logo1black.png" alt="easyclass" />
               </div>
 
               <div class="heading">
@@ -83,8 +83,15 @@
                   <input type="text" minlength="4" class="input-field"  autocomplete="off" required />
                   <label>NIC/StaffID</label>
                 </div>
+                  
+                  <div class="input-wrap">
+				<h4 class="type"> Type </h4>
+                 <input type="radio"  autocomplete="off" name="type" required  value="user"> User 
+				 <input type="radio"  autocomplete="off" name="type" required  value="staff1"> Staff 1 
+				 <input type="radio"   autocomplete="off" name="type" required  value="staff2"> Staff 2
+            </div>
                  
-				  
+			  
                 <input type="submit" value="Sign Up" class="sign-btn" />
 
                 <p class="text">By signing up, I agree to the 
@@ -97,7 +104,7 @@
 
           <div class="carousel">
             <div class="images-wrapper">
-              <img src="images/logo1.png"  class="image img-1 show" alt="" />
+              <img src="images/logo012.png"  class="image img-1 show" alt="" />
             </div> 
           </div>
         </div>
