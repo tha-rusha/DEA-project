@@ -104,7 +104,7 @@
 
           <div class="carousel">
             <div class="images-wrapper">
-              <img src="images/logo1.png"  class="image img-1 show" alt="" />
+              <img src="images/logo012.png"  class="image img-1 show" alt="" />
             </div> 
           </div>
         </div>
