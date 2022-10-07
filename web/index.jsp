@@ -38,7 +38,7 @@
 				          <li><a href="#aboutus">About</a></li>		       		          
 				          <li><a href="#contactus">Contact</a></li>
                                           <li><a href="adminlogin.jsp">Admin</a></li>
-				          <li><a href="">My Account</a></li>	
+				          <li><a href="index.jsp">My Account</a></li>	
 				        </ul>
 				      </nav>
 			<!-- #nav-menu-container -->					      		  
